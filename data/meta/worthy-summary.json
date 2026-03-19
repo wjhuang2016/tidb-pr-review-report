@@ -1,0 +1,9 @@
+{
+  "candidate_file": "/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-2y/worthy_queue_current.json",
+  "mode": "worthy",
+  "parallel": 5,
+  "limit": null,
+  "task_count": 547,
+  "elapsed_seconds": 1852.62,
+  "failures": []
+}

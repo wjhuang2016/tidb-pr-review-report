@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #222; }
+.axis { stroke: #222; stroke-width: 1.5; }
+.grid { stroke: #e6e6e6; stroke-width: 1; }
+.tick { font-size: 14px; }
+.title { font-size: 26px; font-weight: 700; }
+.subtitle { font-size: 15px; fill: #555; }
+.legend { font-size: 15px; }
+</style>
+<text x="90" y="36" class="title">Unresolved High/Blocker Findings by Merge Month</text>
+<text x="90" y="58" class="subtitle">Monthly distribution of 69 unresolved findings from reviewed worthy PRs</text>
+<line x1="90" y1="640.00" x2="1360" y2="640.00" class="grid"/>
+<text x="78" y="645.00" text-anchor="end" class="tick">0</text>
+<line x1="90" y1="497.50" x2="1360" y2="497.50" class="grid"/>
+<text x="78" y="502.50" text-anchor="end" class="tick">2</text>
+<line x1="90" y1="355.00" x2="1360" y2="355.00" class="grid"/>
+<text x="78" y="360.00" text-anchor="end" class="tick">4</text>
+<line x1="90" y1="212.50" x2="1360" y2="212.50" class="grid"/>
+<text x="78" y="217.50" text-anchor="end" class="tick">6</text>
+<line x1="90" y1="70.00" x2="1360" y2="70.00" class="grid"/>
+<text x="78" y="75.00" text-anchor="end" class="tick">8</text>
+<line x1="90" y1="70" x2="90" y2="640" class="axis"/>
+<line x1="90" y1="640" x2="1360" y2="640" class="axis"/>
+<line x1="90.00" y1="640" x2="90.00" y2="646" class="axis"/>
+<text x="90.00" y="666" text-anchor="end" transform="rotate(-45 90.00 666)" class="tick">2024-04</text>
+<line x1="147.73" y1="640" x2="147.73" y2="646" class="axis"/>
+<text x="147.73" y="666" text-anchor="end" transform="rotate(-45 147.73 666)" class="tick">2024-05</text>
+<line x1="205.45" y1="640" x2="205.45" y2="646" class="axis"/>
+<text x="205.45" y="666" text-anchor="end" transform="rotate(-45 205.45 666)" class="tick">2024-06</text>
+<line x1="263.18" y1="640" x2="263.18" y2="646" class="axis"/>
+<text x="263.18" y="666" text-anchor="end" transform="rotate(-45 263.18 666)" class="tick">2024-07</text>
+<line x1="320.91" y1="640" x2="320.91" y2="646" class="axis"/>
+<text x="320.91" y="666" text-anchor="end" transform="rotate(-45 320.91 666)" class="tick">2024-08</text>
+<line x1="378.64" y1="640" x2="378.64" y2="646" class="axis"/>
+<text x="378.64" y="666" text-anchor="end" transform="rotate(-45 378.64 666)" class="tick">2024-09</text>
+<line x1="436.36" y1="640" x2="436.36" y2="646" class="axis"/>
+<text x="436.36" y="666" text-anchor="end" transform="rotate(-45 436.36 666)" class="tick">2024-10</text>
+<line x1="494.09" y1="640" x2="494.09" y2="646" class="axis"/>
+<text x="494.09" y="666" text-anchor="end" transform="rotate(-45 494.09 666)" class="tick">2024-11</text>
+<line x1="551.82" y1="640" x2="551.82" y2="646" class="axis"/>
+<text x="551.82" y="666" text-anchor="end" transform="rotate(-45 551.82 666)" class="tick">2024-12</text>
+<line x1="609.55" y1="640" x2="609.55" y2="646" class="axis"/>
+<text x="609.55" y="666" text-anchor="end" transform="rotate(-45 609.55 666)" class="tick">2025-01</text>
+<line x1="667.27" y1="640" x2="667.27" y2="646" class="axis"/>
+<text x="667.27" y="666" text-anchor="end" transform="rotate(-45 667.27 666)" class="tick">2025-02</text>
+<line x1="725.00" y1="640" x2="725.00" y2="646" class="axis"/>
+<text x="725.00" y="666" text-anchor="end" transform="rotate(-45 725.00 666)" class="tick">2025-03</text>
+<line x1="782.73" y1="640" x2="782.73" y2="646" class="axis"/>
+<text x="782.73" y="666" text-anchor="end" transform="rotate(-45 782.73 666)" class="tick">2025-04</text>
+<line x1="840.45" y1="640" x2="840.45" y2="646" class="axis"/>
+<text x="840.45" y="666" text-anchor="end" transform="rotate(-45 840.45 666)" class="tick">2025-05</text>
+<line x1="898.18" y1="640" x2="898.18" y2="646" class="axis"/>
+<text x="898.18" y="666" text-anchor="end" transform="rotate(-45 898.18 666)" class="tick">2025-06</text>
+<line x1="955.91" y1="640" x2="955.91" y2="646" class="axis"/>
+<text x="955.91" y="666" text-anchor="end" transform="rotate(-45 955.91 666)" class="tick">2025-07</text>
+<line x1="1013.64" y1="640" x2="1013.64" y2="646" class="axis"/>
+<text x="1013.64" y="666" text-anchor="end" transform="rotate(-45 1013.64 666)" class="tick">2025-08</text>
+<line x1="1071.36" y1="640" x2="1071.36" y2="646" class="axis"/>
+<text x="1071.36" y="666" text-anchor="end" transform="rotate(-45 1071.36 666)" class="tick">2025-09</text>
+<line x1="1129.09" y1="640" x2="1129.09" y2="646" class="axis"/>
+<text x="1129.09" y="666" text-anchor="end" transform="rotate(-45 1129.09 666)" class="tick">2025-10</text>
+<line x1="1186.82" y1="640" x2="1186.82" y2="646" class="axis"/>
+<text x="1186.82" y="666" text-anchor="end" transform="rotate(-45 1186.82 666)" class="tick">2025-11</text>
+<line x1="1244.55" y1="640" x2="1244.55" y2="646" class="axis"/>
+<text x="1244.55" y="666" text-anchor="end" transform="rotate(-45 1244.55 666)" class="tick">2025-12</text>
+<line x1="1302.27" y1="640" x2="1302.27" y2="646" class="axis"/>
+<text x="1302.27" y="666" text-anchor="end" transform="rotate(-45 1302.27 666)" class="tick">2026-02</text>
+<line x1="1360.00" y1="640" x2="1360.00" y2="646" class="axis"/>
+<text x="1360.00" y="666" text-anchor="end" transform="rotate(-45 1360.00 666)" class="tick">2026-03</text>
+<polyline fill="none" stroke="#1f77b4" stroke-width="3" points="90.00,568.75 147.73,497.50 205.45,355.00 263.18,426.25 320.91,497.50 378.64,212.50 436.36,283.75 494.09,70.00 551.82,497.50 609.55,426.25 667.27,568.75 725.00,497.50 782.73,426.25 840.45,568.75 898.18,568.75 955.91,355.00 1013.64,568.75 1071.36,497.50 1129.09,141.25 1186.82,283.75 1244.55,426.25 1302.27,568.75 1360.00,497.50"/>
+<circle cx="90.00" cy="568.75" r="4" fill="#1f77b4"/>
+<circle cx="147.73" cy="497.50" r="4" fill="#1f77b4"/>
+<circle cx="205.45" cy="355.00" r="4" fill="#1f77b4"/>
+<circle cx="263.18" cy="426.25" r="4" fill="#1f77b4"/>
+<circle cx="320.91" cy="497.50" r="4" fill="#1f77b4"/>
+<circle cx="378.64" cy="212.50" r="4" fill="#1f77b4"/>
+<circle cx="436.36" cy="283.75" r="4" fill="#1f77b4"/>
+<circle cx="494.09" cy="70.00" r="4" fill="#1f77b4"/>
+<circle cx="551.82" cy="497.50" r="4" fill="#1f77b4"/>
+<circle cx="609.55" cy="426.25" r="4" fill="#1f77b4"/>
+<circle cx="667.27" cy="568.75" r="4" fill="#1f77b4"/>
+<circle cx="725.00" cy="497.50" r="4" fill="#1f77b4"/>
+<circle cx="782.73" cy="426.25" r="4" fill="#1f77b4"/>
+<circle cx="840.45" cy="568.75" r="4" fill="#1f77b4"/>
+<circle cx="898.18" cy="568.75" r="4" fill="#1f77b4"/>
+<circle cx="955.91" cy="355.00" r="4" fill="#1f77b4"/>
+<circle cx="1013.64" cy="568.75" r="4" fill="#1f77b4"/>
+<circle cx="1071.36" cy="497.50" r="4" fill="#1f77b4"/>
+<circle cx="1129.09" cy="141.25" r="4" fill="#1f77b4"/>
+<circle cx="1186.82" cy="283.75" r="4" fill="#1f77b4"/>
+<circle cx="1244.55" cy="426.25" r="4" fill="#1f77b4"/>
+<circle cx="1302.27" cy="568.75" r="4" fill="#1f77b4"/>
+<circle cx="1360.00" cy="497.50" r="4" fill="#1f77b4"/>
+<polyline fill="none" stroke="#ff7f0e" stroke-width="3" points="90.00,568.75 147.73,497.50 205.45,426.25 263.18,426.25 320.91,568.75 378.64,283.75 436.36,283.75 494.09,141.25 551.82,497.50 609.55,497.50 667.27,568.75 725.00,568.75 782.73,426.25 840.45,568.75 898.18,568.75 955.91,355.00 1013.64,640.00 1071.36,497.50 1129.09,283.75 1186.82,355.00 1244.55,426.25 1302.27,568.75 1360.00,497.50"/>
+<circle cx="90.00" cy="568.75" r="4" fill="#ff7f0e"/>
+<circle cx="147.73" cy="497.50" r="4" fill="#ff7f0e"/>
+<circle cx="205.45" cy="426.25" r="4" fill="#ff7f0e"/>
+<circle cx="263.18" cy="426.25" r="4" fill="#ff7f0e"/>
+<circle cx="320.91" cy="568.75" r="4" fill="#ff7f0e"/>
+<circle cx="378.64" cy="283.75" r="4" fill="#ff7f0e"/>
+<circle cx="436.36" cy="283.75" r="4" fill="#ff7f0e"/>
+<circle cx="494.09" cy="141.25" r="4" fill="#ff7f0e"/>
+<circle cx="551.82" cy="497.50" r="4" fill="#ff7f0e"/>
+<circle cx="609.55" cy="497.50" r="4" fill="#ff7f0e"/>
+<circle cx="667.27" cy="568.75" r="4" fill="#ff7f0e"/>
+<circle cx="725.00" cy="568.75" r="4" fill="#ff7f0e"/>
+<circle cx="782.73" cy="426.25" r="4" fill="#ff7f0e"/>
+<circle cx="840.45" cy="568.75" r="4" fill="#ff7f0e"/>
+<circle cx="898.18" cy="568.75" r="4" fill="#ff7f0e"/>
+<circle cx="955.91" cy="355.00" r="4" fill="#ff7f0e"/>
+<circle cx="1013.64" cy="640.00" r="4" fill="#ff7f0e"/>
+<circle cx="1071.36" cy="497.50" r="4" fill="#ff7f0e"/>
+<circle cx="1129.09" cy="283.75" r="4" fill="#ff7f0e"/>
+<circle cx="1186.82" cy="355.00" r="4" fill="#ff7f0e"/>
+<circle cx="1244.55" cy="426.25" r="4" fill="#ff7f0e"/>
+<circle cx="1302.27" cy="568.75" r="4" fill="#ff7f0e"/>
+<circle cx="1360.00" cy="497.50" r="4" fill="#ff7f0e"/>
+<polyline fill="none" stroke="#d62728" stroke-width="3" points="90.00,640.00 147.73,640.00 205.45,568.75 263.18,640.00 320.91,568.75 378.64,568.75 436.36,640.00 494.09,568.75 551.82,640.00 609.55,568.75 667.27,640.00 725.00,568.75 782.73,640.00 840.45,640.00 898.18,640.00 955.91,640.00 1013.64,568.75 1071.36,640.00 1129.09,497.50 1186.82,568.75 1244.55,640.00 1302.27,640.00 1360.00,640.00"/>
+<circle cx="90.00" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="147.73" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="205.45" cy="568.75" r="4" fill="#d62728"/>
+<circle cx="263.18" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="320.91" cy="568.75" r="4" fill="#d62728"/>
+<circle cx="378.64" cy="568.75" r="4" fill="#d62728"/>
+<circle cx="436.36" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="494.09" cy="568.75" r="4" fill="#d62728"/>
+<circle cx="551.82" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="609.55" cy="568.75" r="4" fill="#d62728"/>
+<circle cx="667.27" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="725.00" cy="568.75" r="4" fill="#d62728"/>
+<circle cx="782.73" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="840.45" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="898.18" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="955.91" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="1013.64" cy="568.75" r="4" fill="#d62728"/>
+<circle cx="1071.36" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="1129.09" cy="497.50" r="4" fill="#d62728"/>
+<circle cx="1186.82" cy="568.75" r="4" fill="#d62728"/>
+<circle cx="1244.55" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="1302.27" cy="640.00" r="4" fill="#d62728"/>
+<circle cx="1360.00" cy="640.00" r="4" fill="#d62728"/>
+<line x1="1110" y1="80" x2="1138" y2="80" stroke="#1f77b4" stroke-width="3"/>
+<circle cx="1124" cy="80" r="4" fill="#1f77b4"/>
+<text x="1150" y="85" class="legend">Total</text>
+<line x1="1110" y1="108" x2="1138" y2="108" stroke="#ff7f0e" stroke-width="3"/>
+<circle cx="1124" cy="108" r="4" fill="#ff7f0e"/>
+<text x="1150" y="113" class="legend">High</text>
+<line x1="1110" y1="136" x2="1138" y2="136" stroke="#d62728" stroke-width="3"/>
+<circle cx="1124" cy="136" r="4" fill="#d62728"/>
+<text x="1150" y="141" class="legend">Blocker</text>
+<text x="90" y="704" class="subtitle">Peak total: 2024-11 (8)</text>
+<text x="90" y="722" class="subtitle">Peak blocker: 2025-10 (2)</text>
+<text x="90" y="740" class="subtitle">Reviewed worthy PRs complete: 334/334</text>
+</svg>

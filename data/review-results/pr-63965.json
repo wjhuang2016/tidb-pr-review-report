@@ -1,0 +1,25 @@
+{
+  "commit": "a9bb0133e256477a277949a2ca4289d8111bd8a5",
+  "findings": [
+    {
+      "confidence": "High",
+      "evidence": "`pkg/ddl/rollingback.go:132` switches on `args.ModifyColumnType` but has no case for legacy `mysql.TypeNull` (6); the default path returns `ErrCancelledDDLJob` without changing `job.State` (so a cancelling job can remain `JobStateCancelling`). Second confirmation: cancel flow in `pkg/ddl/job_worker.go:837-843` calls `convertJob2RollbackJob` for `JobStateCancelling` and sets `updateRawArgs = job.IsRollingback()`; if `rollingbackModifyColumn` leaves state as cancelling, the job is persisted still cancelling and will be retried, potentially wedging the DDL queue. The refactor itself acknowledges legacy `mysql.TypeNull` via normalization in `pkg/ddl/modify_column.go:170-178`, but that normalization is not applied in the cancellation/rollback path.",
+      "fix": "In `rollingbackModifyColumn`, normalize legacy values before the switch: if `args.ModifyColumnType == mysql.TypeNull` (or any unknown/non-enum value), recompute it using the same logic as runtime execution (e.g. `args.ModifyColumnType = getModifyColumnType(args, tblInfo, oldCol, job.SQLMode)`), then proceed so the function always sets `job.State` to `Cancelled` or `Rollingback` deterministically.",
+      "impact": "Compatibility regression for in-flight or queued modify-column jobs created by older TiDB versions (where `ModifyColumnType` may be `mysql.TypeNull`): `ADMIN CANCEL DDL JOBS` can get stuck with the job remaining in `JobStateCancelling`, repeatedly retried by the worker and potentially blocking subsequent DDL jobs.",
+      "later_fix_evidence": "Not fixed up to `upstream/master`: `upstream/master:pkg/ddl/rollingback.go` still lacks a `mysql.TypeNull` compatibility branch and still falls through with `return ErrCancelledDDLJob` after the switch; `git log a9bb0133..upstream/master -- pkg/ddl/rollingback.go` shows only refactors/renames and unrelated changes, no compat handling added.",
+      "later_fixed": false,
+      "severity": "Blocker",
+      "verify": "Add a unit test that constructs a `model.Job` in `JobStateCancelling` with `ModifyColumnArgs.ModifyColumnType = mysql.TypeNull` (legacy), then runs the cancel conversion (`convertJob2RollbackJob` / `rollingbackModifyColumn`) and asserts `job.State` becomes `JobStateCancelled` or `JobStateRollingback` (never remains `JobStateCancelling`). Cover both `needChangeColumnData == false` and `== true` shapes (with/without `args.ChangingColumn`).",
+      "what": "Cancel/rollback path for `ActionModifyColumn` assumes refactored `ModifyColumnType` enum values, but does not handle the legacy `mysql.TypeNull` (6) value used by older jobs, which can leave a job stuck in `JobStateCancelling`."
+    }
+  ],
+  "modules": [
+    "pkg/ddl",
+    "pkg/meta/model",
+    "pkg/table"
+  ],
+  "pr": 63965,
+  "status": "has_high_or_blocker",
+  "subject": "ddl: some code refactor for lossy ddl optimization (#63965)",
+  "summary": "Reviewed commit a9bb0133 relative to its first parent, focusing on DDL/modify-column state machine + metadata behavior. Found a Blocker: cancellation/rollback for legacy modify-column jobs can wedge because `rollingbackModifyColumn` switches on the new `ModifyColumnType` values but does not handle legacy `mysql.TypeNull` (6), leaving jobs in `JobStateCancelling`."
+}

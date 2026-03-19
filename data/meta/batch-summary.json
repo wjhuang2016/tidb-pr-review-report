@@ -1,0 +1,9 @@
+{
+  "candidate_file": "/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-2y/deep_review_queue_batch4.json",
+  "parallel": 5,
+  "slot_offset": 0,
+  "limit": null,
+  "task_count": 214,
+  "elapsed_seconds": 50976.16,
+  "failures": []
+}

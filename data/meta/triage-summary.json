@@ -1,0 +1,8 @@
+{
+  "candidate_file": "/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-2y/candidates_pass2.json",
+  "parallel": 10,
+  "limit": null,
+  "task_count": 662,
+  "elapsed_seconds": 838.16,
+  "failures": []
+}
