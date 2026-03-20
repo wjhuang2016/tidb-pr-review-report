@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":61328,"reason":"Only a planner test file changed (`pkg/planner/core/physical_plan_trace_test.go`), with no production planner/executor/expression/session/statistics/kv/store/parser/table/privilege code paths touched. This looks like test maintenance, not a core behavioral change.","target_modules":["planner"]}

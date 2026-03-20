@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48500,"reason":"The PR is centered on `sessionctx/variable` and `session` code paths for `tidb_txn_mode`, a user-visible transaction/session system variable. Changing its default/bootstrap metadata is core session/sessionctx behavior, not an incidental touch.","target_modules":["session","sessionctx"]}

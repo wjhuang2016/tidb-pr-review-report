@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":59645,"reason":"The only non-test code change is in `pkg/sessionctx/variable/sysvar.go`, and the PR subject is a system-variable validation change. That is user-visible session/sessionctx behavior rather than an incidental touch, even if the variable is used by disttask.","target_modules":["sessionctx"]}

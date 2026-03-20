@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54584,"reason":"Only planner test files changed and target code count is 0. This PR adds test coverage for Plan.Clone rather than changing planner/executor/expression/session/statistics/kv/parser/table/privilege behavior itself, so it is not a core-module behavioral PR for deep review triage.","target_modules":["planner"]}

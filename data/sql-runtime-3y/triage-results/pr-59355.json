@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59355,"reason":"PR is entirely in `pkg/planner/funcdep` and adds planner functional-dependency graph logic, which is core optimizer/planner semantics rather than an incidental touch. Even as a utility change, FD/equivalence handling can affect rule reasoning and plan behavior.","target_modules":["planner"]}

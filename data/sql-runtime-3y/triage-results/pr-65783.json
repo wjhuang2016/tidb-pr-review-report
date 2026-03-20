@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65783,"reason":"Only planner test/infra files changed (`indexadvisor_tpch_test.go` and `BUILD.bazel`) for unstable TPCH index advisor tests. No production planner/optimizer code paths or other target-module semantics appear to be modified from the metadata.","target_modules":["planner"]}

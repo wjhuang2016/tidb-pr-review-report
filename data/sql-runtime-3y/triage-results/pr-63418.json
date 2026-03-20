@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63418,"reason":"Only executor test files changed and there are no target code paths or production-code edits. The subject explicitly says this PR fixes tests, so executor is only touched through test coverage rather than core runtime behavior.","target_modules":["executor"]}

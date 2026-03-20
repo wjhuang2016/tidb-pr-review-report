@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48846,"reason":"The PR is entirely concentrated in `pkg/statistics/**` and changes global-stats update behavior when dropping a partition, which is a core statistics/cardinality path with planner cost-model impact rather than an incidental touch.","target_modules":["statistics"]}

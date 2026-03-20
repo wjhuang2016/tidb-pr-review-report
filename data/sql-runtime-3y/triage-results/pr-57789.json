@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":57789,"reason":"Only planner test files changed (`hash64_equals_test.go` and Bazel metadata). There is no production-code change in planner or other target modules, so this is test coverage rather than a planner/executor/expression/session/statistics/kv/store/parser/table/privilege behavior change.","target_modules":["planner"]}

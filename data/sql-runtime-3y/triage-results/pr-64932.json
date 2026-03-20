@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64932,"reason":"The PR is directly about optimizer behavior control via a new system variable and SQL hint, with most code changes in parser, planner, and session variable handling. That is core SQL semantics and plan-selection behavior, not an incidental touch.","target_modules":["planner","parser","sessionctx","session"]}

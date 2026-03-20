@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":60186,"reason":"Only planner casetest/BUILD files changed and target code count is 0; this is test coverage for TPCH MPP rather than a planner/executor/session/statistics/kv/parser behavioral change.","target_modules":["planner"]}

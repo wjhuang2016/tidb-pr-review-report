@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51219,"reason":"The only code change is in `pkg/planner/core/planbuilder.go`, and the subject describes a planner policy change for `sys` schema reads under `tidb_isolation_read_engines`. That is directly about planner behavior, not an incidental touch.","target_modules":["planner"]}

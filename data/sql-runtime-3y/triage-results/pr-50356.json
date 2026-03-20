@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50356,"reason":"The PR is entirely in `pkg/executor/internal/applycache` and the subject describes a concurrency/correctness fix in `ApplyCache`'s `SimpleLRUCache` update path. That is squarely executor runtime behavior, not an incidental touch.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63962,"reason":"Only changed code is in `pkg/statistics`, but the PR subject is about sampled logging and clearer error messages, not statistics/cardinality/cost-model behavior. This is diagnostic/observability work inside a target module, not a clear core-semantics statistics change.","target_modules":["statistics"]}

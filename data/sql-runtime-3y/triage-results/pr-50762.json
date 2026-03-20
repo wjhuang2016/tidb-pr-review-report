@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":50762,"reason":"Although framed as a plan replayer fix, it changes core binding/digest handling for SQL containing `IN (...)` and touches `parser`, `planner`, `executor`, and `session` code paths rather than only tests or infra.","target_modules":["executor","parser","planner","session"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":47859,"reason":"All listed changes are in `pkg/statistics/handle/*`, and the subject is specifically about unifying transaction handling in `statshandle`. This is clearly centered on statistics behavior, with plausible correctness impact beyond incidental touches.","target_modules":["statistics"]}

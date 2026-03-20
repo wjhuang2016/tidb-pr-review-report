@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51203,"reason":"The PR is directly centered on planner/executor correctness: join column resolution, schema-to-child column mapping, and join used-column logic. The changed code is almost entirely in planner and executor paths, with only supporting tests/testdata around those semantics.","target_modules":["planner","executor"]}

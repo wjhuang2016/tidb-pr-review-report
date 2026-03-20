@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62235,"reason":"The PR is fully concentrated in `pkg/planner/core/**` and the subject targets `CanPushToCop`, a planner pushdown/optimizer interface tied to task selection and plan behavior. This is core planner logic rather than incidental tests/docs/infra, so it merits deep review.","target_modules":["planner"]}

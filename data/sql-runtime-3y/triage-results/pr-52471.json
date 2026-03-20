@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52471,"reason":"The PR is entirely centered on `pkg/executor` and fixes executor runtime behavior (`builder.go`) with a matching executor failpoint test. A goroutine leak around builder panic handling is executor correctness/lifecycle logic, not an incidental touch.","target_modules":["executor"]}

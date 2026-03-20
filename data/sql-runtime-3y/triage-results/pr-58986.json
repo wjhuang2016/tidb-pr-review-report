@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58986,"reason":"The PR is entirely in `pkg/executor/*` and the subject indicates a change to executor memory tracking granularity. That is a core executor runtime/accounting behavior, not an incidental test/docs/infra touch.","target_modules":["executor"]}

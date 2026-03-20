@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":55410,"reason":"Only a planner test file changed (`pkg/planner/core/indexmerge_test.go`); metadata shows no target production code paths (`Target code count: 0`). This looks like a test-only typo fix, not a planner/executor/expression/session/statistics/kv/store/parser/table/privilege behavior change.","target_modules":["planner"]}

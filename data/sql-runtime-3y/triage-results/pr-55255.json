@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55255,"reason":"The PR is centered on `pkg/executor/infoschema_reader.go` and changes user-visible `information_schema.table_constraints` behavior by filtering PRIMARY index / foreign key rows. That is a direct executor-side metadata semantics change, not an incidental touch.","target_modules":["executor","table"]}

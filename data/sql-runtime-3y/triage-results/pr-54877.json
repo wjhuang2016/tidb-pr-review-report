@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54877,"reason":"The PR is clearly centered on planner/optimizer semantics: the subject is a planner change, the only code file changed is `pkg/planner/core/indexmerge_path.go`, and the remaining changes are planner integration tests. This is directly within the target focus, not an incidental touch.","target_modules":["planner"]}

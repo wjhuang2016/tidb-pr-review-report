@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60524,"reason":"The PR is explicitly labeled `planner`, and the only non-test code change is in `pkg/planner/core/point_get_plan.go`, fixing `BatchGet` column type correctness. That is a core planner/type-semantics issue, not an incidental touch or infra-only change.","target_modules":["planner"]}

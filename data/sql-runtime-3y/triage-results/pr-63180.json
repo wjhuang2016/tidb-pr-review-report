@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63180,"reason":"Metadata points to a single-file planner-core cleanup, and the subject explicitly says debug code cleanup. That is not clearly about planner/optimizer semantics or other high-blast-radius runtime behavior.","target_modules":["planner"]}

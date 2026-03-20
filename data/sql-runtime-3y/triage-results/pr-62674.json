@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62674,"reason":"Touches only `pkg/planner/core/rule_predicate_simplification.go` and changes predicate simplification logic in planner core, which is directly optimizer-semantics work with potential SQL-plan/correctness impact.","target_modules":["planner"]}

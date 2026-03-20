@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64998,"reason":"The PR is entirely in `pkg/planner/core/find_best_task.go`, with subject and changed-path metadata pointing directly at planner internals (`matchProperty`). Even if framed as dead-code removal, it is clearly centered on planner logic rather than incidental tests/docs/infra.","target_modules":["planner"]}

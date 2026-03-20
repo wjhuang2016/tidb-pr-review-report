@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49077,"reason":"The PR is fully concentrated in `pkg/statistics/handle/history/history_stats.go` and explicitly fixes a panic in historical stats storage. That is a direct statistics-module correctness change, not an incidental touch, so it fits the requested high-signal review scope.","target_modules":["statistics"]}

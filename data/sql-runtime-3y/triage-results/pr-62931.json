@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62931,"reason":"The PR is entirely within `pkg/planner/core/find_best_task.go`, and the subject indicates a refactor of `compareCandidates`, which is directly in optimizer task selection logic. This is clearly planner-centered rather than incidental.","target_modules":["planner"]}

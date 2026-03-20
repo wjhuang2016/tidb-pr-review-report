@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50828,"reason":"The PR is explicitly an executor bug fix and the only changed path is pkg/executor/cte.go. A CTE goroutine leak triggered by memory quota exceedance is executor runtime/lifecycle correctness, which is a high-signal core behavior rather than an incidental touch.","target_modules":["executor"]}

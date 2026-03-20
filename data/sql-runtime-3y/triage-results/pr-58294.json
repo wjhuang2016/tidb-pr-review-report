@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":58294,"reason":"Only integration test files were removed/updated for Index Advisor; there are no production-code changes in planner, executor, expression, session, sessionctx, statistics, kv, store, parser, table, or privilege behavior. This looks like test cleanup rather than a core module change.","target_modules":[]}

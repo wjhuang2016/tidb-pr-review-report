@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63480,"reason":"All changed files are under pkg/planner, including planner core and plan-cache-related utilities, and the subject is explicitly about plan cache internals. This is clearly centered on planner behavior rather than incidental tests/docs/infra touch-up.","target_modules":["planner"]}

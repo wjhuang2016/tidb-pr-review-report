@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61893,"reason":"The PR is entirely in `pkg/planner/core/constraint/exprs.go` and is explicitly about planner logic (`DeleteTrueExprs`). Even though the subject emphasizes performance, it directly touches planner-core expression simplification behavior, which can affect optimizer semantics.","target_modules":["planner"]}

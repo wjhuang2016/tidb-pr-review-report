@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":57070,"reason":"The PR appears centered on observability for plan cache timing, not planner semantics or runtime correctness. The planner file touches are likely instrumentation to emit metrics for a Grafana panel, with most changed files in metrics/dashboard plumbing.","target_modules":["planner"]}

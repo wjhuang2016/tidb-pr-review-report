@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50185,"reason":"The PR is centered on optimizer behavior in `pkg/planner/core/stats.go`, with only planner plan-test updates around it. Choosing a unique index directly affects planner semantics and potentially cost/model-driven plan selection, so it is clearly within the target review scope.","target_modules":["planner"]}

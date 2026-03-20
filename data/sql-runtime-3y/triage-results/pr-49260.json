@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49260,"reason":"The change is fully concentrated in `pkg/executor/executor.go` and alters how admin-check execution inherits memory quota from the user session. That is core executor/runtime behavior with direct session-context impact, not an incidental test/docs/infra touch.","target_modules":["executor","sessionctx"]}

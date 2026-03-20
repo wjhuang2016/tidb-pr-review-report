@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51577,"reason":"The PR is entirely scoped to `pkg/executor/show_placement.go`, and the subject indicates a fix to `SHOW PLACEMENT`, which is a user-visible SQL execution/metadata display behavior. This is clearly centered on executor behavior, not an incidental touch.","target_modules":["executor"]}

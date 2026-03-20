@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57723,"reason":"The PR is entirely centered on `pkg/statistics` core code, including async stats loading and stats storage/table logic. That directly affects statistics availability and potentially cardinality/cost-model behavior, which is a high-signal target area.","target_modules":["statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55539,"reason":"The only production code change is in `pkg/executor/show_placement.go`, and the subject explicitly changes `SHOW PLACEMENT` execution logic by removing a `SchemaTableInfos` call. That is centered on executor/runtime behavior rather than incidental test, docs, or infra work.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":59596,"reason":"The PR is entirely within `pkg/statistics/analyze.go`, but the subject says it only supplements comments on an analyze result struct. That makes it a documentation/comment-only change in the statistics area, not a behavioral change to statistics/cardinality/cost-model logic.","target_modules":["statistics"]}

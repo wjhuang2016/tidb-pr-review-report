@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54819,"reason":"Subject explicitly targets planner correctness and mentions incorrect query results with `ISNULL`, which is high-blast-radius SQL semantics. The changed files are planner tests plus `pkg/util/ranger/detacher.go`, a planner/range-derivation path, so this is not incidental.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65563,"reason":"Changes planner join predicate-pushdown semantics for non-deterministic expressions in `logical_join.go`. Even as a small diff, this touches optimizer correctness and can change query results across broad join cases, which is high blast radius for Blocker/High review.","target_modules":["planner"]}

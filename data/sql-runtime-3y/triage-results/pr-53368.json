@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53368,"reason":"The PR is entirely in `pkg/store/gcworker` and fixes GC delete-range retry behavior after rule-cleaning failures. That is a core storage/GC correctness path, not an incidental touch, so it is clearly centered on the `store` area.","target_modules":["store"]}

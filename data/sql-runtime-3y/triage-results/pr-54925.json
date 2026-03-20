@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54925,"reason":"Only a privilege-package test file is touched (`pkg/privilege/privileges/cache_test.go`), and the PR removes a test (`Remove TestAbnormalMySQLTable`) with `Target code count: 0`. This is not clearly centered on runtime privilege enforcement or other high-blast-radius behavior.","target_modules":["privilege"]}

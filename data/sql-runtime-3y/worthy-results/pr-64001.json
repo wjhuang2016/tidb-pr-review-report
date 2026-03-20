@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":64001,"reason":"Touches core session transaction-lifecycle code in pkg/session/txn.go. A change to rollback behavior for killed transactions and a panic path sits on a central runtime-correctness / transaction-cleanup path, so even a small one-file fix can hide high-severity regressions.","target_modules":["session"]}

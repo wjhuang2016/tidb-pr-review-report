@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57152,"reason":"Direct production change in `pkg/executor/check_table_index.go` fixes executor/admin-check correctness for indexes with generated columns. The PR is centered on executor runtime behavior, with tests only supporting that core fix.","target_modules":["executor"]}

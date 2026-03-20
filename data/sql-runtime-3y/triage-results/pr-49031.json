@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49031,"reason":"Fixes hash join runtime correctness for ENUM/SET hash keys, which is a core executor/expression semantics issue rather than incidental test or infra churn.","target_modules":["executor","expression"]}

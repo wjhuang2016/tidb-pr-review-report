@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53681,"reason":"The PR is centered on `pkg/expression/builtin_math.go` and fixes incorrect `conv` function behavior, which is directly an expression semantics/runtime-correctness concern. The planner file appears to be test-only coverage, not the main feature area.","target_modules":["expression"]}

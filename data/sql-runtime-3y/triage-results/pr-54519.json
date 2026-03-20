@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54519,"reason":"The PR is in a target module (`pkg/statistics/**`), but the subject says it only adds comments for histogram buckets. From the metadata, this looks like documentation-only churn inside statistics files, not a change to statistics/cardinality/cost-model behavior or other core semantics.","target_modules":["statistics"]}

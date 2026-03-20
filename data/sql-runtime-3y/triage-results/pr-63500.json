@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63500,"reason":"Only a test file changed (`pkg/executor/test/analyzetest/analyze_test.go`), and the subject says flaky test cleanup. Metadata shows `Target code count: 0` and no target code paths, so this is not clearly centered on executor/planner/runtime semantics; it looks like test-only stabilization.","target_modules":["executor"]}

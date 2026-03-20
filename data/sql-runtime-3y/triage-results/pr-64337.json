@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"skip","pr":64337,"reason":"The PR is primarily DDL/model multi-schema-change work. Only one target-area file is touched (`pkg/executor/analyze_col.go`, target ratio 0.053), and the missing-analyze fix appears to be a post-DDL side effect rather than a change centered on executor/statistics semantics.","target_modules":["executor","statistics"]}

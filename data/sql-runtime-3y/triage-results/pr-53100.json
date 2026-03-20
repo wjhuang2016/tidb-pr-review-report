@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53100,"reason":"The PR is entirely in `pkg/planner/**` and explicitly moves table sampling logic used by planner code into a planner utility. Even if framed as a refactor, it is clearly centered on planner behavior and plausibly affects planning/optimizer semantics around table sampling.","target_modules":["planner"]}

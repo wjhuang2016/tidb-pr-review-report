@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63779,"reason":"The PR is centered on `pkg/executor` and `pkg/sessionctx` code, not incidental touches. It adds new global/session sysvar behavior and changes executor slow-log trigger logic, which is directly relevant to executor runtime correctness and session/sessionctx behavior.","target_modules":["executor","sessionctx"]}

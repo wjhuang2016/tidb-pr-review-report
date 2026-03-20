@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"skip","pr":53593,"reason":"Localized executor concurrency fix in TopN, touching only two sortexec files. It is relevant to runtime correctness, but the metadata suggests a narrow bug fix rather than a broad semantic, protocol, privilege, statistics, parser, or storage change with high blast radius.","target_modules":["pkg/executor/sortexec"]}

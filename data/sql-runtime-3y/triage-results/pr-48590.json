@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48590,"reason":"PR is clearly centered on planner/optimizer semantics: the subject is a planner bug fix for limit sinking in index merge union, and the only non-test code changes are in pkg/planner/core. This is core plan generation behavior, not an incidental touch.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":49028,"reason":"Only test and Bazel metadata files under statistics changed, and the subject indicates a filename fix rather than a statistics/cardinality/cost-model behavior change. No production code paths in the target modules are touched.","target_modules":["statistics"]}

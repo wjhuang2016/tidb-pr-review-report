@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66056,"reason":"The PR is centered on `pkg/session/bootstrap.go`, changing bootstrap/system-table creation flow rather than only touching tests or infra. That is a core `session` initialization path with potential impact on bootstrap/upgrade correctness, so it is genuinely in-scope for deep review.","target_modules":["session"]}

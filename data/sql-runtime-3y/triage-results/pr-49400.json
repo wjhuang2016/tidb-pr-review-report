@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49400,"reason":"The PR is directly scoped to planner semantics: its only code change is in `pkg/planner/core/logical_plan_builder.go`, and the subject describes a recursive CTE causing incorrect `UPDATE` results. That is a core planner correctness issue, not an incidental touch.","target_modules":["planner"]}

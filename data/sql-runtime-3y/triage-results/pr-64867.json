@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":64867,"reason":"Only test files changed, despite covering TopN/index lookup pushdown behavior. There is no evidence of production changes in planner/executor/expression/session/statistics/kv/store/parser/table/privilege code, so this looks like test optimization rather than a core-module behavior change.","target_modules":["executor"]}

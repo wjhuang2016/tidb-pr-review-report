@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":57906,"reason":"Test-only PR under planner logicalop tests (`hash64_equals_test.go` plus Bazel metadata). No production planner/executor/expression/session/statistics/kv/parser/table/privilege code paths changed, so planner is only incidental here rather than the review center.","target_modules":["planner"]}

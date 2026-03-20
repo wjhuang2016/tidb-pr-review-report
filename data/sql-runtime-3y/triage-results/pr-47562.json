@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":47562,"reason":"The PR is entirely in `pkg/statistics/histogram.go` and the subject indicates a logic change in histogram value removal (`BinarySearchRemoveVal`), which is core statistics behavior and can affect cardinality/cost-model outcomes rather than being an incidental touch.","target_modules":["statistics"]}

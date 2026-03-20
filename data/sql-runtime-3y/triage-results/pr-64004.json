@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64004,"reason":"The PR is clearly centered on executor runtime correctness: the subject is an executor bug fix for a goroutine leak, and the only production code change is in `pkg/executor/mpp_gather.go`. This is not an incidental touch or infra/test-only change.","target_modules":["executor"]}

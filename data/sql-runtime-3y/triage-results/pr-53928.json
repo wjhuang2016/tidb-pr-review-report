@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53928,"reason":"Subject and sole production code change are directly in planner semantics: `pkg/planner/core/expression_rewriter.go` changes row-expression rewrite behavior, which is a high-signal optimizer/planner correctness path. The remaining files are supporting planner tests/testdata.","target_modules":["planner"]}

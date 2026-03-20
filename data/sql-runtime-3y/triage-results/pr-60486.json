@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60486,"reason":"The PR is entirely in `pkg/executor/**` and specifically changes hash join build-path logic in `builder.go` and `hash_join_v1/v2.go`, which is core executor runtime behavior rather than incidental infra or test work.","target_modules":["executor"]}

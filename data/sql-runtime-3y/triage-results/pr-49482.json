@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49482,"reason":"The PR is clearly centered on core SQL syntax/semantic handling: it changes the parser grammar/AST/generated parser and also touches planner plan building for `ANALYZE` syntax support. Those are direct parser/planner concerns, not incidental test or infra changes.","target_modules":["parser","planner"]}

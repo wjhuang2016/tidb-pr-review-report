@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49331,"reason":"The PR is fully concentrated in `pkg/statistics/handle/ddl/*` and changes statistics-handling correctness for drop-partition DDL events. That is a core `statistics` concern, with potential downstream impact on cardinality/cost behavior rather than an incidental touch.","target_modules":["statistics"]}

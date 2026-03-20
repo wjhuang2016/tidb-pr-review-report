@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":56353,"reason":"The PR appears to be a test-only/package-layout change: it moves planner/executor tests into test packages and updates Bazel metadata, with no listed production code paths or behavior changes in planner/executor semantics.","target_modules":["planner","executor"]}

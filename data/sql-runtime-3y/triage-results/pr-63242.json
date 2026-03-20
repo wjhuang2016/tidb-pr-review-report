@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63242,"reason":"PR is explicitly lint/infra work ('enable revive for kv pkg'). Although it touches pkg/kv/kv.go, the metadata suggests a mechanical cleanup to satisfy revive rather than a change centered on KV/storage semantics or correctness.","target_modules":["kv"]}

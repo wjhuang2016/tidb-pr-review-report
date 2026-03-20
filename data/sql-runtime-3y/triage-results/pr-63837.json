@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63837,"reason":"The PR is directly centered on executor code, with the only production change in `pkg/executor/inspection_result.go` and matching executor tests/BUILD updates. Even though the scope looks narrow, it changes executor-side parsing/runtime behavior rather than incidental infra or docs.","target_modules":["executor"]}

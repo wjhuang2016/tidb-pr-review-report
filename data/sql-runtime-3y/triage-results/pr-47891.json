@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":47891,"reason":"PR is explicitly about a wrong-result bug in predicate pushdown for CTEs, with all substantive code changes in planner core/optimizer paths. This is directly planner semantics with high correctness blast radius, not an incidental touch.","target_modules":["planner"]}

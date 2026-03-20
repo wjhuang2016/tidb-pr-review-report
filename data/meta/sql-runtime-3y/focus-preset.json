@@ -1,0 +1,38 @@
+{
+  "preset": "sql_runtime",
+  "config_path": "/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/review-focus-presets.json",
+  "focus_label": "planner / executor / expression / session / sessionctx / statistics / kv / store / parser / table / privilege",
+  "review_focus": "planner / executor / expression / session / sessionctx / statistics / kv / store / parser / table / privilege behavior",
+  "worthy_focus_signals": "planner or optimizer semantics, executor/runtime correctness, expression or type inference semantics, session/transaction/protocol behavior, privilege or visibility enforcement, statistics/cardinality/cost-model behavior, storage/kv consistency, parser SQL semantics, or similarly high-blast-radius paths",
+  "review_axes": "correctness, SQL semantics, data consistency, compatibility, concurrency, privilege/visibility, transaction/session behavior, and protocol/runtime handling",
+  "subject_pattern": "(?i)\\b(planner|optimizer|plan cache|executor|expression|builtin|session|sessionctx|txn|transaction|snapshot|prepared statement|protocol|statistics|stats|cardinality|cost model|copr|coprocessor|store|kv|keyspace|parser|sql mode|privilege|auth|temporary table|tablecodec|table)\\b",
+  "code_prefix_to_module": {
+    "pkg/planner/": "planner",
+    "pkg/executor/": "executor",
+    "pkg/expression/": "expression",
+    "pkg/session/": "session",
+    "pkg/sessionctx/": "sessionctx",
+    "pkg/statistics/": "statistics",
+    "pkg/store/": "store",
+    "pkg/kv/": "kv",
+    "pkg/parser/": "parser",
+    "pkg/table/": "table",
+    "pkg/tablecodec/": "tablecodec",
+    "pkg/privilege/": "privilege"
+  },
+  "test_prefix_reasons": {
+    "tests/integrationtest/t/planner/": "planner_tests",
+    "tests/integrationtest/r/planner/": "planner_tests",
+    "tests/integrationtest/t/executor/": "executor_tests",
+    "tests/integrationtest/r/executor/": "executor_tests",
+    "tests/integrationtest/t/expression/": "expression_tests",
+    "tests/integrationtest/r/expression/": "expression_tests",
+    "tests/integrationtest/t/session/": "session_tests",
+    "tests/integrationtest/r/session/": "session_tests",
+    "tests/integrationtest/t/statistics/": "statistics_tests",
+    "tests/integrationtest/r/statistics/": "statistics_tests",
+    "tests/realtikvtest/pessimistictest/": "transaction_tests",
+    "tests/realtikvtest/txntest/": "transaction_tests",
+    "tests/realtikvtest/sessiontest/": "session_tests"
+  }
+}

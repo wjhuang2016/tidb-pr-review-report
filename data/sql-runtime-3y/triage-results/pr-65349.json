@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65349,"reason":"The PR is explicitly about expression pushdown semantics to TiKV and the changed core files are in `pkg/expression` plus the executor pushdown blacklist reload path. That is clearly centered on expression/runtime behavior, not incidental test/infra churn.","target_modules":["expression","executor","kv","store"]}

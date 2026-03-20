@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65361,"reason":"Single changed file is in `pkg/planner/core`, and the PR is explicitly about optimizing `NewPlanCacheKey`, which is a planner plan-cache correctness/behavior surface rather than an incidental touch.","target_modules":["planner"]}

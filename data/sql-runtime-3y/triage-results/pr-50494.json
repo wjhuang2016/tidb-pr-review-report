@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50494,"reason":"The PR is entirely scoped to pkg/executor/internal/mpp/executor_with_retry.go, and the subject describes fixing coordinator.Close() latency in the MPP execution path. That is a direct executor/runtime behavior change, not an incidental touch.","target_modules":["executor"]}

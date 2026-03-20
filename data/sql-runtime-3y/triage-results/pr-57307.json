@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57307,"reason":"The PR is entirely in `pkg/planner/core/plan_to_pb.go` and the subject describes changing planner-side plan/protobuf semantics (`AnnQuery` vs `TopK = MaxUint32`). That is a direct planner behavior change, not an incidental touch, so it warrants deep review.","target_modules":["planner"]}

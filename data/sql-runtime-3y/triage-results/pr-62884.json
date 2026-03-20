@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62884,"reason":"The PR is fully concentrated in `pkg/statistics/**` and the subject indicates a correctness fix for handling add-index DDL events in auto-analyze priority queue logic. That is directly within statistics behavior rather than an incidental touch.","target_modules":["statistics"]}

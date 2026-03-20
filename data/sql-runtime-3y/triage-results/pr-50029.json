@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50029,"reason":"The PR is entirely in core `executor` and `store` runtime paths (`pkg/executor/internal/mpp` and `pkg/store/copr`) and the subject indicates a kill-signal handling fix, which is executor/store correctness rather than incidental infra or test churn.","target_modules":["executor","store"]}

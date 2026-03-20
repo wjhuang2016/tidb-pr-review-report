@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56834,"reason":"The PR is entirely in `pkg/executor/builder.go` and the subject describes a hash join v2 correctness bug around join condition handling. That is a core executor/runtime behavior issue, not an incidental touch.","target_modules":["executor"]}

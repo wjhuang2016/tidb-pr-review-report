@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57370,"reason":"The PR is directly scoped to `pkg/executor/infoschema_reader.go`, with the subject explicitly describing executor retrieval-logic changes and paired integration tests. This is clearly centered on executor/runtime behavior rather than incidental touches or infra-only work.","target_modules":["executor"]}

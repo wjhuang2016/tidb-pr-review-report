@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":56470,"reason":"Although the title is test-focused, the PR directly changes `pkg/planner/core/plan_clone_generator.go` and generated planner clone code used by plan cache rebuild paths. That is core planner correctness territory, not just incidental test/infra churn.","target_modules":["planner"]}

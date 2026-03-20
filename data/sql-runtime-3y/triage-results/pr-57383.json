@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57383,"reason":"The PR is centered on executor runtime correctness: it changes `pkg/executor/join/index_lookup_hash_join.go` to fix a hang on abnormal exit, with a matching executor test. This is a direct executor-behavior change, not an incidental touch.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58889,"reason":"The PR is entirely within `pkg/executor/sortexec/topn.go` and changes TopN spill behavior, which is squarely executor runtime logic rather than an incidental touch. Spill chunk sizing can affect executor correctness/resource behavior, so this is clearly centered on a target module.","target_modules":["executor"]}

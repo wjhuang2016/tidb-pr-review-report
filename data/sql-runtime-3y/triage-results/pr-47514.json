@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":47514,"reason":"PR is directly centered on planner/executor behavior: it changes point-get and batch point-get planning/execution for global indexes in core planner and executor paths, which is a high-signal runtime correctness area rather than incidental test or infra churn.","target_modules":["executor","planner"]}

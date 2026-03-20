@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65884,"reason":"The change is entirely in `pkg/planner/util/fixcontrol`, and the PR fixes a panic in handling `tidb_opt_fix_control`, which is planner/optimizer-facing behavior rather than an incidental touch. Even if the bug is narrow, it is clearly centered on planner logic.","target_modules":["planner"]}

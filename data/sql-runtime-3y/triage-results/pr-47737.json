@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":47737,"reason":"Only test files changed, with no production-code paths in planner/executor/statistics or other target modules. The planner/executor/statistics touches are test-only and therefore incidental rather than evidence that the PR is centered on core runtime/semantic behavior.","target_modules":[]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":64083,"reason":"Only a test file changed under pkg/executor/test, and the subject explicitly says it fixes an unstable test. With zero target production code paths changed, this is test-only executor coverage/maintenance rather than a PR centered on executor or other core semantic/runtime modules.","target_modules":["executor"]}

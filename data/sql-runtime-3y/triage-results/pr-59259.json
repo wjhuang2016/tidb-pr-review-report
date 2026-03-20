@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":59259,"reason":"Only a test file changed (`pkg/executor/infoschema_reader_test.go`), and the subject explicitly says it adds a test. There is no production code change in executor or other core modules, so this is test-only coverage rather than a PR centered on executor/runtime semantics.","target_modules":["executor"]}

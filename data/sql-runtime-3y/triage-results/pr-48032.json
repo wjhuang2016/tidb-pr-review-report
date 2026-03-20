@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48032,"reason":"The PR is entirely centered on `pkg/expression` and fixes `coalesce` return-type inference for `DATE`, which is a core expression/type-semantics change with user-visible SQL behavior impact. All changed code paths and tests are expression-scoped, not incidental.","target_modules":["expression"]}

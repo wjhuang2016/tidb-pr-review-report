@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66374,"reason":"The PR is centered on planner behavior: it changes `pkg/planner/core/plan_cacheable_checker.go` to fix prepared plan cache handling for CTE names, which directly affects plan-cache eligibility and optimizer/planner correctness. The remaining files are supporting tests/docs.","target_modules":["planner"]}

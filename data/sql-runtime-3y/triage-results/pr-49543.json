@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49543,"reason":"The PR is directly centered on `pkg/expression/chunk_executor.go` and fixes enum/set validity during expression evaluation, which is core expression runtime correctness rather than an incidental touch. The added integration tests also indicate user-visible SQL semantics coverage.","target_modules":["expression"]}

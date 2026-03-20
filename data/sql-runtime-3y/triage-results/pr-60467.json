@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60467,"reason":"The PR is entirely in `pkg/executor/join/*` and the subject indicates a hash join runtime correctness change: avoiding row-table scanning after a build-stage error. That is clearly executor behavior, not incidental test/docs/infra work.","target_modules":["executor"]}

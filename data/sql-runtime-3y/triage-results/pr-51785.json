@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51785,"reason":"PR is entirely concentrated in pkg/statistics auto-analyze job logic, with all non-test code changes in statistics paths and the subject directly changing index analyze behavior. This is a core statistics/runtime behavior change, not an incidental touch.","target_modules":["statistics"]}

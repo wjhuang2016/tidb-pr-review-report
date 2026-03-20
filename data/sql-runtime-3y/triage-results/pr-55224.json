@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55224,"reason":"The PR is directly centered on executor runtime behavior: it changes `pkg/executor/join/hash_join_v2.go` and updates executor/hash join tests. Disabling Hash Join V2 is a core execution-path change with potential correctness and behavior impact, not an incidental touch.","target_modules":["executor"]}

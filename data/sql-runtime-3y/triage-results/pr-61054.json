@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61054,"reason":"The only code change is in `pkg/executor/join/hash_join_v1.go`, and the subject plus integration-test updates indicate a join row-output correctness fix for NAAJ semantics. That is a core executor/runtime behavior change, not an incidental touch.","target_modules":["executor"]}

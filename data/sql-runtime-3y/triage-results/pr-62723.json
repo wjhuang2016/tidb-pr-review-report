@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62723,"reason":"The PR is wholly concentrated in planner core code and testdata, specifically predicate simplification and const-false evaluation logic. That is optimizer/planner semantics with direct SQL behavior risk, not incidental touch.","target_modules":["planner"]}

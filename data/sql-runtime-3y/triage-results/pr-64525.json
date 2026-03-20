@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64525,"reason":"The PR is entirely confined to pkg/planner/core/find_best_task.go and is described as a planner bug fix, which strongly indicates optimizer/planner semantics rather than incidental touch-up work.","target_modules":["planner"]}

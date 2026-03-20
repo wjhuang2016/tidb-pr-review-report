@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":59077,"reason":"Only test/package-structure changes under planner (`main_test.go`, `point_get_plan_test.go`) plus Bazel metadata; no production planner/executor/etc. code paths changed, so this PR is not clearly centered on core planner/runtime semantics.","target_modules":["planner"]}

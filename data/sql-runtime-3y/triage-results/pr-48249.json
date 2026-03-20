@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48249,"reason":"Only a test file changed (`pkg/executor/importer/import_test.go`), and the subject is an RBE-specific test fix. No production planner/executor/expression/session/statistics/kv/store/parser/table/privilege code appears involved, so this is not clearly centered on core target-module behavior.","target_modules":[]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52180,"reason":"The PR is entirely in `pkg/executor/infoschema_reader.go` and changes user-visible `TIDB_HOT_REGIONS` result filtering/visibility. That is directly executor-side infoschema behavior, not an incidental test/docs/infra touch.","target_modules":["executor"]}

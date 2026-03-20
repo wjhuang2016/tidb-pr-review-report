@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54311,"reason":"The PR is directly centered on executor runtime correctness: it fixes a panic in TopN under a system-variable-controlled OOM path, and the only production code touch is in pkg/executor/sortexec/topn.go. This is not an incidental test/infra change.","target_modules":["executor"]}

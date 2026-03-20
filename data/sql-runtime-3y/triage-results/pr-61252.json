@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61252,"reason":"The PR is entirely in core planner/executor paths and introduces an MPP sink interface in planner/executor code, which is directly tied to query planning and distributed execution behavior rather than incidental tests or infra.","target_modules":["planner","executor"]}

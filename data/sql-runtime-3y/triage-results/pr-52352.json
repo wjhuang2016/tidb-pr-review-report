@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52352,"reason":"The PR is entirely within `pkg/statistics/table.go` and explicitly fixes statistics health-check behavior, which is core statistics logic rather than an incidental touch. That falls directly under the requested high-signal `statistics` area.","target_modules":["statistics"]}

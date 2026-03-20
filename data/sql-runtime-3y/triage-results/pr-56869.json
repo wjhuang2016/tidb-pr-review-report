@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":56869,"reason":"Only test and build metadata changed under planner plan-cache casetests (`concurrency_test.go` and `BUILD.bazel`). No production planner/executor/expression/session/statistics/kv/store/parser/table/privilege code paths are touched, so this is not a core-module behavior change.","target_modules":["planner"]}

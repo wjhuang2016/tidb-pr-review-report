@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58771,"reason":"Core change is in `pkg/planner/core/operator/logicalop/logical_top_n.go` and the subject explicitly targets a planner semantic bug causing unexpected query results. This is clearly centered on planner/optimizer correctness, not incidental test or infra churn.","target_modules":["planner"]}

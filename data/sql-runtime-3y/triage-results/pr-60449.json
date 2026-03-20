@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60449,"reason":"PR is explicitly planner-focused and only touches core planner files responsible for physical plan enumeration and task selection, which are high-blast-radius optimizer semantics.","target_modules":["planner"]}

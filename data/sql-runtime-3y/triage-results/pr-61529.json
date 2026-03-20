@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61529,"reason":"The PR is clearly centered on `store`: all target code paths are under `pkg/store/**`, including production `pkg/store/gcworker/gc_worker.go`, and the subject is a GC-related PD API change. GC/PD interaction is storage-runtime behavior with correctness risk, not an incidental touch.","target_modules":["store"]}

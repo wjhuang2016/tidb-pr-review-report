@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55454,"reason":"The PR is centered on `pkg/expression` and fixes incorrect expression evaluation semantics for casting/comparison with NULL duration values, which is a high-signal runtime correctness area rather than an incidental touch.","target_modules":["expression"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56601,"reason":"The PR is centered on planner internals: all substantive code changes are in `pkg/planner/cascades/**` and `pkg/planner/pattern/**`, and the subject explicitly describes binder logic changes. Pattern binding in cascades/memo is core optimizer behavior, not an incidental touch.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60420,"reason":"The PR is explicitly centered on planner preprocessing semantics for `ALTER TABLE` in prepared statements. It changes `pkg/planner/core/preprocess.go`, which is a core planner SQL-validation/semantic path, and the only non-test code touched is within the target planner module.","target_modules":["planner"]}

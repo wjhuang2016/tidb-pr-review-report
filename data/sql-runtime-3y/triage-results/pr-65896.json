@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65896,"reason":"The PR is entirely within `pkg/planner/**` and explicitly changes optimizer-time plan-cache disabling behavior, which is core planner semantics rather than incidental touch-up work.","target_modules":["planner"]}

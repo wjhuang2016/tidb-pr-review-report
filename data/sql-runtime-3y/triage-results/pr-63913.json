@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63913,"reason":"The PR is entirely in planner-core paths (6/6 files, target ratio 1.0) and the subject references `FindBestTask`, which is part of physical task selection/optimizer behavior for mem tables. This is clearly centered on planner logic, not incidental tests/docs/infra work.","target_modules":["planner"]}

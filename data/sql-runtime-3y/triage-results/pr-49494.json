@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49494,"reason":"PR is entirely concentrated in `pkg/executor` and explicitly refines the Executor interface across many executor implementations, which is core executor/runtime behavior rather than incidental touches.","target_modules":["executor"]}

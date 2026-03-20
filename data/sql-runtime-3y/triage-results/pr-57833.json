@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":57833,"reason":"Only a planner test file changed, and the subject explicitly says it fixes a flaky test. Metadata shows zero target-code changes and no production planner/executor/expression/session/statistics/kv/store/parser/table/privilege paths, so this is test-only rather than a core behavioral change.","target_modules":["planner"]}

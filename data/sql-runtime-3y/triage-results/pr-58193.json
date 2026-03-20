@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58193,"reason":"PR is fully concentrated in `pkg/store/copr` and changes coprocessor dispatch/region-cache routing behavior (`coprocessor.go`, `region_cache.go`). That is a core `store` runtime path, not an incidental touch.","target_modules":["store"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49521,"reason":"PR is fully concentrated in `pkg/parser/*` and changes SQL parsing behavior by raising an error for an empty database name, which is a core parser semantic change rather than an incidental touch.","target_modules":["parser"]}

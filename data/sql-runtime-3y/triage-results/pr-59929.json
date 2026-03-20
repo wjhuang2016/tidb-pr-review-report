@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59929,"reason":"Core change is in pkg/statistics/builder.go and the subject targets TopN/bucket reduction based on NDV, which is directly a statistics/cardinality behavior with likely planner cost/plan-selection impact; the other touched files are supporting tests/testdata.","target_modules":["statistics","planner"]}

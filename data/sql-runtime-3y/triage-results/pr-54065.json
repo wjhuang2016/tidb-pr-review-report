@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54065,"reason":"PR is clearly centered on DELETE planning/runtime behavior: the subject targets planner decisions for column references, and over half of the changed code is in planner, executor, and table paths that affect DELETE semantics rather than incidental test/infra work.","target_modules":["planner","executor","table"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51903,"reason":"PR is explicitly about planner optimization semantics for CTE under static mode, and the only production code change is in pkg/planner/core/optimizer.go. The other files are planner tests/build metadata, so this is clearly centered on planner behavior rather than incidental touches.","target_modules":["planner"]}

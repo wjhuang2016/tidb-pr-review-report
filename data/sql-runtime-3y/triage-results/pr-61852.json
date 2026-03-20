@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61852,"reason":"The PR is entirely within planner code paths and changes optimizer physical-property handling (`rejectSort`) in `pkg/planner/core` and `pkg/planner/property`, which is directly tied to planner/optimizer semantics rather than incidental touches.","target_modules":["planner"]}

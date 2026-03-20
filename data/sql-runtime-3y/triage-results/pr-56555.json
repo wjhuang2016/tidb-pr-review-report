@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":56555,"reason":"Only a test file changed (`pkg/executor/infoschema_reader_test.go`), and the PR subject is a flaky-test fix. Metadata shows no target production code paths, so this is not clearly centered on executor or other high-blast-radius module behavior.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52811,"reason":"PR is clearly centered on expression semantics: the subject describes a correctness fix for unary minus on time values, and the only non-test code path is `pkg/expression/builtin_op.go`. That is a high-signal runtime/type-handling path rather than an incidental touch.","target_modules":["expression"]}

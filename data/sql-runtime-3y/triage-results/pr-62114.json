@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62114,"reason":"The PR is entirely in `pkg/expression/util.go` and the subject indicates a behavior change in `RemoveDupExprs`, an expression-layer utility that can affect expression handling semantics across planner/executor call sites. The target module is direct and central, not incidental.","target_modules":["expression"]}

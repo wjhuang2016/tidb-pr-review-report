@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53108,"reason":"The PR is centered on planner correctness: the subject describes a panic in UPDATE handling with complex subqueries, the only code change is in `pkg/planner/core/logical_plan_builder.go`, and the added tests are planner integration coverage rather than incidental touches.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60448,"reason":"PR is entirely centered on `pkg/session/syssession`, and the subject indicates a change to pooled session close safety. That is a session lifecycle/correctness concern rather than an incidental touch, with direct potential impact on session behavior and cleanup semantics.","target_modules":["session"]}

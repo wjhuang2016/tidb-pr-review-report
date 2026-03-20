@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49987,"reason":"The PR is centered on SQL binding machinery (`pkg/bindinfo/*`) and also touches `pkg/planner/core/plan_cache.go`. Bindings directly influence optimizer/planner behavior and plan selection, so this is plausibly a core planner-semantics change rather than an incidental touch.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56145,"reason":"The PR is explicitly in `executor`, and the change description indicates a runtime correctness check before switching resource groups. That is core executor/session behavior rather than incidental infra or test-only work.","target_modules":["executor"]}

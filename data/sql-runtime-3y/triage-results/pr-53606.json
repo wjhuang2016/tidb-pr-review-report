@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53606,"reason":"The PR is entirely scoped to `pkg/statistics/handle/bootstrap.go`, and the subject is about stats initialization correctness (`get max table id` during stats init). That is directly a statistics concern, not an incidental touch.","target_modules":["statistics"]}

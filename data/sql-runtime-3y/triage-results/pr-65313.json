@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65313,"reason":"Only a flaky test file changed (`pkg/executor/test/oomtest/oom_test.go`). Metadata shows no target production code paths, so this is test-only executor coverage and not clearly centered on executor/runtime semantics or other core focus modules.","target_modules":["executor"]}

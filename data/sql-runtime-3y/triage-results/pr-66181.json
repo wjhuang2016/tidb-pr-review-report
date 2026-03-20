@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66181,"reason":"Core planner/optimizer change. The PR title, 100% target ratio, and sole code path in `pkg/planner/core/find_best_task.go` indicate planner task selection/order optimization semantics rather than incidental touches; the integration tests also target planner behavior.","target_modules":["planner"]}

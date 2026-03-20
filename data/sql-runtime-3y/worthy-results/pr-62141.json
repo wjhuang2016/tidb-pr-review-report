@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":62141,"reason":"Touches core planner predicate-simplification semantics for string collations, a subtle correctness-sensitive area that can produce wrong-result bugs across many queries even with a small one-file change.","target_modules":["pkg/planner/core/rule_predicate_simplification.go"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53956,"reason":"The PR is centered on core executor/planner behavior: it changes `pkg/executor/builder.go` to error on an unexpected operator under `UnionScan`, which directly affects plan-to-executor construction and runtime correctness rather than incidental infra/test/docs touches.","target_modules":["executor","planner"]}

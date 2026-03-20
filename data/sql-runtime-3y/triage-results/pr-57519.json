@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57519,"reason":"The PR is entirely within `pkg/executor/join/hash_join_v2.go` and fixes a data race in hash join spill logic, which is executor runtime correctness in a high-blast-radius execution path rather than an incidental touch.","target_modules":["executor"]}

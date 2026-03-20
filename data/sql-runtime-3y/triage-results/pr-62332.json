@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62332,"reason":"PR is clearly centered on planner semantics: all non-test code changes are under pkg/planner/core and include optimizer/rule wiring plus a new elimination rule that can affect logical plan generation and optimization behavior.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57508,"reason":"The PR is centered on `pkg/expression` and changes generated/runtime expression code for `SUBTIME` warning behavior, which is user-visible expression semantics. The `pkg/executor` change appears to be test coverage only, not the main implementation area.","target_modules":["expression"]}

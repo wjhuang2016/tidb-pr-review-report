@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60159,"reason":"The only non-test code change is in `pkg/planner/core/preprocess.go`, and the PR is explicitly about planner-stage SQL semantic validation: returning an error when a subquery lacks an alias. That is clearly centered on planner behavior rather than incidental infra/test churn.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53828,"reason":"The PR is centered on `pkg/executor/distsql.go` and fixes index lookup paging behavior that can send redundant RPCs. That is a direct executor/runtime-path change, with the test only validating the same behavior.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63106,"reason":"Test-only PR. The changed files are join `*_test.go` files plus `BUILD.bazel` updates, with no listed production code paths. Although it touches executor/planner test areas, it is not clearly centered on executor/planner runtime or SQL semantics themselves.","target_modules":["executor","planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":62656,"reason":"The PR is in `pkg/executor`, but the subject and single-file scope indicate an observability-only change: adjusting log level in `Close` for hash join. That is not clearly about executor semantics, runtime correctness, or other high-blast-radius behavior from the listed focus areas.","target_modules":["executor"]}

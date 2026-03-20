@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48749,"reason":"Only ownership metadata changed (`pkg/parser/OWNERS` and `OWNERS_ALIASES`). This is repo governance/maintainer config, not parser SQL semantics or any planner/executor/session/kv behavior.","target_modules":[]}

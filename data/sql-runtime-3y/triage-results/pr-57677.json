@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57677,"reason":"The main code change is in pkg/sessionctx/variable/sysvar.go and changes validation/acceptance semantics for a system variable. That is a user-visible session/sessionctx behavior change, not an incidental touch; the DDL test appears to verify that behavior.","target_modules":["sessionctx"]}

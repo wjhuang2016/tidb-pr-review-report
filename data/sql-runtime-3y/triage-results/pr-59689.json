@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59689,"reason":"The PR is explicitly labeled as a planner change and all touched code is in `pkg/planner/core/task.go`, so it is clearly centered on planner internals rather than incidental tests/docs/infra.","target_modules":["planner"]}

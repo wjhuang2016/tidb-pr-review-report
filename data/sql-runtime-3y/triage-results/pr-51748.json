@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51748,"reason":"The PR is directly changing executor build behavior for auto-analyze concurrency in `pkg/executor/builder.go`, which is core executor/runtime behavior and plausibly statistics-related rather than an incidental touch.","target_modules":["executor","statistics"]}

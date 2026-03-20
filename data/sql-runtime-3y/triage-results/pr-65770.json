@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65770,"reason":"Only a test file changed (`pkg/executor/test/jointest/join_test.go`), and the subject is explicitly about fixing an unstable test. There are no production-code paths in executor or other core focus modules, so this looks like test stabilization rather than executor/runtime semantics.","target_modules":["executor"]}

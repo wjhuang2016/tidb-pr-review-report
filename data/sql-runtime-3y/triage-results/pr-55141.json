@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55141,"reason":"The PR is directly centered on `pkg/store/copr/coprocessor.go` and changes coprocessor request concurrency for keep-order execution. That is a core `store` runtime behavior, not an incidental touch, and it plausibly affects execution correctness/performance semantics.","target_modules":["store"]}

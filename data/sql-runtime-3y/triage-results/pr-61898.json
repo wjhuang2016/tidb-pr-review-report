@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":61898,"reason":"Only a planner benchmark/casetest file is changed (`pkg/planner/core/casetest/tpch/tpch_test.go`). From the metadata, this looks like test/benchmark coverage rather than a production change to planner semantics or other core runtime behaviors.","target_modules":["planner"]}

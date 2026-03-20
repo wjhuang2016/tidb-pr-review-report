@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60546,"reason":"The PR is fully centered on pkg/parser, with grammar, lexer/keyword, generated parser, and AST changes to support SECONDARY_ENGINE_ATTRIBUTE. That is a direct parser SQL-semantics change, not an incidental touch.","target_modules":["parser"]}

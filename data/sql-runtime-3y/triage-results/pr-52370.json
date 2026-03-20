@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52370,"reason":"The PR is centered on `pkg/executor/infoschema_reader.go` and changes the user-visible semantics of `information_schema.key_column_usage` for foreign-key metadata. That is a direct executor/system-table correctness change, not an incidental touch.","target_modules":["executor"]}

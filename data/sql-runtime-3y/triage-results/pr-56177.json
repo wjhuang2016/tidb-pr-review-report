@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56177,"reason":"Direct change in `pkg/expression/infer_pushdown.go` to disable JSON-function pushdown to TiFlash. That is core expression/pushdown semantics with planner-visible execution effects, not an incidental touch.","target_modules":["expression"]}

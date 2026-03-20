@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51346,"reason":"The PR is fully concentrated in `pkg/statistics/**` and adds new auto-analyze priority calculation logic plus refresher integration. That is a statistics-centered behavior change, not an incidental touch, and it can affect how/when stats are refreshed for planning.","target_modules":["statistics"]}

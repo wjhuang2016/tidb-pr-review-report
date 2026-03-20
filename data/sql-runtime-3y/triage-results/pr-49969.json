@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49969,"reason":"The PR is fully concentrated in parser grammar/generated parser files and parser tests, and the subject indicates a SQL syntax/acceptance change (`'*'` as DB name in CREATE BINDING). That is directly a parser-level semantic change, not an incidental touch.","target_modules":["parser"]}

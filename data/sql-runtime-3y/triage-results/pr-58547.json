@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58547,"reason":"The PR is entirely scoped to `pkg/planner/core/optimizer.go` and the subject explicitly targets planner optimizer behavior (`new cascades` branch). Even if the fix may be small, it is centered on core planner logic rather than incidental tests/docs/infra.","target_modules":["planner"]}

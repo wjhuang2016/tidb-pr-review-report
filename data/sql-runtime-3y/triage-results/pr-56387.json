@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56387,"reason":"PR is clearly centered on planner cost-model semantics: all code changes are under pkg/planner, the subject explicitly describes a planner cost correction, and the touched files affect plan/task cost computation rather than incidental tests or infra.","target_modules":["planner"]}

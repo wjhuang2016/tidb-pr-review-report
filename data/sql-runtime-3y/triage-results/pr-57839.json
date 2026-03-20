@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":57839,"reason":"Metadata points to a comment-only fix: subject is \"planner: fix wrong comment\" and the sole changed file is in planner core. That is an incidental touch to a target module, not a planner/executor/expression/session/statistics/kv/store/parser/table/privilege behavioral change.","target_modules":["planner"]}

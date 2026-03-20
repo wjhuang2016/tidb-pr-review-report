@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63186,"reason":"The PR is entirely within `pkg/planner/core/stats.go` and the subject describes a planner statistics/cardinality invariant (`MaxCountAfterAccess` vs `CountAfterAccess`). That is a core optimizer-semantics and cost/statistics behavior change, not an incidental touch.","target_modules":["planner","statistics"]}

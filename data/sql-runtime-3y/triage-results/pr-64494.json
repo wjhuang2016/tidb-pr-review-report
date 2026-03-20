@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":64494,"reason":"The only non-test code change is in `pkg/executor/brie_utils.go`, and the subject describes a query-splitting bug fix. From metadata alone this looks centered on executor-side SQL/runtime behavior rather than incidental infra or test-only churn.","target_modules":["executor"]}

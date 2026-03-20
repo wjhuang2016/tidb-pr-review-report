@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62327,"reason":"PR is centered on `pkg/statistics` storage/update behavior and explicitly fixes a deadlock in `SaveAnalyzeResultToStorage`, which is core statistics correctness/concurrency rather than an incidental touch.","target_modules":["statistics"]}

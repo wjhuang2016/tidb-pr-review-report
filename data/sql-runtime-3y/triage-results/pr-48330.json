@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":48330,"reason":"The PR appears centered on lock resolution during MVCC key reads used for schema-diff loading, with a direct change in `pkg/store/helper/helper.go`. That is plausibly a real store/kv correctness path rather than an incidental touch, even though the other file is under `domain`.","target_modules":["store"]}

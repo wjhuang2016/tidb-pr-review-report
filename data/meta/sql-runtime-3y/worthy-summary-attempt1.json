@@ -1,0 +1,15 @@
+{
+  "candidate_file": "/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-3y-sql-runtime/worthy_queue_current.json",
+  "artifact_dir": "/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-3y-sql-runtime",
+  "mode": "worthy",
+  "focus_preset": "sql_runtime",
+  "focus_label": "planner / executor / expression / session / sessionctx / statistics / kv / store / parser / table / privilege",
+  "parallel": 10,
+  "limit": null,
+  "task_count": 2581,
+  "elapsed_seconds": 7824.52,
+  "failures": [
+    "pr=62862 error=codex exec failed with exit 1; log=/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-3y-sql-runtime/worthy-logs/pr-62862.log",
+    "pr=61383 error=codex exec failed with exit 1; log=/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-3y-sql-runtime/worthy-logs/pr-61383.log"
+  ]
+}

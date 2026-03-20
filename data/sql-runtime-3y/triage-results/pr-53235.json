@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53235,"reason":"The PR is clearly centered on planner semantics: it changes `pkg/planner/core/rule_column_pruning.go` and adds planner integration tests for the behavior. This is a core optimizer correctness change, not an incidental touch.","target_modules":["planner"]}

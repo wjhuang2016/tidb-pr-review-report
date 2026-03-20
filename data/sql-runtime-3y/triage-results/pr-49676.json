@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49676,"reason":"PR is centered on `pkg/expression/**` with all code changes in LIKE/ILIKE builtin and cache logic, plus matching expression plan-cache integration tests. That is directly in-scope for expression semantics/runtime behavior rather than incidental touch.","target_modules":["expression"]}

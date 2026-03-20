@@ -1,0 +1,12 @@
+{
+  "candidate_file": "/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-3y-sql-runtime/worthy_queue_current.json",
+  "artifact_dir": "/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-3y-sql-runtime",
+  "mode": "worthy",
+  "focus_preset": "sql_runtime",
+  "task_count_unique": 2581,
+  "decision_counts": {
+    "skip": 1375,
+    "deep_review": 1206
+  },
+  "deep_review_queue_count": 1206
+}

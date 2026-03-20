@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55077,"reason":"The PR is entirely within `pkg/planner/cardinality` and changes row count estimation logic around `modifyCount`/TopN, which is core planner cost-model and statistics behavior rather than incidental touches.","target_modules":["planner","statistics"]}

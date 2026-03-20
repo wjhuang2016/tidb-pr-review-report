@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49760,"reason":"The PR is entirely within `pkg/sessionctx` (`stmtctx` and session variable handling) and is explicitly about warning/note generation, which is core session/sessionctx behavior rather than incidental infra or test churn.","target_modules":["sessionctx","session"]}

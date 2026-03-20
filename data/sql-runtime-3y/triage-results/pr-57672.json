@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57672,"reason":"The PR is centered on `pkg/expression` and fixes `radians` calculation order, which is core expression semantic/runtime correctness rather than incidental test or infra churn. Both code paths changed are expression implementations, with matching expression tests/results.","target_modules":["expression"]}

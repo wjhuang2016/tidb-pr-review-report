@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58322,"reason":"The PR is explicitly scoped to planner/executor and all listed code changes are in core planner/executor paths to add `SHOW TRAFFIC JOBS` support. That is user-visible SQL/runtime behavior, not incidental infra or test-only churn.","target_modules":["planner","executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65854,"reason":"The PR is entirely in `pkg/planner/cardinality/*` and the subject indicates a planner selectivity/cardinality behavior change (`skip out of range for full range`). That is core optimizer semantics with possible cost-model/plan-choice impact, not an incidental touch.","target_modules":["planner","statistics"]}

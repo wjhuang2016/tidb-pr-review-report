@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62354,"reason":"PR is explicitly a planner semantic fix for GROUP BY validation around CAST expressions, and the only production code change is in pkg/planner/core/logical_plan_builder.go. That is a core SQL-planning correctness path, not an incidental touch; table changes appear test-only.","target_modules":["planner"]}

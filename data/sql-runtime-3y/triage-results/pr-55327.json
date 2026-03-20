@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55327,"reason":"All changed files are in `pkg/statistics/handle/storage/*`, and the change targets `tot_col_size` correctness in persisted statistics. That is clearly centered on statistics behavior with possible planner/cost-model impact, not an incidental touch.","target_modules":["statistics"]}

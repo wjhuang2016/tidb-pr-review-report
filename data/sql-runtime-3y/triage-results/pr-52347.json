@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52347,"reason":"PR is entirely centered on `pkg/statistics/**` and changes stats bootstrap/cache/init paths, which are directly tied to statistics correctness and can affect cardinality/cost behavior.","target_modules":["statistics"]}

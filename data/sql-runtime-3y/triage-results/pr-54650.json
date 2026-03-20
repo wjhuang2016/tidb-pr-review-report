@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54650,"reason":"Core planner semantics change. The subject and touched code are both in planner logical projection/schema production paths, and the fix affects column-pruning behavior, which is optimizer correctness rather than incidental test or infra churn.","target_modules":["planner"]}

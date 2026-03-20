@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":57095,"reason":"Only a test file changed (`pkg/executor/delete_test.go`), and the PR subject is a flaky test fix. Metadata shows zero target production-code changes and no target code paths, so this is not clearly centered on executor/runtime behavior; the executor touch is incidental test maintenance.","target_modules":["executor"]}

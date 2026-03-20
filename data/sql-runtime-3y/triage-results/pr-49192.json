@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49192,"reason":"The PR is explicitly about fixing a deadlock in DML execution with CTE under OOM panic handling, and the main touched code path is `pkg/executor/cte.go`. That is executor runtime correctness with potentially high blast radius, not an incidental touch.","target_modules":["executor"]}

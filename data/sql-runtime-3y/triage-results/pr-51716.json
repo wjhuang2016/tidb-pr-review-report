@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51716,"reason":"PR is clearly centered on planner/optimizer semantics: the subject is a planner feature change, both non-test code files are in `pkg/planner/core`, and the touched logic (`indexmerge_path`) affects access-path selection for MV indexes rather than incidental plumbing.","target_modules":["planner"]}

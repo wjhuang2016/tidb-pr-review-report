@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52410,"reason":"The change is fully in `pkg/executor` and targets MPP iterator cleanup on error, which is executor runtime correctness rather than an incidental touch.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56579,"reason":"Touches `pkg/planner/core/plan_cache_utils.go` and planner plan-cache tests only; this is clearly centered on planner behavior rather than incidental infra/docs churn.","target_modules":["planner"]}

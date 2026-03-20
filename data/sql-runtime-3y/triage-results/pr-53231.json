@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53231,"reason":"PR is clearly centered on planner internals: all substantive code changes are under `pkg/planner/core` plus a planner util helper, and the subject mentions encapsulating TopN pushdown logic. Those paths are directly tied to optimizer semantics rather than incidental tests/docs/infra.","target_modules":["planner"]}

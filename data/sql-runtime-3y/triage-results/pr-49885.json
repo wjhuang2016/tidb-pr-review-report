@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49885,"reason":"PR is centered on core executor runtime behavior: both non-test code changes are in `pkg/executor`, and the subject is a goroutine leak in foreign-key cascade handling when memory quota is exceeded. That is executor correctness/resource-management logic, not an incidental touch.","target_modules":["executor"]}

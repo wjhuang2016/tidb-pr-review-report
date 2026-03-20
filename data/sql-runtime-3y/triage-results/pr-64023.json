@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64023,"reason":"The PR is centered on system-variable deprecation in `pkg/sessionctx/variable` and `pkg/sessionctx/vardef`, with an executor `SET` test to verify user-visible behavior. That is a direct session/sessionctx behavior change, not an incidental touch.","target_modules":["sessionctx","session"]}

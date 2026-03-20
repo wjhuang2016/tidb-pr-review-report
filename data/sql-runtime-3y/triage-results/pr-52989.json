@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52989,"reason":"Core planner logic changed in `pkg/planner/core/rule_join_reorder.go`, and the subject indicates optimizer semantics around join-key preservation (`col=col`). This is clearly centered on planner behavior rather than incidental tests or infra.","target_modules":["planner"]}

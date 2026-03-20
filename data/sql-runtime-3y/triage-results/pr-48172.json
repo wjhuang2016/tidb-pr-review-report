@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48172,"reason":"All non-test changes are in `pkg/executor/internal/calibrateresource`, and the PR changes CALIBRATE RESOURCE time-window behavior rather than incidental infra/docs. That is executor-facing runtime behavior, so it warrants deep review.","target_modules":["executor"]}

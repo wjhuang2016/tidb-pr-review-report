@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49335,"reason":"The PR is directly centered on `pkg/statistics` storage logic, not an incidental touch. Fixing meta history recording affects statistics correctness and can plausibly influence cardinality/cost-model behavior, so it falls squarely within the target review scope.","target_modules":["statistics"]}

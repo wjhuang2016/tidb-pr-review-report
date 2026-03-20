@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49357,"reason":"PR is directly centered on planner behavior and prepared-protocol semantics: it changes planner-core logic so `SELECT ... INTO` under prepared protocol returns an error. That is a user-visible SQL/protocol correctness change, not an incidental touch.","target_modules":["planner","session"]}

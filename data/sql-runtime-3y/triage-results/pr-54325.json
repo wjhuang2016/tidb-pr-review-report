@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54325,"reason":"The PR is entirely in pkg/executor and fixes a runtime panic when querying INFORMATION_SCHEMA.CLUSTER_SLOW_QUERY, which is clearly executor correctness rather than incidental test/infra churn.","target_modules":["executor"]}

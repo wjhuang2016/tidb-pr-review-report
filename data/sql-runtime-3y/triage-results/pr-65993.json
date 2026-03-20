@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65993,"reason":"The PR is entirely within `pkg/executor/builder.go`, and the subject indicates a change to index join partition range construction. That is executor-side plan build/runtime logic, which is directly in scope and can affect correctness rather than being an incidental touch.","target_modules":["executor"]}

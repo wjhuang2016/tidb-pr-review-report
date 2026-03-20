@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":64487,"reason":"The PR is primarily observability work: adding metrics and Grafana wiring for index lookup push-down. Although it touches `pkg/executor/distsql.go`, the metadata does not suggest changes to executor semantics or correctness; the executor path appears to be instrumentation only.","target_modules":["executor"]}

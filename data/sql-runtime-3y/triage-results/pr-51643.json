@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51643,"reason":"The PR is centered on `IMPORT INTO` behavior and its main code change is in `pkg/executor/importer/import.go`, which is executor-owned and user-visible runtime semantics rather than incidental infra/test churn. The `stringutil` touch looks supporting, not the primary focus.","target_modules":["executor"]}

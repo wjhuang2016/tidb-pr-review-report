@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50474,"reason":"Single code change is in pkg/planner/cardinality/selectivity.go, and the subject describes a planner panic caused by access-path selection when table path and MV index path interact. That is clearly planner/optimizer behavior rather than incidental test or infra churn.","target_modules":["planner"]}

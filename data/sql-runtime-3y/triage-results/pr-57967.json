@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":57967,"reason":"The PR is entirely in `pkg/executor/infoschema_reader.go` and changes timeout behavior when the executor fetches TiFlash system-table data. Although it may be a narrow runtime tuning, it is directly centered on executor behavior rather than incidental test/infra/docs work.","target_modules":["executor"]}

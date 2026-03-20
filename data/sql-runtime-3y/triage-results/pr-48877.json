@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48877,"reason":"PR is a test migration only: it moves existing `pkg/planner/core` cases into `tests/integrationtest` and updates Bazel/testdata files, with no indicated production-code changes in planner or other core modules. Planner is touched only as test surface, not as behaviorally changed code.","target_modules":["planner"]}

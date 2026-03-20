@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":58656,"reason":"Localized expression bug fix in a single builtin (`TRUNCATE`) plus an integration test. It touches SQL function semantics, but the blast radius appears narrow and routine rather than central/systemic; this is unlikely to hide Blocker/High issues warranting a 20–40 minute deep review.","target_modules":["expression"]}

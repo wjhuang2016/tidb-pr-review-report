@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51466,"reason":"The PR is centered on `pkg/session/session.go` and changes when session variables are loaded relative to SQL parsing, which directly affects core session behavior and can influence parser/runtime semantics. The other touched files are supporting tests.","target_modules":["session","parser"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58407,"reason":"The PR is explicitly a planner bug fix for Instance Plan Cache and the only production code change is in `pkg/planner/core/plan_clone_utils.go`, with supporting planner cache tests. This is clearly centered on planner/runtime correctness rather than incidental touches.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":47901,"reason":"The PR is wholly centered on `pkg/statistics` and changes implementation code in global TopN/statistics merge paths, which are part of TiDB's statistics and cost-model behavior rather than incidental test/infra churn.","target_modules":["statistics"]}

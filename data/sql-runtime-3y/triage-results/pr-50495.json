@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50495,"reason":"The PR is directly centered on planner optimizer behavior: the only non-test code change is in pkg/planner/core/indexmerge_path.go, and the subject describes a fix to index-merge intersection path generation. That is a core planning/semantics issue, not an incidental touch.","target_modules":["planner"]}

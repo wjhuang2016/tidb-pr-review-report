@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58830,"reason":"The PR is explicitly about planner hint behavior for `IN` subqueries, and the main code changes are in `pkg/planner/core` (`expression_rewriter.go`, `logical_plan_builder.go`) with supporting hint handling. That is directly optimizer/planner semantics, not an incidental touch.","target_modules":["planner"]}

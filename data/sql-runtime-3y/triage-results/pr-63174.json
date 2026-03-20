@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63174,"reason":"The PR is directly centered on `pkg/sessionctx` sysvar/default behavior, with all code-path changes in `vardef` and `sysvar`. Changing the default assertion level is a session/sessionctx behavioral change with potentially broad runtime impact, not an incidental touch.","target_modules":["sessionctx","session"]}

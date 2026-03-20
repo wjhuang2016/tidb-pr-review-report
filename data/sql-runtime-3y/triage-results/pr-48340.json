@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48340,"reason":"The PR’s only non-test code change is in `pkg/store/copr/coprocessor.go`, and the subject describes fixing a coprocessor-cache panic triggered by a session setting. That is a core store/runtime-correctness issue, not an incidental test/infra touch.","target_modules":["store"]}

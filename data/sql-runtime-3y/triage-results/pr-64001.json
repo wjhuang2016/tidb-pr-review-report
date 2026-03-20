@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64001,"reason":"The PR is centered on `pkg/session/txn.go` with supporting transaction tests, and the subject is a session/transaction correctness fix (`rollback on killed txn may panic`). That is directly within the requested high-signal session/runtime behavior scope, not an incidental touch.","target_modules":["session"]}

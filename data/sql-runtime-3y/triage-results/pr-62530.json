@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":62530,"reason":"Only planner test files and testdata changed, with no planner/runtime implementation paths touched (`Target code count: 0`). This is coverage expansion for cascades-mode TPCH cases, not a core planner/executor/expression/session/statistics/kv/store/parser/table/privilege behavior change.","target_modules":["planner"]}

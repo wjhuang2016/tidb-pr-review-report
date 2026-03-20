@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50099,"reason":"PR is fully concentrated in `pkg/statistics/**` (3/3 target files, ratio 1.0) and the subject explicitly changes auto analyze behavior for pseudo tables, which is directly within statistics/cardinality/cost-model concerns rather than incidental infra or test churn.","target_modules":["statistics"]}

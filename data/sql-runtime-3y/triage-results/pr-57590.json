@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57590,"reason":"The only non-test code change is in `pkg/table/table.go`, and the subject indicates a semantic fix for updating partitioned table records by setting `AddRecordOpt.isUpdate = true`. That is a table-layer runtime correctness change, not an incidental touch or infra/test-only PR.","target_modules":["table"]}

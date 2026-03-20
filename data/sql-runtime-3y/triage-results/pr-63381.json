@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63381,"reason":"PR is clearly centered on planner semantics: it changes join elimination logic in `pkg/planner/core/rule_join_elimination.go`, which can affect optimizer correctness and query plans. The test change is supporting evidence, not the main substance.","target_modules":["planner"]}

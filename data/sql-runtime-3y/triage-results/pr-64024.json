@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64024,"reason":"The PR is centered on a planner-path change in `pkg/planner/core/planbuilder.go` to enforce DROP privilege for `TRUNCATE PARTITION`, with matching privilege integration tests. That is a direct privilege-enforcement and SQL behavior change, not an incidental touch.","target_modules":["planner","privilege"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52784,"reason":"The PR is explicitly scoped to `pkg/executor` and all listed non-test code changes are in core executor write paths (`insert_common.go`, `update.go`, `write.go`). This is not an incidental touch; it is centered on executor/runtime behavior for insert/load-data/update flows.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":60026,"reason":"Only metadata indicates a toolchain/dependency update in `pkg/parser/go.mod` (`parser: upgrade go1.23`). That is build/runtime infrastructure, not a clear change to parser SQL semantics or other core planner/executor/expression/session/statistics/kv/store/table/privilege behavior.","target_modules":["parser"]}

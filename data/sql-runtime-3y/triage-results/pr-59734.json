@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59734,"reason":"PR is directly centered on expression semantics: it changes LPAD/RPAD behavior in pkg/expression implementation and vectorized execution paths, with matching expression tests and integration results. This is a user-visible SQL builtin behavior change, not an incidental touch.","target_modules":["expression"]}

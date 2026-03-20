@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48326,"reason":"The PR is explicitly scoped to `executor`, with all code changes concentrated in `pkg/executor/analyze.go` plus matching executor tests. Adding a recover handler around `handleResultsError` is executor runtime/error-handling behavior, not an incidental touch.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56097,"reason":"The PR is fully concentrated in planner code paths and changes fast-path planning behavior via a fix control, which is directly tied to optimizer semantics rather than incidental tests or infra.","target_modules":["planner"]}

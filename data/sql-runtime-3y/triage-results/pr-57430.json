@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57430,"reason":"The PR is directly about fixing privilege enforcement for CTE + UPDATE, which is a high-signal correctness area. The only code changes are in planner core plan-building paths, and the added integration tests are privilege-behavior tests rather than incidental coverage.","target_modules":["planner","privilege"]}

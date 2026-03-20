@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51896,"reason":"The PR is entirely in `pkg/executor/infoschema_reader.go`, and the subject indicates a fix to `information_schema.columns` query behavior. That is directly user-visible executor/runtime correctness around metadata table reads, not an incidental touch.","target_modules":["executor","table"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49169,"reason":"Core change is in `pkg/statistics/histogram.go`, and the PR subject explicitly fixes histogram bucket merging logic. That is directly within statistics/cardinality behavior, which can affect optimizer estimates and plan quality; this is not an incidental test/infra/docs touch.","target_modules":["statistics"]}

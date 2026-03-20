@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64019,"reason":"The PR is fully concentrated in `pkg/statistics/scalar.go` with target ratio `1.0`, and the subject indicates a change in statistics scalar conversion logic. That is clearly within the `statistics` subsystem rather than incidental test/docs/infra work.","target_modules":["statistics"]}

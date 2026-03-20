@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60383,"reason":"The PR is clearly planner-centered: the subject is about index join enumeration and indexJoinInfo construction, and every changed file is under pkg/planner/core. That is directly in optimizer/planner semantics, not an incidental touch.","target_modules":["planner"]}

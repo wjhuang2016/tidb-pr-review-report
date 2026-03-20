@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49844,"reason":"PR is clearly centered on planner semantics: both code changes are in pkg/planner/core and the subject describes a correctness fix for enforced sort properties in index merge planning. The integration test is validating planner/executor-visible behavior, not incidental coverage.","target_modules":["planner"]}

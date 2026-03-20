@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65680,"reason":"The PR is entirely in `pkg/executor/sortexec` and fixes a sort spill hang, which is executor runtime correctness in a core target module rather than an incidental touch.","target_modules":["executor"]}

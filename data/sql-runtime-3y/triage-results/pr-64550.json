@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64550,"reason":"PR is entirely within `pkg/session` and changes bootstrap/session initialization behavior (`initialize MDL if start in normal mode during bootstrap`), which is directly in scope for session runtime correctness rather than an incidental touch.","target_modules":["session"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50666,"reason":"All listed changes are in `pkg/planner/core` and `pkg/sessionctx/stmtctx`, with a 1.0 target ratio. The subject indicates hint-warning tracing, which is tied to planner hint handling and statement-context warning behavior rather than incidental test/infra churn.","target_modules":["planner","sessionctx"]}

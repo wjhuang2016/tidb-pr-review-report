@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61141,"reason":"Core planner logic is directly changed in `pkg/planner/core/point_get_plan.go`, and the subject is a PointGet correctness fix for partitioned tables. This is clearly planner/optimizer behavior rather than incidental test or infra work.","target_modules":["planner"]}

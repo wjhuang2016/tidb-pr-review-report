@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55224,"reason":"Disabling hash join v2 changes a core join execution path in `pkg/executor`; even as a narrow diff, it can broadly affect runtime behavior and fallback correctness for many queries, which is central and risky enough for Blocker/High-focused review.","target_modules":["pkg/executor/join"]}

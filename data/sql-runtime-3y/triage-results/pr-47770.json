@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":47770,"reason":"PR is centered on `pkg/statistics` with a direct logic change in global stats merge error handling, which is a core statistics/cardinality behavior rather than an incidental touch. The diff is concentrated in the target module and includes matching tests.","target_modules":["statistics"]}

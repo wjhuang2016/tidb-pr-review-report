@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53003,"reason":"The PR is entirely in `pkg/expression` and changes `builtin_encryption.go`, which directly affects expression-function semantics for `md5`. This is core expression/runtime behavior rather than incidental test or infra work.","target_modules":["expression"]}

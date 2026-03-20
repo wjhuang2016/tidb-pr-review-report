@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":66202,"reason":"Only planner casetest testdata files were changed. The subject indicates a test-expectation adjustment for ignoring plan IDs in `EXPLAIN FORMAT = brief`, with no production code changes in planner, executor, expression, session, statistics, kv/store, parser, table, or privilege behavior.","target_modules":["planner"]}

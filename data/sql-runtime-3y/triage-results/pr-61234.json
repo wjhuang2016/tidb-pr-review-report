@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61234,"reason":"PR is clearly centered on planner behavior: the subject describes a fix to primary index hint handling under TiFlash isolation read, and the only non-test code change is in pkg/planner/core/planbuilder.go. That is a direct planner/optimizer semantics path, not an incidental touch.","target_modules":["planner"]}

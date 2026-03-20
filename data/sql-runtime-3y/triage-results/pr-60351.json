@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":60351,"reason":"Only `pkg/privilege/privileges/privileges_test.go` changed, and the PR is explicitly about uncommenting two test cases. There are no production code changes in privilege enforcement or other core target modules, so this is test-only rather than a privilege-behavior change.","target_modules":["privilege"]}

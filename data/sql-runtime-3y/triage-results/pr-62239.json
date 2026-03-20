@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62239,"reason":"The PR is directly centered on SQL expression semantics and MySQL compatibility: it changes `pkg/expression/builtin_time.go` for `sec_to_time` behavior, with only matching integration-test updates. This is a core `expression` path, not an incidental touch.","target_modules":["expression"]}

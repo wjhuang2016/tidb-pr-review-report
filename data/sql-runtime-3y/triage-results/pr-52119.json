@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52119,"reason":"The only production-code change is in `pkg/expression/constant_fold.go`, and the subject is about `ifnull` collation behavior during constant folding. That is directly expression semantic/type-collation logic, not an incidental touch.","target_modules":["expression"]}

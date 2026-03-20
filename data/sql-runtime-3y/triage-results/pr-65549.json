@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65549,"reason":"Tests-only change focused on network port assignment. The diff touches `pkg/executor/..._test.go` and `pkg/server/tests/..._test.go` with no production code paths, and the subject indicates infra/test stabilization rather than planner/executor/session/kv/parser/table/privilege behavior.","target_modules":[]}

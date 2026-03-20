@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58455,"reason":"The PR is entirely centered on `pkg/executor/slow_query.go` with a matching executor SQL test, and the subject is a user-visible time zone correctness fix when querying slow log data. That is executor/runtime behavior, not an incidental touch.","target_modules":["executor"]}

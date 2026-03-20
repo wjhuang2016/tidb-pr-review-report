@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54405,"reason":"The PR is clearly centered on core join behavior: it adds right outer join support for hash join v2 and changes executor join probe logic plus planner physical plan code. Those are high-blast-radius executor/runtime and planner semantics paths, not incidental touches.","target_modules":["executor","planner"]}

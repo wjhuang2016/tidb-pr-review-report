@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64796,"reason":"The PR is centered on core planner cardinality/selectivity logic and removes a planner fix control, which can directly change optimizer semantics and cost-model behavior. The touched files are all in planner paths, not incidental tests or infra.","target_modules":["planner","statistics"]}

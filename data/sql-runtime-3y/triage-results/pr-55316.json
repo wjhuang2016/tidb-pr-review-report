@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55316,"reason":"The change is centered on system variable parsing/validation in `pkg/sessionctx/variable` for a planner-related memory setting, with all non-test code in target-module paths. This is user-visible session/sessionctx behavior rather than incidental coverage.","target_modules":["sessionctx"]}

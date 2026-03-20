@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":64428,"reason":"Only test files changed, despite being under statistics. The subject is a flaky test fix, with no indicated production-code changes in statistics/cardinality/cost-model behavior or other core modules.","target_modules":["statistics"]}

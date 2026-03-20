@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55303,"reason":"This PR is clearly centered on planner internals: it changes `pkg/planner/core` plan-cache clone behavior for `SelectLock`, including the generator and generated clone code. That is directly in a high-signal planner correctness path rather than an incidental touch.","target_modules":["planner"]}

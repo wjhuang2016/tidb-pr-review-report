@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49379,"reason":"The PR is entirely within `pkg/statistics/fmsketch.go`, and FM Sketch logic is core statistics machinery that can affect cardinality estimation and planner cost behavior. This is clearly centered on a target module rather than incidental infra/test churn.","target_modules":["statistics"]}

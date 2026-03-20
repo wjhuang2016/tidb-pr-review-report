@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":59100,"reason":"Only `pkg/executor/utils_test.go` changed, and the subject is stabilizing `TestWorkerPool`. Metadata shows `Target code count: 0` and no target production paths. This is a test-only change, not clearly centered on executor/runtime semantics or other high-blast-radius core modules.","target_modules":[]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61757,"reason":"The PR is entirely within `pkg/planner/core/planbuilder.go`, and the subject indicates a planner logic change rather than incidental test/docs/infra work. Even if framed as a minor optimization, changes in plan building can affect planner semantics and have non-trivial blast radius.","target_modules":["planner"]}

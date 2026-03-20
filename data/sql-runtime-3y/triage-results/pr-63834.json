@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63834,"reason":"The PR is entirely in `pkg/planner/core/planbuilder.go` and the subject indicates a planner-behavior change, not incidental tests/docs/infra. Even 'redundant variable handling' in plan building can affect planning semantics, so it fits the target review scope.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55943,"reason":"PR is entirely within pkg/statistics/handle/cache/statscache.go and the subject/focus are explicitly about statistics synchronization behavior, which is a core target area rather than an incidental touch.","target_modules":["statistics"]}

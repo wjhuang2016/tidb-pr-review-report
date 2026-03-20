@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":62195,"reason":"Only a planner test Bazel file changed (`pkg/planner/core/casetest/instanceplancache/BUILD.bazel`) to adjust casetest timeout. There are no target-module code changes and no evidence of planner/executor/expression/session/statistics/kv/store/parser/table/privilege semantics being modified.","target_modules":["planner"]}

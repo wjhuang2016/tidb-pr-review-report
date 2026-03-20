@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48550,"reason":"The PR is explicitly about adding JSON cast pushdown support and the only non-test code change is in pkg/expression/expression.go, with matching expression pushdown tests. That is a direct expression-semantics/runtime-translation change, not an incidental touch.","target_modules":["expression"]}

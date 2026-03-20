@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":46608,"reason":"The only code change is in `pkg/table/tables/tables.go`, and the PR is about user-visible duplicate-key error behavior for prefix indexes, with matching integration tests under table/session surfaces. That is a core `table`/runtime compatibility concern rather than an incidental touch.","target_modules":["table"]}

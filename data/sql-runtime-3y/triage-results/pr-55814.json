@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55814,"reason":"The PR is centered on a real code change in `pkg/executor/infoschema_reader.go` and fixes user-visible `information_schema.statistics` output (`sub_part`). That is executor-side correctness, not an incidental touch or test/doc/infra-only change.","target_modules":["executor"]}

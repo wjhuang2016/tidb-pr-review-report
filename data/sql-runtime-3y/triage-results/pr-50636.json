@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50636,"reason":"The PR is entirely within `pkg/expression` and changes expression context behavior (`always read location from types.Context`), which is plausibly core expression-runtime semantics rather than an incidental touch.","target_modules":["expression"]}

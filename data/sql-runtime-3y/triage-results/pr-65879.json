@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65879,"reason":"The PR is directly changing `pkg/executor/simple.go` to support a new `FLUSH STATS_DELTA CLUSTER` behavior. From metadata alone, that is clearly centered on executor handling of a statistics-related SQL operation, not an incidental touch.","target_modules":["executor","statistics"]}

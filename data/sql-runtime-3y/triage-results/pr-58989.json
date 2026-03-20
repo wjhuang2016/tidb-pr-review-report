@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":58989,"reason":"Test-only PR. Metadata shows no target production code paths changed, only a planner test and its BUILD file for logical operator clone coverage. That is not clearly centered on planner semantics or other high-blast-radius runtime behavior changes.","target_modules":["planner"]}

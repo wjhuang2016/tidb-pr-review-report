@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51812,"reason":"The PR is entirely scoped to an executor source file (`pkg/executor/compact_table.go`), and the subject indicates a runtime correctness fix (`Fix compact for VARCHAR PK`) rather than incidental tests/docs/infra. From metadata alone, this is clearly centered on executor behavior.","target_modules":["executor"]}

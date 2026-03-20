@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66670,"reason":"Planner-centered change to IndexMerge path generation/selection in pkg/planner/core, which directly affects optimizer semantics and plan choices. The non-code changes are planner integration tests for the same behavior, so this is not incidental.","target_modules":["planner"]}

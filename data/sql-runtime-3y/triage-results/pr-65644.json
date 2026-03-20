@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65644,"reason":"Only `pkg/store/store_test.go` changed and the subject is a flaky test fix. Metadata shows no target code paths and zero target code changes, so this appears to be test-only work in the store area, not a PR centered on store/kv behavior.","target_modules":["store"]}

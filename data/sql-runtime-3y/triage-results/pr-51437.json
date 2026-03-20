@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51437,"reason":"The PR is centered on adding and wiring a new system variable in `pkg/sessionctx/variable`, with supporting domain sysvar propagation. That is a direct `sessionctx` behavioral change rather than an incidental touch.","target_modules":["sessionctx"]}

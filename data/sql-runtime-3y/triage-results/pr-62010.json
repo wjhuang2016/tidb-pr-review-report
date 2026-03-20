@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62010,"reason":"All non-test code changes are in `pkg/expression` builtin implementation files, with matching unit and integration tests. The subject also suggests a MySQL-compatibility behavior fix, which is a core expression-semantics concern rather than an incidental touch.","target_modules":["expression"]}

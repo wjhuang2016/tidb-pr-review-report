@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60438,"reason":"The PR is explicitly scoped to `stats` and its only non-test code change is in `pkg/statistics/handle/storage/save.go`, with matching statistics integration tests. That is a direct statistics behavior change, not an incidental touch.","target_modules":["statistics"]}

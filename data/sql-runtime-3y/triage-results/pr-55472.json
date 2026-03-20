@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55472,"reason":"The PR is fully centered on `pkg/expression` code paths and tests, with a subject indicating removal of a session-var/property reader from `builtinGetParamStringSig`. That is a direct expression-runtime behavior change, not an incidental touch.","target_modules":["expression"]}

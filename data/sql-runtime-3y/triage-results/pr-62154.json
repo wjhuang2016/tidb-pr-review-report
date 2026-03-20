@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62154,"reason":"The PR is centered on executor runtime correctness: it changes `pkg/executor/sortexec/topn.go` and adds executor tests for `RequiredRows` behavior in `TopNExec`. This is a direct executor semantics fix, not an incidental touch.","target_modules":["executor"]}

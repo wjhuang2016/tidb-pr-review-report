@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51205,"reason":"The PR is explicitly a planner bug fix, changes only planner core code plus its test, and touches `PhysicalTableScan.ExtractCorrelatedCols`, which is optimizer/planner semantics rather than incidental infra or test-only churn.","target_modules":["planner"]}

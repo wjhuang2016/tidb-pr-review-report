@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":49582,"reason":"Only test coverage and Bazel metadata changed under statistics (`pkg/statistics/handle/ddl/ddl_test.go`, `BUILD.bazel`). No production planner/executor/expression/session/statistics behavior appears to be modified, so this is not clearly centered on high-blast-radius target-module logic.","target_modules":["statistics"]}

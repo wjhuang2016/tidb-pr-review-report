@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54838,"reason":"Touches only planner core plan-cache code for fast point get, so the PR is clearly centered on planner behavior and cached-plan correctness rather than incidental tests/infra.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54855,"reason":"PR is squarely in `pkg/executor/join` and fixes a query hang on context cancellation in `index_hash_join`, which is executor runtime-correctness behavior rather than incidental test/infra churn.","target_modules":["executor"]}

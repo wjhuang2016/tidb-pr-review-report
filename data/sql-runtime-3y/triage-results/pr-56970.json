@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56970,"reason":"Changes touch `pkg/util/ranger` and planner integration tests for `range_scan_for_like`, which strongly suggests optimizer/range-derivation behavior changed for PAD SPACE collation handling. That is a planner-semantics path, not an incidental util-only refactor.","target_modules":["planner"]}

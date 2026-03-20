@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63484,"reason":"The PR is clearly centered on core SQL semantics for a new `SET INSTANCE` statement. All listed code paths are in parser, planner, executor, and expression layers, with 100% target-path ratio and matching tests, so this is not an incidental touch.","target_modules":["parser","planner","executor","expression"]}

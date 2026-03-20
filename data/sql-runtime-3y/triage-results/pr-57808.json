@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57808,"reason":"The PR is entirely concentrated in `pkg/parser/**` plus parser tests, with a 1.0 target ratio and subject explicitly adding new SQL statements. That is a direct parser-surface change to SQL grammar/AST handling, not an incidental touch.","target_modules":["parser"]}

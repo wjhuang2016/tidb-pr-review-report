@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48640,"reason":"The PR is fully concentrated in `pkg/planner/core/*` and the subject is a planner panic fix in hint restoration during plan construction/join reordering. That is core optimizer behavior with potential semantic/runtime impact, not an incidental touch.","target_modules":["planner"]}

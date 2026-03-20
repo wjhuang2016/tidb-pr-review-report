@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52373,"reason":"The PR is centered on prepared statement and plan cache internals, with most touched files in planner, executor, parser AST, and session. Those are core runtime and SQL-semantics paths rather than incidental tests or infra changes.","target_modules":["planner","executor","parser","session"]}

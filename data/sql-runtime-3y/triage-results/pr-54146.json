@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54146,"reason":"PR is directly centered on expression semantics: it changes YEAR-to-JSON casting behavior in `pkg/expression` with matching SQL integration tests. This is a user-visible type/cast correctness change in a high-signal module, not an incidental touch.","target_modules":["expression"]}

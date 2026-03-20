@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66998,"reason":"PR is directly centered on planner/optimizer semantics: it changes `pkg/planner/core/rule_join_elimination.go` to prevent an unsafe outer join elimination case, which can affect query correctness and has high blast radius. The test change is supporting evidence, not the main work.","target_modules":["planner"]}

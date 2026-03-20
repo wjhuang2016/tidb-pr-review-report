@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56166,"reason":"The only functional change is in `pkg/executor/importer/chunk_process.go`, and the subject indicates a panic-protection fix in the import encode loop. That is squarely executor runtime-correctness work, not an incidental test/docs/infra touch.","target_modules":["executor"]}

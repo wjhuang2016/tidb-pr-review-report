@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":60922,"reason":"Subject is a `nogo` linter change, and the file set is dominated by lint/infra metadata plus small fixes in `pkg/store/mockstore/unistore`. That points to static-analysis cleanup rather than a PR centered on storage/kv behavior, SQL semantics, or other high-blast-radius runtime logic.","target_modules":["store"]}

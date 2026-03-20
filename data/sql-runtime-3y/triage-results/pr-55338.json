@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55338,"reason":"The PR is entirely in `pkg/sessionctx/variable/session.go` and the title points to a data-race fix in `GetTemporaryTable`, which is a session/sessionctx runtime-correctness issue with temporary-table handling, not an incidental touch.","target_modules":["sessionctx","table"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":62706,"reason":"Only planner test and testdata files changed; there are no production code paths touched (`Target code count: 0`). This looks like coverage expansion for cascades mode, not a planner/runtime semantics change requiring deep review.","target_modules":["planner"]}

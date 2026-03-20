@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54571,"reason":"The PR is entirely centered on `pkg/store/gcworker`, and changing `deleteRanges` concurrency affects core GC behavior in the store layer. That is a direct `store` concern with potential correctness/performance impact, not an incidental touch.","target_modules":["store"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57787,"reason":"The PR is explicitly about planner behavior: enabling Instance Plan Cache hits for UPDATE on partition tables. All non-test code changes are in pkg/planner/core, which is a high-signal planner/optimizer path rather than incidental test or infra churn.","target_modules":["planner"]}

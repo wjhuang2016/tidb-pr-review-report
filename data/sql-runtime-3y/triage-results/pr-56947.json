@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56947,"reason":"The only code change is in `pkg/planner/core/rule_predicate_simplification.go`, and the PR fixes a planner predicate-simplification panic on expressions like `rand()`. That is directly about planner/optimizer correctness with potential SQL-semantic impact, not an incidental touch.","target_modules":["planner"]}

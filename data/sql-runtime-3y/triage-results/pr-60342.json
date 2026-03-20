@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60342,"reason":"The PR is entirely confined to planner core/property code and is explicitly about refactoring index join planning to a property-based mechanism. That is directly in optimizer/planner semantics, not an incidental touch, and can affect physical plan generation and costing behavior.","target_modules":["planner"]}

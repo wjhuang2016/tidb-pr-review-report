@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":47598,"reason":"The PR is entirely within `pkg/statistics/cmsketch.go`, and the subject indicates a direct change to CMSketch/TopN proto handling. That is squarely in the statistics/cardinality path, not an incidental touch or infra-only change.","target_modules":["statistics"]}

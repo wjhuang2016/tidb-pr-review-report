@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51809,"reason":"The PR is clearly centered on executor runtime behavior: it adds TopN spill support with substantial changes in `pkg/executor/sortexec/*` plus executor builder wiring. That is core executor correctness/resource-management logic, not an incidental touch or test/infra-only change.","target_modules":["executor"]}

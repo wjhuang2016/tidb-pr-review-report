@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59688,"reason":"The PR is centered on `pkg/expression/builtin_json.go` and fixes `JSON_ARRAY_APPEND` behavior, which is a core SQL expression semantics/runtime-correctness change rather than an incidental touch. The accompanying integration tests also target expression behavior.","target_modules":["expression"]}

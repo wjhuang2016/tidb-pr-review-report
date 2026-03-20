@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63527,"reason":"Only a test file changed (`pkg/executor/test/issuetest/executor_issue_test.go`), and the subject explicitly says it fixes a flaky test. There is no evidence of executor/runtime logic or other core module behavior changes from the provided metadata.","target_modules":["executor"]}

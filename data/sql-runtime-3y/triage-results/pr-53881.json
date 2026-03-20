@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53881,"reason":"The PR is entirely in `pkg/executor/sortexec/sort.go` and explicitly changes sort executor buffering behavior, which is a core executor runtime concern rather than an incidental touch.","target_modules":["executor"]}

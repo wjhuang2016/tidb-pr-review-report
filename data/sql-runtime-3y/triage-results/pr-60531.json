@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60531,"reason":"The PR is entirely within `pkg/executor/join/*` and changes hash join v2 runtime behavior. That is core executor correctness, not an incidental touch.","target_modules":["executor"]}

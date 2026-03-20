@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":61890,"reason":"Single-path session bootstrap fix for a missed `rs.close()` call, with a matching test. This looks like a narrow resource/lifecycle cleanup in startup logic rather than a broad change to session semantics, transactions, protocol behavior, or other high-blast-radius runtime paths.","target_modules":["session"]}

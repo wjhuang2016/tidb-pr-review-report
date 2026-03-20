@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":47883,"reason":"Touches `pkg/planner/core/rule_join_reorder.go`, which is core optimizer logic. Even with a small diff, a panic fix around join-reorder/column-pruning usually means planner invariant handling, and mistakes there can cause broad planning panics or wrong-plan behavior.","target_modules":["planner"]}

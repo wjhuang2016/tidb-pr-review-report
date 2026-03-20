@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63520,"reason":"Only a flaky-test cleanup in pkg/executor/test/indexmergereadtest/index_merge_reader_test.go. No production code paths in planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege are changed, so this is not clearly centered on core module behavior.","target_modules":["executor"]}

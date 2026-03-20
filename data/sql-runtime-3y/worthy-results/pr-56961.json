@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":56961,"reason":"Adds a new core cascades planner memo abstraction (`memo_expr`) for logical/group-expression representation. Even as a small diff, memo structure changes are central optimizer infrastructure and can hide high-blast-radius planner correctness/invariant bugs.","target_modules":["pkg/planner/cascades/memo"]}

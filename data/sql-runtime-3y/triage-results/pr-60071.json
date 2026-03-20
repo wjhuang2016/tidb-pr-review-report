@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60071,"reason":"PR is explicitly a planner correctness fix in `pkg/planner/core/exhaust_physical_plans.go` for wrong HashAgg estimated rows under index join. That is core optimizer/cardinality behavior, not an incidental touch; the remaining files are matching planner tests/testdata.","target_modules":["planner","statistics"]}

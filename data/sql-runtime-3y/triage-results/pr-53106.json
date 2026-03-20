@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53106,"reason":"The PR is entirely within `pkg/executor` and `pkg/store` MPP code, and the subject indicates an executor runtime correctness fix on an error path (`mppIterator` memory leak). Those are core target modules rather than incidental touches.","target_modules":["executor","store"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49205,"reason":"The PR is centered on adding SQL `OPTIMIZE` statement support, with the changed code concentrated in `pkg/parser/*` and a corresponding `pkg/planner/core/planbuilder.go` update. That is directly in scope for parser and planner semantics, not an incidental touch.","target_modules":["parser","planner"]}

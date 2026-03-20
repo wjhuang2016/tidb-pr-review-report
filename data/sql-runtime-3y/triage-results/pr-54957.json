@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54957,"reason":"PR is entirely in `pkg/planner/core` and changes `CloneForPlanCache` generation for physical operators, which is planner-core logic with direct plan-cache correctness risk rather than incidental tests/infra/docs work.","target_modules":["planner"]}

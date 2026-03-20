@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56380,"reason":"Touches planner core in `pkg/planner/core/plan_cache_utils.go` and is centered on plan cache behavior, which can affect planning semantics and executor-visible correctness. Despite the test-heavy subject, the core change is in a high-signal planner path, not an incidental touch.","target_modules":["planner"]}

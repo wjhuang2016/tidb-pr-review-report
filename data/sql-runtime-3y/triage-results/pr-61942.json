@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61942,"reason":"The PR is clearly centered on core parser and planner behavior: it adds new `EXPLAIN [ANALYZE] <plan_digest>` syntax in `pkg/parser/*` and planner handling in `pkg/planner/core/*`. That is a direct SQL-semantics and plan-construction change, not an incidental touch.","target_modules":["parser","planner"]}

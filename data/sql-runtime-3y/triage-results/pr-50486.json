@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50486,"reason":"PR is clearly centered on expression pushdown behavior: it changes `pkg/expression/infer_pushdown.go` to allow `power` pushdown to TiFlash/TiKV, which directly affects expression semantics and planner/executor pushdown decisions rather than incidental test/infra/docs touchups.","target_modules":["expression"]}

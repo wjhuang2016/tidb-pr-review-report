@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66031,"reason":"The PR is fully concentrated in `pkg/parser/**` and explicitly adds SQL grammar support for column masking. Parser SQL semantics are a high-signal target area, and the AST/parser file set shows core parser behavior rather than incidental touches.","target_modules":["parser"]}

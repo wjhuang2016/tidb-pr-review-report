@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53135,"reason":"The PR is explicitly about plan cache behavior for fast point get and its main code changes are in `pkg/planner/core/plan_cache.go` plus executor compile/adapter paths. That is directly centered on planner/executor runtime semantics rather than incidental tests or infra.","target_modules":["planner","executor"]}

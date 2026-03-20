@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":51561,"reason":"The PR appears to be a redaction-function migration centered on `pkg/util/redact`, with `session`/`sessionctx` as call-site updates rather than changes to session semantics, transaction behavior, parser/executor logic, or other high-blast-radius runtime paths.","target_modules":["session","sessionctx"]}

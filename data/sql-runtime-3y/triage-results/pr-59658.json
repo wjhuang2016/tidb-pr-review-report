@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59658,"reason":"PR is centered on executor runtime correctness: it fixes a parallel sort hang/backpressure issue in `pkg/executor/sortexec`, and the non-test code changes are all in executor paths rather than incidental infra or docs.","target_modules":["executor"]}

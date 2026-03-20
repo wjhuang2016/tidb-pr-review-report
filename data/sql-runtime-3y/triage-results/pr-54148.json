@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54148,"reason":"All non-test code changes are in `pkg/planner/core`, covering logical plan construction, column pruning, and physical plan generation. Although the subject suggests a preparatory refactor, it is still clearly centered on planner internals and could affect optimizer behavior.","target_modules":["planner"]}

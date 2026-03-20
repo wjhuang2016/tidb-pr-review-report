@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63626,"reason":"All non-test changes are in `pkg/statistics` with a 1.0 target ratio, touching bootstrap/storage/syncload/table state handling. Even if the change is small, it is clearly centered on statistics behavior rather than incidental infra/docs/tests, so it merits deep review.","target_modules":["statistics"]}

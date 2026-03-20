@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55136,"reason":"PR is centered on `pkg/planner/core` with code changes in physical plan generation and plan-cache rebuild paths, which are core planner behaviors rather than incidental touches.","target_modules":["planner"]}

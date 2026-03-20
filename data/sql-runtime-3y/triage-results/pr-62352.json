@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62352,"reason":"The PR is centered on core executor code (`pkg/executor/join/*`) and changes error-handling behavior in `Close` for hash join v1 from returning errors to logging them. That is a runtime-correctness/observability contract change in executor behavior, not an incidental touch.","target_modules":["executor"]}

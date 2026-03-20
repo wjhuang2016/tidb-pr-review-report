@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":60298,"reason":"The only changed file is in `pkg/executor/join/joinversion`, and the subject indicates a hash-join version/gating change. Even though it is framed as \"for tests,\" it appears centered on executor join behavior rather than incidental test or infra-only touch.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60516,"reason":"The only code change is in `pkg/planner/core/point_get_plan.go`, and the subject says it adds hint checking on the planner fast path. That is a direct planner behavior change that can affect plan selection/optimizer semantics, not an incidental touch.","target_modules":["planner"]}

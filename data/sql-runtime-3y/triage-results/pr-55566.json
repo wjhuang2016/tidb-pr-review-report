@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55566,"reason":"The PR is centered on `pkg/executor/show.go` and changes `SHOW TABLES` visibility for local temporary tables, which is a user-visible executor/runtime behavior with session-scoped table semantics. This is not an incidental touch or infra/test-only change.","target_modules":["executor","session","table"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51862,"reason":"The PR is explicitly scoped to executor behavior, and the only non-test code change is in `pkg/executor/insert_common.go`, indicating executor/runtime correctness rather than incidental touches. The DDL file is a test, so the review center remains executor.","target_modules":["executor"]}

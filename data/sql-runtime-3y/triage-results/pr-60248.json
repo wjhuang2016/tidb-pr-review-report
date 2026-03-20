@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":60248,"reason":"Only planner test artifacts changed (casetest, testdata, BUILD, test file) with no production code paths touched. This looks like added TPCH MPP coverage, not a planner/executor/expression/session/statistics/kv/store/parser/table/privilege behavior change.","target_modules":["planner"]}

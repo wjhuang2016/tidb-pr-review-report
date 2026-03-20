@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":51035,"reason":"Only changed file is pkg/executor/benchmark_test.go and target code count is 0. This is a benchmark/test-only change, not clearly centered on planner/executor semantics or other core runtime behavior.","target_modules":["executor"]}

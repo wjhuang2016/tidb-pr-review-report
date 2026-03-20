@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63386,"reason":"The PR is entirely within `pkg/planner/core/find_best_task.go`, and the subject references logic in `hasOnlyEqualPredicatesInDNF`, which is planner/optimizer predicate-analysis code. That is core planner semantics, not an incidental touch.","target_modules":["planner"]}

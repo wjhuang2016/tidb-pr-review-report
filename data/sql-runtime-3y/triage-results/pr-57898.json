@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57898,"reason":"The PR is centered on `pkg/sessionctx/variable/sysvar.go` and a matching `pkg/executor/set_test.go`, so it directly concerns system-variable and warning semantics in `sessionctx`/runtime `SET` behavior rather than incidental infra or test-only changes.","target_modules":["sessionctx","executor"]}

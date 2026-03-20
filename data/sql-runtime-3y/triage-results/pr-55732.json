@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55732,"reason":"PR is clearly centered on planner semantics: it fixes incorrect `handleColHelper` maintenance for recursive CTEs in `pkg/planner/core`, with matching CTE integration tests. The touched non-code files are validation, not incidental infra/docs changes.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50615,"reason":"The PR is wholly concentrated in `pkg/executor/infoschema_reader.go` and the subject describes an executor correctness issue (`processedRows` exceeding `totalCnt`). That is directly within executor/runtime behavior rather than incidental infra, docs, or tests.","target_modules":["executor"]}

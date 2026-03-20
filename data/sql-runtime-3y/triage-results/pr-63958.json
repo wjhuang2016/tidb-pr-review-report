@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63958,"reason":"PR is clearly centered on planner optimizer semantics: it changes core IndexJoin index-selection logic in pkg/planner/core (including find_best_task/cost-path selection) and adds planner integration coverage. This is a high-blast-radius planner change, not an incidental touch.","target_modules":["planner"]}

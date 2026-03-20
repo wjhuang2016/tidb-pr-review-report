@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60340,"reason":"The PR is centered on core `executor` and `table` code paths: `insert`/`replace` execution plus unique-index temp value handling in table index code. That points to runtime correctness and index/storage consistency behavior, not incidental tests or infrastructure.","target_modules":["executor","table"]}

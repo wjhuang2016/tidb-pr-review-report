@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63718,"reason":"The PR is clearly centered on parser SQL semantics: every non-test code change is in `pkg/parser/**`, and the subject adds AST/grammar support for `init stats mode` in `REFRESH STATS`. That is a direct change to a target core area rather than an incidental touch.","target_modules":["parser","statistics"]}

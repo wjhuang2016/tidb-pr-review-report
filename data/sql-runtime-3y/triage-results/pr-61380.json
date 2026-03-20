@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61380,"reason":"The PR is explicitly scoped to planner/executor and 3 of 4 changed files are core planner/executor code paths (`planbuilder`, `pb_to_plan`, `simple.go`), which strongly suggests query-planning and execution behavior changes rather than incidental touches.","target_modules":["planner","executor"]}

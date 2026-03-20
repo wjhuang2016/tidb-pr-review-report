@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":51049,"reason":"This PR is centered on DDL partition support, not the listed core modules. The only focus-area touch is `pkg/parser/model/model.go`, which looks like shared metadata/model plumbing rather than parser SQL semantics; the rest is DDL code and partition tests/results.","target_modules":["parser"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54537,"reason":"The PR is centered on `pkg/planner/core` with 100% of target code touches in planner production files (`plan_cache.go`, `plan_cache_utils.go`), and the subject references `Plan.Clone`, which is planner semantics rather than incidental infra/test-only work.","target_modules":["planner"]}

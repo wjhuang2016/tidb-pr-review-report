@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55258,"reason":"The PR is entirely concentrated in parser grammar/keyword generation files and tests, and it changes a SQL keyword token name. That is directly a parser SQL-semantics concern, not an incidental touch.","target_modules":["parser"]}

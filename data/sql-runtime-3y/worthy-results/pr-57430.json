@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57430,"reason":"Touches core planner privilege-check logic for `CTE` + `UPDATE` in `planbuilder` paths. Privilege enforcement bugs are high-blast-radius security/correctness issues, and changes in planner authorization logic can easily hide Blocker/High defects even with a small diff.","target_modules":["planner","privilege"]}

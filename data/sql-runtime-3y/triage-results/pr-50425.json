@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50425,"reason":"The PR is centered on `pkg/executor/builder.go`, and the subject describes a schema check during table reader executor construction. That is directly in executor build/runtime correctness, not an incidental touch; the other changed files are executor tests.","target_modules":["executor"]}

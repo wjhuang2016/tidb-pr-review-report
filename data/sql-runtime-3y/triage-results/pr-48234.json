@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48234,"reason":"Only test and Bazel metadata files changed under executor test coverage for index merge; the PR is about speeding up a slow test, not changing planner/executor/expression/session/statistics/kv/parser/table/privilege production behavior or semantics.","target_modules":["executor"]}

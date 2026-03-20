@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64520,"reason":"Planner-only code change in `pkg/planner/core/planbuilder.go` fixes optimizer hint interaction (`index_lookup_pushdown`) that can alter plan selection even when pushdown is disallowed. That is directly planner/optimizer semantics, with tests only validating the behavior.","target_modules":["planner"]}

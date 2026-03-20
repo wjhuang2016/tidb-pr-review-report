@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":67076,"reason":"Adds new SQL syntax and semantics for LATERAL derived tables, touching both parser and planner preprocessing. This has high blast radius around name resolution, correlation scope, and query legality, making Blocker/High issues plausible.","target_modules":["pkg/parser","pkg/planner/core/preprocess.go"]}

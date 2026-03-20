@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50081,"reason":"The PR is centered on renaming a user-visible optimizer/bindinfo system variable, and the non-test code changes are all in `pkg/sessionctx/variable/*`. That makes it a real `sessionctx` compatibility/behavior change rather than an incidental touch.","target_modules":["sessionctx"]}

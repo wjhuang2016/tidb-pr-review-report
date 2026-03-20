@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60171,"reason":"The PR is entirely centered on `pkg/statistics` with a direct code change in `pkg/statistics/table.go`, and the subject indicates a correctness fix to cloning statistics state (`ColAndIdxExistenceMap`). That is a core statistics/cardinality behavior, not an incidental touch.","target_modules":["statistics"]}

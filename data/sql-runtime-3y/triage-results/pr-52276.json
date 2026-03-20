@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52276,"reason":"The only non-test code change is in `pkg/executor/importer/precheck.go`, and the PR changes import runtime thread-selection behavior for global sort. That is a direct executor-path behavior change, not an incidental touch or pure test/infra update.","target_modules":["executor"]}

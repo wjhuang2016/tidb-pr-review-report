@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57681,"reason":"The PR is directly about fixing incorrect INSERT behavior on hash partitions and the only production code path changed is `pkg/table/tables/partition.go`. That is squarely a table-layer runtime correctness issue, not an incidental touch or infra-only change.","target_modules":["table"]}

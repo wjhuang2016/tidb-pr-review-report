@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49689,"reason":"The PR is entirely centered on `pkg/sessionctx/stmtctx`, a core `sessionctx` runtime path. Adding caching in `errctx`/`stmtctx` is not an incidental touch; it can affect statement-context behavior and error handling across execution paths.","target_modules":["sessionctx"]}

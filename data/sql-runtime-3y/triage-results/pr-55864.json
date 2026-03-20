@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55864,"reason":"The PR is explicitly an executor bug fix, with all changed code under `pkg/executor/join/*` and the subject indicating a hash join v2 runtime correctness issue (`index out of range`). This is clearly centered on executor behavior rather than incidental touches.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49822,"reason":"The PR is explicitly about the statistics subsystem, and the main code paths are in `pkg/statistics/handle/*` with only supporting domain/test changes around them. `autoanalyze` and its handle interfaces are core statistics behavior, not incidental touches.","target_modules":["statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61808,"reason":"The PR is entirely centered on `pkg/executor/aggfuncs` and fixes a runtime correctness bug in spilled hash aggregation (`GROUP_CONCAT` partial result serialization/deserialization). That is a core executor behavior, not an incidental touch.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48867,"reason":"The PR is in a planner file, but the metadata says it only refines the error message for split clustered index and updates the expected integration output. That points to a user-facing text change rather than planner semantics, optimizer behavior, or executor/runtime correctness.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"skip","pr":50010,"reason":"The only touched path is in executor MPP coordination, but the subject is specifically about an unexpected gRPC EOF error log. From metadata alone this looks like log/observability cleanup in executor internals, not a clearly core change to executor semantics or runtime correctness.","target_modules":["executor"]}

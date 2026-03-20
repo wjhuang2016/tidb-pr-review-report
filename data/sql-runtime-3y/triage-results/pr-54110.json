@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54110,"reason":"The PR is centered on DDL running-job metadata/behavior, with only incidental touches in `pkg/executor/brie_utils.go` and `pkg/parser/model/ddl.go`; nothing in the metadata suggests core executor/parser/session/statistics/kv/store/privilege semantics are the main focus.","target_modules":["executor","parser"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64419,"reason":"Core code change is entirely in `pkg/planner/core/find_best_task.go`, and the subject/result churn indicate optimizer plan-choice and cost/risk assessment behavior. This is directly in planner semantics, not incidental infra/test-only touch.","target_modules":["planner"]}

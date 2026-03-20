@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54002,"reason":"Only one file under `pkg/executor/internal/exec` changed, but the subject indicates a localized formatting/perf cleanup (`avoid use fmt.Sprintf`), not a change to executor semantics, SQL behavior, or other high-blast-radius core logic.","target_modules":["executor"]}

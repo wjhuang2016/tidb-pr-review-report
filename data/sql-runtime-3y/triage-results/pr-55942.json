@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":55942,"reason":"The PR is fully concentrated in `pkg/executor/show_placement.go`, and the subject (`return state instead of schedule`) suggests a user-visible `SHOW PLACEMENT` output/behavior change rather than an incidental touch. That makes it genuinely executor-related and worth deeper review.","target_modules":["executor"]}

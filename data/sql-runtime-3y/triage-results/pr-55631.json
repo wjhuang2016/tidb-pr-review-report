@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55631,"reason":"The PR is entirely within `pkg/planner/core` and changes partition pruning behavior for prepared statements, which is directly planner/optimizer semantics with potential query-correctness and plan-selection impact.","target_modules":["planner"]}

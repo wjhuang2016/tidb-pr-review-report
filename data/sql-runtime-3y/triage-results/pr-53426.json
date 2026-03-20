@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":53426,"reason":"PR metadata shows a test-only change focused on speeding up integration tests. All touched files are under tests/integrationtest with no production code paths changed, so any planner/executor/DDL/admin coverage is incidental rather than the center of the PR.","target_modules":[]}

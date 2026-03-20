@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61068,"reason":"The PR is centered on `pkg/executor/infoschema_reader.go` with matching executor tests, and the subject indicates a behavioral change to `TIKV_REGION_STATUS` row filtering. That is executor-visible system-table/runtime correctness, not an incidental touch.","target_modules":["executor"]}

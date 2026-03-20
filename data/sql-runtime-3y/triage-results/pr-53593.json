@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53593,"reason":"The PR is entirely within `pkg/executor/sortexec/*` and explicitly fixes a data race in TopN, which is executor runtime correctness rather than incidental test/infra churn.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57649,"reason":"The PR is entirely in `pkg/statistics` (`target_ratio: 1.0`) and changes auto-analyze priority-queue/refresher behavior for deleted tables. That is a direct statistics-correctness concern, not an incidental touch or pure test/infra change.","target_modules":["statistics"]}

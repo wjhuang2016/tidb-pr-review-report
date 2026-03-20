@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":50812,"reason":"Only `pkg/executor/sortexec/BUILD.bazel` changed, and the PR subject indicates test/build cleanup (`remove redundant go_test`). This is Bazel/test infrastructure in an executor path, not executor runtime or SQL-behavior logic.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66910,"reason":"The PR is explicitly a planner bug fix and the changed code is concentrated in core planner/optimizer paths for window-frame handling after projection elimination. That is optimizer semantics with potentially user-visible query correctness impact, not an incidental touch.","target_modules":["planner"]}

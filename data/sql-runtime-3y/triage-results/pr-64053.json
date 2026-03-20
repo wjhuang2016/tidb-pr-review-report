@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64053,"reason":"The PR is entirely in `pkg/planner/core` and changes `LogicalDataSource`/plan-building internals by adding column-ID mapping. That is clearly planner-centric and plausibly affects column resolution and optimizer semantics rather than incidental infra or tests.","target_modules":["planner"]}

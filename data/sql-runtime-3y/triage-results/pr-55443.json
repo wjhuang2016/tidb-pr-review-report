@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55443,"reason":"The PR is centered on `pkg/executor/ddl.go`, and the subject indicates a behavioral change to recover-table metadata handling (`clone table meta`). That is a core table/DDL execution concern, not an incidental touch, and could affect runtime correctness of table recovery.","target_modules":["executor","table"]}

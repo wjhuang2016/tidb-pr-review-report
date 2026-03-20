@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61351,"reason":"PR is clearly centered on planner semantics: it changes only planner core task encapsulation code and the subject describes correcting plan operator composition for copTask/hash join, which can affect optimizer behavior and execution planning.","target_modules":["planner"]}

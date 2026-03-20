@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50622,"reason":"The PR is entirely within planner core (`pkg/planner/core/optimizer.go`), and the subject explicitly concerns optimizer flag adjustment logic. Even if this may be a refactor, it is clearly centered on planner/optimizer behavior rather than incidental test, infra, or docs changes.","target_modules":["planner"]}

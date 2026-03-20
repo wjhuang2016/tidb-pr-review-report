@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":55868,"reason":"Single-file change in executor, but the subject indicates a narrow test-stability fix rather than a substantive change to planner/executor semantics or privilege enforcement. This looks local and low-blast-radius, so it does not justify a 20-40 minute blocker/high-focused deep review.","target_modules":["executor"]}

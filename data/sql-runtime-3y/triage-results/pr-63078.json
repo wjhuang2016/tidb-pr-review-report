@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63078,"reason":"Only planner test artifacts changed (`selectivity_test.go`, testdata, `BUILD.bazel`), with `Target code count: 0` and no production code paths. This looks like a test refactor around cardinality/selectivity coverage, not a planner/executor/session/parser/runtime semantics change.","target_modules":["planner"]}

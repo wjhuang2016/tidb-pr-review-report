@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57845,"reason":"The PR is centered on timestamp literal semantics with time zone offsets and directly changes `pkg/expression/builtin_time.go`, with matching integration tests. That is a core expression/runtime SQL behavior change, not an incidental touch.","target_modules":["expression"]}

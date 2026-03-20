@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63930,"reason":"The change is in a planner-core file, but the metadata describes it as removing an unused variable in a single file. That signals cleanup rather than planner/optimizer semantics or other high-blast-radius behavior, so the planner touch looks minor rather than a substantive planner concern.","target_modules":["planner"]}

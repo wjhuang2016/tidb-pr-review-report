@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65779,"reason":"Only test and Bazel metadata changed under pkg/executor/internal/querywatch to address a flaky test. Metadata shows zero target-code changes and no clear impact on executor/runtime semantics or other core planner/expression/session/statistics/kv/store/parser/table/privilege behavior.","target_modules":["executor"]}

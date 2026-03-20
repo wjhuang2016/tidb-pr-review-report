@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65417,"reason":"The PR is explicitly a statistics correctness fix, and the only production code change is in `pkg/statistics/handle/bootstrap.go`, with the rest being supporting tests/Bazel metadata. That makes it clearly centered on TiDB statistics behavior rather than incidental touches.","target_modules":["statistics"]}

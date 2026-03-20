@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59346,"reason":"All non-Bazel code changes are in core planner rule paths, including transformation rules and join elimination. Even though the subject says \"refactor,\" this is clearly centered on optimizer internals with plausible impact on planner semantics, not incidental infra/docs/test churn.","target_modules":["planner"]}

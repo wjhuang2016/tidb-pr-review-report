@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54336,"reason":"Both non-test code changes are in core analyze execution paths (`pkg/executor/analyze.go` and `pkg/executor/analyze_col.go`), with supporting tests in executor/statistics areas. This is directly centered on executor/statistics behavior, not an incidental touch.","target_modules":["executor","statistics"]}

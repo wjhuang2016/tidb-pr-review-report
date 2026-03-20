@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48413,"reason":"The PR is explicitly about wrong-result behavior in plan cache and changes only core planner/expression code paths (`expression_rewriter`, compare builtin/util). That is directly in high-signal planner and expression semantics, not incidental test or infra churn.","target_modules":["planner","expression"]}

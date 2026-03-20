@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62426,"reason":"PR is clearly centered on planner/optimizer behavior: the only production code change is in `pkg/planner/core/rule_eliminate_empty_selection.go`, and the companion change is its planner rule test. This is a direct optimizer semantics change, not an incidental touch.","target_modules":["planner"]}

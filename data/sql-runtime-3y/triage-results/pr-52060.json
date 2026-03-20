@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52060,"reason":"The only production code change is in `pkg/planner/core/exhaust_physical_plans.go`, which is planner-core logic. The executor-path changes are only test/BUILD support, so the PR is clearly centered on the planner rather than incidental touches.","target_modules":["planner"]}

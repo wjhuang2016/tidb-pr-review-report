@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66764,"reason":"PR is entirely concentrated in `pkg/executor/parallel_apply.go` plus its test, and the subject describes cancellation behavior for in-flight inner workers. That is executor runtime/correctness logic, which is a high-signal target area rather than an incidental touch.","target_modules":["executor"]}

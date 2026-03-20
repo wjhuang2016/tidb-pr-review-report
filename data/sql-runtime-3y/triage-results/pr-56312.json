@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":56312,"reason":"Only executor test files changed, and the subject indicates failpoint cleanup after sort tests. There are no production code paths or user-visible planner/executor/expression/session/kv/parser semantics implicated by the metadata, so executor is only an incidental test touch here.","target_modules":[]}

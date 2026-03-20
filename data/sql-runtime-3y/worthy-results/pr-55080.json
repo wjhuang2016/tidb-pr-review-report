@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55080,"reason":"This is a query-correctness fix in hash join v2, a central executor path where silent wrong-result bugs can be High severity. The scope also touches shared key encoding in pkg/util/codec/codec.go, which increases blast radius beyond a narrow local fix.","target_modules":["pkg/executor/join","pkg/util/codec"]}

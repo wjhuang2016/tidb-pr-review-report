@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":66991,"reason":"Only a test file changed (`pkg/store/gcworker/gc_worker_test.go`), and the subject is explicitly test stabilization. With no target production code paths touched, this is not clearly centered on store/kv behavior; the store module is incidental here.","target_modules":["store"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63828,"reason":"The PR is entirely in planner core (`pkg/planner/core/find_best_task.go`) and changes skyline pruning logic by removing a `fullRange` check. That is optimizer decision-making, not an incidental touch, with direct risk to plan selection semantics.","target_modules":["planner"]}

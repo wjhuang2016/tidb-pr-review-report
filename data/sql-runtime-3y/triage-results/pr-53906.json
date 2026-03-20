@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53906,"reason":"The PR is entirely within `pkg/statistics` and changes auto-analyze behavior around database-name handling, which is directly part of statistics collection logic rather than an incidental touch.","target_modules":["statistics"]}

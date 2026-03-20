@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54009,"reason":"The PR is entirely confined to pkg/planner/core/logical_plan_builder.go, and the subject explicitly targets buildDelete logic inside the planner. That is a core planner path, not an incidental test/docs/infra touch.","target_modules":["planner"]}

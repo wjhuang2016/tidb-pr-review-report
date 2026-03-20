@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52076,"reason":"The PR is entirely in `pkg/executor/aggregate/agg_hash_executor.go` and addresses a panic from sending on a closed channel, which is executor runtime correctness in a core execution path rather than incidental test/infra work.","target_modules":["executor"]}

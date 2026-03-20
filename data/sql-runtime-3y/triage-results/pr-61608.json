@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61608,"reason":"The PR is explicitly about `tidb_cost_model_version` defaulting and changes core planner cost-model code plus the session variable definition path. That is a direct optimizer/cost-model behavior change, not an incidental touch.","target_modules":["planner","sessionctx"]}

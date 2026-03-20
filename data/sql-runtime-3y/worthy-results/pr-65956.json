@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65956,"reason":"Touches core join-reorder logic in the optimizer, specifically LEADING hint matching and condition propagation. A bug here can change join planning or accidentally drop predicates/other conditions, which is a high-blast-radius planner correctness risk despite the small diff.","target_modules":["pkg/planner/core"]}

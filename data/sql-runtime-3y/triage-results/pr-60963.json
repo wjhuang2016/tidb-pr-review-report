@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60963,"reason":"The PR is explicitly a planner bug fix, changes only `pkg/planner/core/task.go`, and the subject indicates a task-type conversion/order issue in union scan planning logic. That is core planner/optimizer behavior, not an incidental touch.","target_modules":["planner"]}

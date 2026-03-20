@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":47778,"reason":"All touched files are under `pkg/statistics/handle/**` and the subject is a statistics-path behavior change (`check Killed` during `GenJSONTableFromStats`), so this PR is clearly centered on statistics/runtime correctness rather than incidental tests or infra.","target_modules":["statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63568,"reason":"The PR is entirely in `pkg/planner/core/plan_cost_ver2.go` and the subject explicitly changes IndexJoin seeking cost, which is optimizer cost-model logic and directly affects planner behavior and plan selection.","target_modules":["planner"]}

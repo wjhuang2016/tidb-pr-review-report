@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51238,"reason":"The PR touches only `pkg/session/bootstrap.go` and the subject is about bootstrap/upgrade behavior for system schema creation. That is directly in the session/bootstrap path rather than an incidental touch, with possible upgrade-time correctness and schema visibility impact.","target_modules":["session"]}

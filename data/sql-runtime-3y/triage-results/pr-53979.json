@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53979,"reason":"The PR is entirely in `pkg/statistics/.../lfu_cache.go` and its test/BUILD files, and the subject is about stats-cache eviction on update. That is a core `statistics` behavior, not an incidental touch, with likely downstream impact on stats availability/costing.","target_modules":["statistics"]}

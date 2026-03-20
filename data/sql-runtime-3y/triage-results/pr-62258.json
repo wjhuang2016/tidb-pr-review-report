@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62258,"reason":"The PR is entirely concentrated in planner core logical operators and the predicate push-down rule, which directly affects optimizer semantics and plan correctness. This is clearly centered on planner behavior rather than incidental touches.","target_modules":["planner"]}

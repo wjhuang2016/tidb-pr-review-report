@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63921,"reason":"Planner-core change in `pkg/planner/core/optimizer.go` with a planner-specific subject (`PointGet` reuse-chunk behavior) and matching planner tests. This is clearly centered on planner/runtime plan behavior rather than incidental test or infra touch.","target_modules":["planner"]}

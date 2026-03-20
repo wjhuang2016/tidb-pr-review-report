@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66887,"reason":"Single-file change is entirely in `pkg/executor/parallel_apply.go`, and the subject explicitly describes an executor inflight worker cancellation bug fix. That is directly centered on executor runtime correctness rather than incidental test/infra/docs impact.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63534,"reason":"Only a test-only change in pkg/executor/test/ddl/main_test.go updating goleak IgnoreTopFunction. This is test infrastructure under the executor tree, not production executor/runtime semantics or other core target-module behavior.","target_modules":[]}

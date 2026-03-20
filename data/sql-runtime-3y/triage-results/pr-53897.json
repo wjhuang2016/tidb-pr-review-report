@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":53897,"reason":"All changed files are in `pkg/planner/core`, and the subject is about `EXPLAIN` handling in planner-core code paths. Although it sounds like a small cleanup, it still appears to touch user-visible planner behavior rather than incidental tests/docs/infra.","target_modules":["planner"]}

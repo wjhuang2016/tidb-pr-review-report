@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65355,"reason":"The PR is centered on planner/optimizer semantics: it changes only `pkg/planner/core/rule_join_reorder.go` and updates planner integration tests for join reorder behavior under leading hints with subquery aliases. This is a direct planner correctness change, not an incidental touch.","target_modules":["planner"]}

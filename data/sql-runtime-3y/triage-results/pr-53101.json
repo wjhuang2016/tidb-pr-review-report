@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53101,"reason":"PR is directly centered on expression semantics and correctness: it fixes a wrong result in `TIMESTAMPADD` and changes only `pkg/expression/builtin_time.go` plus its test. That is core expression behavior, not an incidental touch.","target_modules":["expression"]}

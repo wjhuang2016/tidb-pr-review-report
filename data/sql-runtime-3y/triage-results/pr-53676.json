@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53676,"reason":"The PR is entirely centered on a planner-core file (`pkg/planner/core/point_get_plan.go`) and specifically fixes a data race in PointGet stats initialization. That is a direct planner/statistics correctness concern, not an incidental touch.","target_modules":["planner","statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59668,"reason":"This PR is clearly centered on core executor hash join behavior and planner physical-plan generation/costing paths: all non-test code changes are under `pkg/executor/**` and `pkg/planner/core/**`, with corresponding planner CBO result updates.","target_modules":["executor","planner"]}

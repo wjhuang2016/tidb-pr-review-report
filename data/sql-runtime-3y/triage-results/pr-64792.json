@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64792,"reason":"The PR’s only production-code change is in `pkg/executor/check_table_index.go`, and the subject indicates behavior changes in how `ADMIN CHECK` recognizes `PointGet`/`BatchPointGet`. That is clearly executor/runtime correctness, not an incidental touch.","target_modules":["executor"]}

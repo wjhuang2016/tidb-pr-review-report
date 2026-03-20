@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58723,"reason":"The PR is entirely concentrated in `pkg/privilege/privileges/cache.go` with matching tests, and the subject references `default_authentication_plugin`, which is directly tied to authentication/privilege behavior rather than incidental infra or test-only churn.","target_modules":["privilege"]}

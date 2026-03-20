@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":67020,"reason":"Only OWNERS metadata changed under pkg/executor and its analyze test directory. No executor/statistics/planner/session/kv/parser/table/privilege code or behavior appears to change, so any relation to the focus modules is incidental rather than substantive.","target_modules":["executor"]}

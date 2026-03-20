@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52218,"reason":"Core logic changes are concentrated in `pkg/statistics` (`global_stats*`, `histogram.go`) and the subject is a correctness fix for merging global stats. That is directly within high-signal statistics/cardinality behavior; the executor touch is test-only and incidental.","target_modules":["statistics"]}

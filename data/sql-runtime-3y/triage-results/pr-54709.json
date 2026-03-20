@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54709,"reason":"The PR is centered on `pkg/executor` with all code changes in executor runtime paths (`builder.go`, `pipelined_window.go`) plus matching executor integration tests. Resetting params in `PipelineWindow.Open` is executor lifecycle/runtime-correctness behavior, not an incidental touch.","target_modules":["executor"]}

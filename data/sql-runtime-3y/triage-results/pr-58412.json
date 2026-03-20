@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":58412,"reason":"The PR is entirely within `pkg/statistics` and touches `handle/bootstrap.go`, which is part of statistics initialization/loading logic. Even though the subject says 'remove dead code', this is still clearly centered on a high-signal target module rather than an incidental touch.","target_modules":["statistics"]}

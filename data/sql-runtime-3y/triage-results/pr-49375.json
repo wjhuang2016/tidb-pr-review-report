@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49375,"reason":"The PR is entirely within `pkg/statistics/**` and explicitly fixes a statistics-loading function, which is part of TiDB's statistics behavior and can affect optimizer/cardinality correctness. This is not an incidental touch.","target_modules":["statistics"]}

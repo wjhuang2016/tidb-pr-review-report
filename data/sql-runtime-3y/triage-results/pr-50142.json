@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":50142,"reason":"Only `pkg/store/main_test.go` changed, and the subject indicates a goleak/test cleanup for syscall handling. This is test-only infrastructure in the `store` area, not a clear change to storage/kv correctness or other core planner/executor/expression/session/parser/table/privilege behavior.","target_modules":[]}

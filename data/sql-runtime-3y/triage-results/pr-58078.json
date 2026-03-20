@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58078,"reason":"The PR is entirely centered on `pkg/executor` and changes hash aggregation runtime behavior in `agg_hash_executor.go`. A fix for goroutine leaks when memory quota is exceeded is executor/runtime correctness work, not an incidental touch.","target_modules":["executor"]}

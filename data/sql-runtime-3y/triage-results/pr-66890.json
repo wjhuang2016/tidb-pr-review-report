@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":66890,"reason":"All changed files are `OWNERS` metadata under `pkg/executor/*`. This PR changes code ownership only, with no indication of executor/runtime, planner, expression, session, statistics, KV/store, parser, table, or privilege behavior changes.","target_modules":["executor"]}

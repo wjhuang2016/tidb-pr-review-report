@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62386,"reason":"The PR is entirely scoped to `pkg/store/copr/batch_coprocessor.go`, and the subject indicates a TiFlash coprocessor/runtime correctness fix for `closest_replica` handling. That is directly centered on store-path behavior, not an incidental test/docs/infra touch.","target_modules":["store"]}

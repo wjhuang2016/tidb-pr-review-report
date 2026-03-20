@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49726,"reason":"The PR is entirely confined to `pkg/executor` analyze paths (`analyze.go`, `analyze_col_v2.go`), so it is clearly centered on executor behavior and likely also affects statistics collection/runtime semantics rather than incidental infra or test-only code.","target_modules":["executor","statistics"]}

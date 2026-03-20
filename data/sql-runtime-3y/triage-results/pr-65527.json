@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65527,"reason":"Only a test file changed (`pkg/sessionctx/variable/tests/session_test.go`) and the subject describes a goleak/test-hygiene fix, not a behavioral change in planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege logic. No target code paths are touched.","target_modules":["sessionctx"]}

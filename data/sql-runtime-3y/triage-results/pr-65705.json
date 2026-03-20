@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65705,"reason":"The PR is explicitly about planner join reorder correctness, and all non-test code changes are in `pkg/planner/core/**` (`joinorder`, `rule_join_reorder`, `plan_base`). This is core optimizer semantics, not an incidental touch.","target_modules":["planner"]}

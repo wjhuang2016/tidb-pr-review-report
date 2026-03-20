@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50956,"reason":"The PR is entirely in `pkg/statistics/handle/syncload/stats_syncload.go` and changes timeout/thundering-herd behavior in stats sync loading, which is a core statistics subsystem path with potential impact on planner statistics availability and load behavior.","target_modules":["statistics"]}

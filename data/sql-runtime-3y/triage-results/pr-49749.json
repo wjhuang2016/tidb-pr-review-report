@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49749,"reason":"The PR is entirely confined to `pkg/statistics/histogram.go` and is explicitly about histogram behavior in the statistics subsystem. That is a core target area with potential impact on cardinality/cost estimation and planner behavior, not an incidental touch.","target_modules":["statistics"]}

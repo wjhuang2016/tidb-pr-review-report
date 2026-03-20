@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50430,"reason":"Touches core planner partition-processing logic to fix wrong partition selection for hash-partitioned tables. That is a planner/executor correctness path with silent wrong-results risk, so it is central and risky enough for a deeper Blocker/High review despite the small diff.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":58254,"reason":"Only planner test and testdata files changed, with no production code paths in planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege. The PR appears to stabilize vector index tests rather than change core module behavior.","target_modules":["planner"]}

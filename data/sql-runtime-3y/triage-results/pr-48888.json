@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48888,"reason":"The PR is centered on a concurrency correctness issue in generated-column metadata (`Column.GeneratedExpr`) with direct changes in `pkg/planner/core/*` and `pkg/table/*`, plus related DDL paths. Those are core planner/table runtime paths, not incidental test/infra touches.","target_modules":["planner","table"]}

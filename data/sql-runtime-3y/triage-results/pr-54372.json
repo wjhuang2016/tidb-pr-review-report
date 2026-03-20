@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54372,"reason":"Only `pkg/executor/test/analyzetest/analyze_test.go` changed, and the metadata shows zero target-code changes with no target code paths. This looks like a test-only unskip in the executor area, not a core executor/planner/statistics/runtime behavior change.","target_modules":["executor"]}

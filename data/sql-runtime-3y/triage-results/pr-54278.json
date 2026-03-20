@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54278,"reason":"The PR is centered on `pkg/expression` and changes runtime error semantics in `builtin_json.go`, with matching integration test updates. Returning non-retryable errors for schema-related cases is a core expression/runtime correctness concern, not an incidental touch.","target_modules":["expression"]}

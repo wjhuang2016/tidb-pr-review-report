@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52634,"reason":"The PR is entirely in `pkg/executor/analyze_*` and changes retry behavior for `ANALYZE`, which is core executor/runtime logic with direct impact on statistics collection behavior rather than incidental touches.","target_modules":["executor","statistics"]}

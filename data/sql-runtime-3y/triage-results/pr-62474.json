@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62474,"reason":"The PR is explicitly about correcting Cascades plan generation for PartitionUnionAll, and all non-test code changes are in pkg/planner/core/operator/logicalop. This is core planner/optimizer semantics rather than incidental test or infra churn.","target_modules":["planner"]}

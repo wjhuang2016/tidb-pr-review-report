@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62734,"reason":"The change is explicitly centered on `pkg/executor/show_ddl_jobs.go` and alters user-visible `RENAME TABLE` name/schema reporting in `SHOW DDL JOBS`, which is executor/runtime SQL behavior rather than an incidental touch.","target_modules":["executor"]}

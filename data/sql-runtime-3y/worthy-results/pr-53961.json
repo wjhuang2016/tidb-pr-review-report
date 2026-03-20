@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":53961,"reason":"Localized expression bug fix in JSON quoting logic, limited to scalar/vectorized builtin implementations with focused integration tests. It changes user-visible expression semantics, but the scope is narrow and not central enough to justify a dedicated deep Blocker/High hunt.","target_modules":["expression"]}

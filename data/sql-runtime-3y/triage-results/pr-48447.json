@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48447,"reason":"The PR is directly about propagating `ResultSet.Close()` errors back to clients, which is user-visible session/protocol behavior. It changes `pkg/session/session.go` as a primary code path, so this is not just incidental infra or test churn.","target_modules":["session"]}

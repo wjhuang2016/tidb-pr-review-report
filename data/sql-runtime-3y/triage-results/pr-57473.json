@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57473,"reason":"The PR is explicitly about `ONLY_FULL_GROUP_BY` semantics not working with VIEWs, and the only non-test code change is in `pkg/planner/core/logical_plan_builder.go`. That is a direct planner/SQL-semantics path, not an incidental touch.","target_modules":["planner"]}

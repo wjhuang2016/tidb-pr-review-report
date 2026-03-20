@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":54451,"reason":"The PR is entirely scoped to `pkg/planner/core/exhaust_physical_plans.go`, a core planner path. Even though the subject sounds debug-oriented, the touch is not incidental and is clearly centered on planner internals, so it merits deep review.","target_modules":["planner"]}

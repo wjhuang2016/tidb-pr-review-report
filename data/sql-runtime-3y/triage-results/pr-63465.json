@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":63465,"reason":"The PR is DDL-led, but `MODIFY COLUMN` skipping row reorg directly depends on row/index storage and encoding correctness. It changes core `pkg/table/*` and `pkg/tablecodec/*` paths, so the table/tablecodec impact looks substantive rather than incidental.","target_modules":["table","tablecodec"]}

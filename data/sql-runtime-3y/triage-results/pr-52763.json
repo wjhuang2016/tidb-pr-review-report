@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52763,"reason":"Core logic change is entirely in `pkg/store/copr/region_cache.go` with matching coprocessor test coverage, and the subject indicates a TiFlash coprocessor runtime correctness bug. This is clearly centered on store/executor-path behavior rather than incidental tests, docs, or infra.","target_modules":["store"]}

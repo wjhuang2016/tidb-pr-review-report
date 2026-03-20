@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":66941,"reason":"Global Go 1.25.8 toolchain/dependency upgrade. The only target-module touch is `pkg/parser/go.mod`, which is incidental to the version bump and does not indicate parser or other listed module semantics/behavior changes.","target_modules":["parser"]}

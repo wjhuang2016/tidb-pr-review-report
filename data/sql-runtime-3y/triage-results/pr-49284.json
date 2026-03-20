@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49284,"reason":"The PR is entirely scoped to `pkg/statistics/histogram.go`, which is a core statistics path. Even with a cleanup-oriented subject (`remove useless code`), the change is centered on histogram/statistics behavior rather than incidental infra/tests/docs, so it merits deep review.","target_modules":["statistics"]}

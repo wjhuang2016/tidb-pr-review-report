@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61299,"reason":"The PR is fully concentrated in `pkg/parser` files (AST, keywords, grammar, generated parser) and adds SQL support for `REFRESH STATS`, which is directly a parser/SQL-semantics change, not an incidental touch.","target_modules":["parser"]}

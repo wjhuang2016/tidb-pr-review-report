@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63535,"reason":"Only a test file changed (`pkg/executor/test/aggregate/aggregate_test.go`) and there are no target production code paths. This looks like executor-adjacent test maintenance rather than a PR centered on executor/runtime semantics or other listed core modules.","target_modules":["executor"]}

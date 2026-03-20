@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66893,"reason":"The PR is explicitly a planner bug fix in `pkg/planner/core/operator/logicalop/logical_join.go`, addressing join equality-condition invariants and a panic. That is core planner/optimizer correctness, not an incidental touch.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53509,"reason":"The PR is centered on planner behavior: both code changes are in pkg/planner/core and the subject explicitly says it removes planner restrictions for global index. That directly affects optimizer/path selection semantics rather than incidental test or infra touch-ups.","target_modules":["planner"]}

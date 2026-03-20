@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56198,"reason":"Single code change is in `pkg/expression/builtin_string_vec.go`, and the PR explicitly fixes user-visible warning behavior for `FORMAT()` in a CTE. That is core expression/runtime SQL semantics, with matching integration tests, not an incidental touch.","target_modules":["expression"]}

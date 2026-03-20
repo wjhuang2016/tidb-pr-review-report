@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53395,"reason":"The PR is explicitly labeled `planner`, fixes a `wrong result` bug, and touches planner-adjacent range construction logic in `pkg/util/ranger/points.go` plus a planner integration test. That is core query-planning/correctness behavior, not an incidental touch.","target_modules":["planner"]}

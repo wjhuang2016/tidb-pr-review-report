@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55236,"reason":"The PR is entirely scoped to `pkg/executor/infoschema_reader.go` plus its test, and the subject describes a correctness fix where extracted conditions were not applied in `information_schema`. That is directly executor/runtime query behavior, not an incidental touch.","target_modules":["executor"]}

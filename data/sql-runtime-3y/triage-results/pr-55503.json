@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":55503,"reason":"Only a test file changed (`pkg/executor/test/executor/executor_test.go`). The PR adds regression coverage for an issue already fixed elsewhere and does not change executor/runtime, planner, expression, session, statistics, kv/store, parser, table, or privilege behavior directly.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50843,"reason":"Single changed file is in `pkg/executor/hash_table.go`, and the PR subject describes fixing incorrect `consumedbyte` accounting in `hashRowcontainer`, which is executor runtime correctness rather than incidental test/infra churn.","target_modules":["executor"]}

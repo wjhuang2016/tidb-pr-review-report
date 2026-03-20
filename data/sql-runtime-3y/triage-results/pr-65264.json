@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65264,"reason":"The PR is centered on `pkg/planner/core/stats.go` and explicitly changes planner heuristics for retaining MPP tasks, with only planner casetests around it. That is directly in planner/optimizer semantics, not an incidental touch.","target_modules":["planner","statistics"]}

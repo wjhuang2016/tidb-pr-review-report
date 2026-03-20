@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":57823,"reason":"Test-only stabilization in executor importer test files plus Bazel metadata. No production code paths or core executor/planner/session/parser/kv semantics appear to change; executor is only an incidental touch here.","target_modules":["executor"]}

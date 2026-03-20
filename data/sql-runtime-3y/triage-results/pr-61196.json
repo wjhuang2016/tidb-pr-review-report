@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61196,"reason":"The PR is clearly centered on planner internals: both non-test code changes are in `pkg/planner/core`, and the subject says it fixes wrong cost reporting with the cost tracer. Cost-model behavior is a high-signal planner concern rather than an incidental touch.","target_modules":["planner"]}

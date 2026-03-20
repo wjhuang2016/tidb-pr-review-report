@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63444,"reason":"Only test files and Bazel metadata changed, with `Target code count: 0` and no production code paths listed. The subject indicates skipping analyze v1 tests for next-gen, which is test-scope coverage/infra work rather than a core change to executor or statistics behavior.","target_modules":["executor","statistics"]}

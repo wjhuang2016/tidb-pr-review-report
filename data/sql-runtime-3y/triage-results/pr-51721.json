@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51721,"reason":"All reported code changes are in `pkg/planner/core/preprocess.go` plus its test, and the subject indicates a fix to column default-value validation. That is planner-side SQL/DDL validation semantics, not an incidental touch.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48030,"reason":"The PR is fully centered on `pkg/session/bootstrap.go` and matching bootstrap tests, and the subject indicates a system-variable storage schema change. That is a direct session/bootstrap concern, not an incidental touch.","target_modules":["session"]}

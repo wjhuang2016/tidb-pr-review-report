@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62430,"reason":"Directly modifies `pkg/statistics` cache update logic for table stats (`Copy` -> `ShallowCopy`) with supporting tests. That is a core statistics-path change and can affect stats object mutation/visibility and downstream cardinality or cost-model behavior, not an incidental touch.","target_modules":["statistics"]}

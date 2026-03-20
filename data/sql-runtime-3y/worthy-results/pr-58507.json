@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":58507,"reason":"Touches core planner logic in `pkg/planner/core/task_base.go` and changes how `idxMergePartPlans` handles `RootTaskConds`, which is optimizer/runtime-correctness territory with plausible wrong-plan or wrong-result risk despite the small diff.","target_modules":["planner"]}

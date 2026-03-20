@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":45786,"reason":"The PR is explicitly an executor refactor, and the only changed file is in `pkg/executor` (`mem_reader.go`). A union scan change for index-read scenarios is directly tied to executor runtime correctness rather than incidental infra/test work.","target_modules":["executor"]}

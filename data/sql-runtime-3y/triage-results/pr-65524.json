@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65524,"reason":"Only metadata points to benchmark/test coverage work for plan cache daily bench, not planner semantics or runtime behavior. The sole changed file is a planner integration test file, with target code count 0 and no target code paths, so planner is only incidental here.","target_modules":["planner"]}

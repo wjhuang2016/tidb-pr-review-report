@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52184,"reason":"The PR is clearly centered on core expression/table behavior: the only non-test code change is in `pkg/expression/column.go`, and the subject describes a correctness fix around hidden-column virtual-expression handling. That is not an incidental touch or infra-only change.","target_modules":["expression","table"]}

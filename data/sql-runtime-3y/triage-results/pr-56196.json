@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56196,"reason":"The PR is clearly centered on planner behavior: the subject explicitly targets `skylinePruning`, and the non-test code changes are in `pkg/planner/core/find_best_task.go` and `pkg/planner/core/mock.go`. That is optimizer/path-selection logic, not an incidental touch.","target_modules":["planner"]}

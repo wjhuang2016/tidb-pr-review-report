@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48857,"reason":"Only a parser test file changed (`pkg/parser/reserved_words_test.go`), with no target production code paths touched. This looks like test maintenance around reserved-word comparison, not a parser SQL-semantics change centered on core runtime behavior.","target_modules":["parser"]}

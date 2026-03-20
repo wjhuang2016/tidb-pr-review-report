@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62968,"reason":"The PR is clearly centered on planner semantics: the subject explicitly targets `planner`, the only target code path is `pkg/planner/core/planbuilder.go`, and the changed test appears to validate planner-visible behavior rather than incidental infra/docs changes.","target_modules":["planner"]}

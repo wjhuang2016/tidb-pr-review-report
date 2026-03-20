@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56435,"reason":"All non-test code changes are in `pkg/statistics/handle/autoanalyze/priorityqueue`, and the PR is explicitly about handling DDL events in the new statistics priority queue. That makes it clearly centered on statistics behavior, not an incidental touch.","target_modules":["statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54665,"reason":"The PR is centered on DDL/infoschema/domain handling for FLASHBACK DATABASE schema diffs, not on parser or executor semantics. The only target-path code touch is `pkg/parser/model/ddl.go`, which looks like shared DDL metadata, and the executor change is test-only.","target_modules":["parser"]}

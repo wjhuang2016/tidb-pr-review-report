@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53686,"reason":"The PR is fully confined to `pkg/planner/core/plan_cache*.go` and changes plan-cache behavior for PointGet plans, which is core planner/optimizer semantics rather than an incidental touch.","target_modules":["planner"]}

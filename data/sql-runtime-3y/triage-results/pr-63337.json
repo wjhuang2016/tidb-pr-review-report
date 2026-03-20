@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63337,"reason":"Metadata shows a test-only change under pkg/store/mockstore/mockcopr plus Bazel metadata. There are no target code paths or production-code touches, so this is not clearly centered on store/kv runtime behavior and looks like test maintenance for another feature area.","target_modules":["store"]}

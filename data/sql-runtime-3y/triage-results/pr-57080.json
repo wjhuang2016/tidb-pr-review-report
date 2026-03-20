@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":57080,"reason":"Only planner test artifacts changed: a planner casetest file and its BUILD metadata. There are no production code path changes in planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege, so this is test-only coverage rather than a core behavioral PR.","target_modules":["planner"]}

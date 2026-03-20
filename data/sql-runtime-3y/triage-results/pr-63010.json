@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63010,"reason":"The PR is entirely in `pkg/planner/core` and explicitly changes the MergeJoin cost formula to account for `OtherConds`. That is core optimizer/cost-model behavior, not an incidental touch, so it squarely fits planner-focused deep review.","target_modules":["planner"]}

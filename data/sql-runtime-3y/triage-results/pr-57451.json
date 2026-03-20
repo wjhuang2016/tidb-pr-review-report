@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57451,"reason":"The PR is entirely in pkg/executor/join and fixes a data race in hash join v2 nullmap handling, which is core executor runtime correctness rather than an incidental touch.","target_modules":["executor"]}

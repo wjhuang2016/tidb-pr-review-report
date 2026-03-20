@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50020,"reason":"Subject and sole production code path are planner-specific (`pkg/planner/core/task.go`), indicating an optimizer/plan-construction semantic change rather than incidental test or infra churn. The executor files are test-only support.","target_modules":["planner"]}

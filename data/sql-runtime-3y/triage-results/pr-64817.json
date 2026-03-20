@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64817,"reason":"The PR is wholly concentrated in `pkg/statistics/handle/**` and changes runtime behavior of auto-analyze/DDL handling when statistics maintenance is disabled. That is a direct statistics-subsystem behavior change, not an incidental touch, test-only update, or infra-only change.","target_modules":["statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":60644,"reason":"Only planner test/BUILD files changed under `pkg/planner/core/casetest/logicalplan`; there are no production code paths touched, so this is test coverage for planner behavior rather than a planner/executor/expression/session/statistics/kv/store/parser/table/privilege code change.","target_modules":["planner"]}

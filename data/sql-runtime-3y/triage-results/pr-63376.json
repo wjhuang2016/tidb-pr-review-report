@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63376,"reason":"The PR is entirely concentrated in `pkg/expression`, changing `constant_propagation.go` with matching tests. Constant propagation affects expression semantics and optimizer behavior, which is a core high-blast-radius area under the stated focus.","target_modules":["expression"]}

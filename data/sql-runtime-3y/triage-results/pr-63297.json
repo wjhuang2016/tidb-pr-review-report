@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63297,"reason":"Only planner test and testdata files changed, with no production code paths touched. Despite the planner-labeled subject, this looks like test compatibility work for next-gen behavior rather than a planner/executor/expression/session/statistics/kv/parser/table/privilege logic change.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52801,"reason":"The PR is explicitly about fixing SQL semantic behavior for `= ALL()` and the only production code change is in `pkg/planner/core/expression_rewriter.go`, with supporting planner/integration tests. That is a direct planner correctness change, not an incidental touch.","target_modules":["planner"]}

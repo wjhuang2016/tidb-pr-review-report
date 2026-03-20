@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":59845,"reason":"PR is centered on infoschema/metrics/Grafana metric sourcing, not store/kv behavior. The lone target-path touch in pkg/store/copr/coprocessor.go is most likely instrumentation/plumbing for cop request latency metrics, which is incidental rather than executor/store correctness.","target_modules":["store"]}

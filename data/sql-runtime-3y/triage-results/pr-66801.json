@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66801,"reason":"The PR is fully concentrated in `pkg/executor/set.go` plus its test and changes `tidb_service_scope` normalization during SET/dist-meta update flow, which is executor-driven session-variable/runtime behavior rather than an incidental touch.","target_modules":["executor"]}

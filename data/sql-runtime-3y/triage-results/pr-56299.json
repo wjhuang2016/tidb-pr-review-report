@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56299,"reason":"The PR is directly in `pkg/executor/simple.go` and the subject indicates a session-release bug, which is executor/runtime correctness with session lifecycle impact rather than an incidental touch.","target_modules":["executor","session"]}

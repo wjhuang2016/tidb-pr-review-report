@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49828,"reason":"The PR is fully scoped to `pkg/statistics/handle/autoanalyze/autoanalyze.go`, and the subject is directly about partition stats handling in auto-analyze. That is clearly centered on the statistics subsystem, not an incidental touch.","target_modules":["statistics"]}

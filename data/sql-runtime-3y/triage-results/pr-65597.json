@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65597,"reason":"The change is explicitly in `pkg/executor/load_data.go` and alters user-visible `LOAD DATA` error behavior for `AUTO_RANDOM` columns, which is executor runtime correctness rather than incidental test/infra churn.","target_modules":["executor"]}

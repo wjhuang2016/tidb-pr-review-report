@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51293,"reason":"The PR is clearly centered on executor behavior: the subject is `executor: make checksum block gc`, the only changed file is `pkg/executor/adapter.go`, and blocking GC during checksum plausibly affects executor runtime correctness with storage-consistency implications.","target_modules":["executor"]}

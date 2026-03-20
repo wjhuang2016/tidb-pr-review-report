@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54176,"reason":"The only production code change is in `pkg/statistics/handle/cache/stats_table_row_cache.go`, and the PR subject is explicitly a stats fix affecting `information_schema.index_length`. This is centered on statistics-backed metadata behavior rather than incidental test/infra churn.","target_modules":["statistics"]}

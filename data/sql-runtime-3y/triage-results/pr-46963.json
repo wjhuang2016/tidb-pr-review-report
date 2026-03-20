@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":46963,"reason":"This looks like a test-only repair, not a core planner/executor/expression/session/statistics/kv/store/parser/table/privilege change. The subject is 'fix TestFixControl45132', the touched files are a planner test file and a testkit helper, and there are no listed production target code paths.","target_modules":[]}

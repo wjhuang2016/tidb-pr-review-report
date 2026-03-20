@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48984,"reason":"The PR is centered on `pkg/util/ranger` range-building logic for `LIKE '_'`, with planner plan/output and integration tests updated. That is core planner/optimizer correctness around predicate-to-range semantics, not an incidental touch.","target_modules":["planner"]}

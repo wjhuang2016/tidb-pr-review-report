@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":61924,"reason":"The PR is entirely in `pkg/executor/builder.go`, a core executor path. Although the subject says 'minor cleanup', the metadata shows it is directly centered on executor code rather than incidental tests/docs/infra, so it is plausibly relevant to executor/runtime behavior.","target_modules":["executor"]}

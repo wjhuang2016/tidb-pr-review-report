@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50574,"reason":"The PR is explicitly about correcting cardinality estimation, with the only non-test code change in `pkg/planner/cardinality/row_count_index.go`. That is directly in planner/optimizer semantics and statistics-cost behavior, not an incidental touch.","target_modules":["planner","statistics"]}

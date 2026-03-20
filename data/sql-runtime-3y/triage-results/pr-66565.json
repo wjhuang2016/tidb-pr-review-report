@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":66565,"reason":"Only test files changed, with no target production code paths touched. The subject indicates test cleanup/coverage migration for ANALYZE v1/v2 rather than planner or statistics behavior changes, so any planner/statistics relevance is incidental.","target_modules":["planner","statistics"]}

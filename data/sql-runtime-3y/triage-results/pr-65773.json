@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65773,"reason":"Only a privilege test file changed, and the PR intent is to fix flaky LDAP TLS tests rather than privilege enforcement or runtime behavior. This is test stability work, not a core privilege-semantic change.","target_modules":["privilege"]}

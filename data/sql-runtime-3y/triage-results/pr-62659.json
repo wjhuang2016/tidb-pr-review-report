@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62659,"reason":"Direct changes are in sessionctx sysvar/vardef code, and the variable being deprecated controls a statistics auto-analyze feature. That is a user-visible session/statistics behavior surface, not an incidental touch.","target_modules":["sessionctx","statistics"]}

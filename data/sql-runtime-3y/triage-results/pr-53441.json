@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53441,"reason":"The PR is explicitly about expression-context truncate-error handling and directly changes core expression code plus planner logical plan building. That is a clear match for high-signal expression/planner semantics rather than incidental infra or test churn.","target_modules":["expression","planner"]}

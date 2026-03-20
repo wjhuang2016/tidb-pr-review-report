@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":36012,"reason":"Core planner logic changed in `pkg/planner/core/logical_plan_builder.go`, and the subject indicates a SQL semantic fix for ambiguous-name checking in NATURAL JOIN plan building. The test updates are supporting evidence, not incidental touches.","target_modules":["planner"]}

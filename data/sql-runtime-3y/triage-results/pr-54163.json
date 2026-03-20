@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54163,"reason":"Core change is in planner rule logic (`pkg/planner/core/rule_inject_extra_projection.go`), and the subject indicates an optimizer/projection-semantics change. Broad planner and integration result updates suggest user-visible plan behavior impact rather than incidental touches.","target_modules":["planner"]}

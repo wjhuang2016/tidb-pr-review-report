@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61402,"reason":"The PR is clearly centered on core parser SQL semantics, with broad AST changes across statement types and follow-up planner integration in `planbuilder`/`common_plans`. These are not incidental touches; they directly affect how statements are represented and planned.","target_modules":["parser","planner"]}

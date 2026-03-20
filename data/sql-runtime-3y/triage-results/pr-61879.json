@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61879,"reason":"The PR is clearly centered on planner/optimizer behavior: all non-test code changes are in `pkg/planner/core/**`, the subject explicitly references `CanPushToCop` logic, and the result-file churn is consistent with plan generation changes rather than incidental touch points.","target_modules":["planner"]}

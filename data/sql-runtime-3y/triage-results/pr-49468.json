@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49468,"reason":"All non-test code changes are in `pkg/expression/**` plus one `pkg/planner/core/**` file, and the subject is removal of an expression interface. This is clearly centered on core expression/planner code, not incidental test/docs/infra churn.","target_modules":["expression","planner"]}

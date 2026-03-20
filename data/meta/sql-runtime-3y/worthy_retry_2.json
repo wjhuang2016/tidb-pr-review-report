@@ -1,0 +1,52 @@
+[
+  {
+    "sha": "a06b68dcb67ffdf0801ff35e1c7815d2f4322c54",
+    "date": "2025-08-22",
+    "subject": "test: fix next gen tests (#62862)",
+    "pr": 62862,
+    "paths": [
+      "pkg/executor/select.go",
+      "tests/realtikvtest/pessimistictest/pessimistic_test.go",
+      "tests/realtikvtest/pipelineddmltest/pipelineddml_test.go",
+      "tests/realtikvtest/txntest/BUILD.bazel",
+      "tests/realtikvtest/txntest/txn_test.go"
+    ],
+    "reasons": [
+      "module_executor",
+      "transaction_tests"
+    ],
+    "target_any_count": 4,
+    "target_code_count": 1,
+    "target_ratio": 0.8,
+    "subject_hit": false,
+    "modules": [
+      "executor"
+    ],
+    "target_code_paths": [
+      "pkg/executor/select.go"
+    ]
+  },
+  {
+    "sha": "f60f68ac8479b01833c9c42bbcaa551efe8cdb8e",
+    "date": "2025-05-28",
+    "subject": "planner: use strings.EqualFold don't use ToLower again (#61383)",
+    "pr": 61383,
+    "paths": [
+      "pkg/planner/core/indexmerge_path.go"
+    ],
+    "reasons": [
+      "module_planner",
+      "subject"
+    ],
+    "target_any_count": 1,
+    "target_code_count": 1,
+    "target_ratio": 1.0,
+    "subject_hit": true,
+    "modules": [
+      "planner"
+    ],
+    "target_code_paths": [
+      "pkg/planner/core/indexmerge_path.go"
+    ]
+  }
+]

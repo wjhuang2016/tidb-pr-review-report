@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50639,"reason":"The PR is entirely in `pkg/executor` and changes how `ANALYZE` index work is concurrency-controlled. That is a direct executor/statistics behavior change, not an incidental touch to tests, docs, or infra.","target_modules":["executor","statistics"]}

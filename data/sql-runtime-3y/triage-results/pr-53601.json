@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":53601,"reason":"Metadata points to a comment-only cleanup in `pkg/statistics/fmsketch.go` (`statistics: refine comments to FMSketch`). Although the touched file is in a focus module, this does not indicate a change to statistics behavior, cardinality estimation, or planner/runtime semantics.","target_modules":["statistics"]}

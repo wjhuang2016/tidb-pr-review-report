@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56463,"reason":"The PR is centered on `pkg/expression` and changes integer display-length behavior, which is directly in expression/type semantics rather than incidental test or infra churn. The added integration tests also indicate user-visible SQL behavior is being validated.","target_modules":["expression"]}

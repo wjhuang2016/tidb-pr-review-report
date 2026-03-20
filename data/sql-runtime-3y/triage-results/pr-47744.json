@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":47744,"reason":"Although the subject is `disttask`, the change is fully concentrated in `pkg/session/bootstrap.go` and its test. A fix for missing `framework_meta` creation during upgrade is centered on session/bootstrap upgrade correctness rather than an incidental touch.","target_modules":["session"]}

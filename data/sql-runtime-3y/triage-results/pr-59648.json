@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59648,"reason":"The PR is entirely in planner code (`pkg/planner/core/task.go`, `pkg/planner/property/physical_property.go`) and the subject indicates a planner-behavior revert around `needEnforceExchanger`, which is plausibly optimizer/plan semantics rather than incidental touch-up.","target_modules":["planner"]}

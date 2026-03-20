@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61484,"reason":"The PR is entirely in `pkg/parser` production code (`digester.go`) plus its test, and the subject indicates a behavior change in SQL literal reduction with charset handling. That is parser-centered behavior, not an incidental touch, so it merits deep review.","target_modules":["parser"]}

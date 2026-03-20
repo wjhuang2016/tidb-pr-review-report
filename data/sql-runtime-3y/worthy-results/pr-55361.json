@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":55361,"reason":"Single-file change in pkg/table/tables/tables.go with subject indicating cleanup/removal of an unnecessary function. Metadata does not suggest planner/executor/session/parser/kv semantic changes or other high-blast-radius behavior worth a dedicated deep Blocker/High hunt.","target_modules":["table"]}

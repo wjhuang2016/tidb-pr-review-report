@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49400,"reason":"Touches `pkg/planner/core/logical_plan_builder.go` to fix incorrect `UPDATE` results in the presence of recursive CTEs. That is central planner/DML semantic logic with direct wrong-result risk, and recursive CTE planning can have broader blast radius than the small diff suggests.","target_modules":["planner"]}

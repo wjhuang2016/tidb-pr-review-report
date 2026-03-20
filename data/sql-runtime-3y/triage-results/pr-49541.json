@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49541,"reason":"The PR is entirely scoped to `pkg/statistics/handle/autoanalyze`, and changes auto-analyze execution gating based on the configured time window. That is a core statistics-behavior change, not an incidental touch, and it can affect stats freshness and downstream optimizer behavior.","target_modules":["statistics"]}

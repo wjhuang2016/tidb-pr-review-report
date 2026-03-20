@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66067,"reason":"The PR is entirely in `pkg/executor/builder.go`, and the subject is about unifying index join table reader KV range construction. That is a core executor/runtime correctness path with direct KV access implications, not an incidental touch.","target_modules":["executor","kv"]}

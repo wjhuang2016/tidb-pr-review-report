@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48522,"reason":"The PR is centered on range construction for `LIKE` over new-collation columns in `pkg/util/ranger`, with planner integration tests and planner range-scan testdata updates. That is core optimizer/range-planning SQL semantics, not an incidental touch.","target_modules":["planner","expression"]}

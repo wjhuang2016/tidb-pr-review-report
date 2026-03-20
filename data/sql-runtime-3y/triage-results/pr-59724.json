@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59724,"reason":"The only production code touch is in pkg/statistics/histogram.go, and the subject plus planner/cardinality test updates indicate a change to selectivity/cardinality estimation. That is core planner/statistics behavior, not an incidental side effect.","target_modules":["statistics","planner"]}

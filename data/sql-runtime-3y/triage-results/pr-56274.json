@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56274,"reason":"The PR is fully concentrated in `pkg/executor/join/*` with a subject indicating hash join probe-state lifecycle changes, which is core executor runtime correctness rather than incidental test/infra work.","target_modules":["executor"]}

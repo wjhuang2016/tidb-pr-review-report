@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":47764,"reason":"The PR is centered on executor join behavior: all changed files are in `pkg/executor/*` and the subject targets optimization of left outer/(anti) semi joins, which can affect join runtime correctness and SQL result semantics rather than incidental infra/test concerns.","target_modules":["executor"]}

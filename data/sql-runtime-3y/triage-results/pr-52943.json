@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52943,"reason":"The PR is explicitly a planner fix and the only changed file is `pkg/planner/core/task.go`. The subject references MPP join column pruning and projection construction, which are core optimizer/planner correctness concerns, not incidental touches.","target_modules":["planner"]}

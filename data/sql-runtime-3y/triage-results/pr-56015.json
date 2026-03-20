@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56015,"reason":"The only changed file is in `pkg/executor/internal/querywatch/query_watch.go`, and the PR subject describes a user-visible `QUERY WATCH` time-semantics change (`time type to UTC`). That is clearly centered on executor/runtime behavior rather than incidental infra, docs, or tests.","target_modules":["executor"]}

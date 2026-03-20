@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48439,"reason":"The PR is centered on BR backup/prepare-snapshot implementation, with almost all changes under `br/**` plus BR realtikv tests. The only focus-area touch is a single `pkg/store/mockstore/unistore/...` file, which looks incidental/test-support rather than a store-centric behavior change.","target_modules":["store"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55322,"reason":"PR is directly centered on executor correctness: it fixes incorrect query results in hash aggregation spill paths and changes only executor aggregation implementation files plus its test. That is a core runtime-semantics area, not an incidental touch.","target_modules":["executor"]}

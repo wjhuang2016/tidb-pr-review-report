@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":62089,"reason":"Only a test-file change improving test logs in pkg/executor; no target-module production code or behavior change is indicated. This looks incidental test maintenance, not a PR centered on executor/planner/session/statistics/kv/parser/table/privilege semantics.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48358,"reason":"The only production code change is in `pkg/executor/executor.go`, and the PR explicitly fixes a panic triggered by `tidb_mem_quota_analyze`. That is core executor runtime-correctness behavior, with supporting analyze-path tests rather than incidental module touches.","target_modules":["executor"]}

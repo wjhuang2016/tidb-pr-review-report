@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66050,"reason":"The PR is directly centered on `pkg/executor`, with the only target code path in `pkg/executor/unionexec/union.go`. A change to make `UnionExec` close race-safe is executor lifecycle/runtime correctness, which is a high-signal core behavior rather than an incidental touch.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54424,"reason":"Dependency bump for PD client with only module metadata changes and one executor test update. No production code in planner / executor / expression / session / sessionctx / statistics / kv / store / parser / table / privilege is touched; the executor file is test-only and appears incidental.","target_modules":[]}

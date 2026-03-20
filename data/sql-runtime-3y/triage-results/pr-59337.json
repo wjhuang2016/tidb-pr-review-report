@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59337,"reason":"The PR is centered on `pkg/executor/show.go` and changes SHOW/session-state behavior when a signing cert is unavailable, which is directly in executor runtime and plausibly affects session/protocol-visible correctness rather than incidental infra or test-only code.","target_modules":["executor","session"]}

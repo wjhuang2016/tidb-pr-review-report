@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59362,"reason":"Changes `pkg/expression/infer_pushdown.go` to allow `str_to_date` TiKV pushdown, which is core expression/pushdown semantics and can affect execution placement and correctness.","target_modules":["expression","planner"]}

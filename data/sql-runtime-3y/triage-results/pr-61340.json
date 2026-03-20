@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61340,"reason":"PR is directly centered on `pkg/statistics/**` and changes TopN count computation logic, which is core statistics/cardinality behavior rather than an incidental touch. The diff is concentrated in production statistics code with matching tests.","target_modules":["statistics"]}

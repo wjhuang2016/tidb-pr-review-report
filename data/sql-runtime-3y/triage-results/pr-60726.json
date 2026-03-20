@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60726,"reason":"Adds a new user-facing SQL statement for canceling distribution jobs and directly changes parser grammar/AST, plan building, and executor runtime paths. Those are core parser/planner/executor semantics, not incidental touches.","target_modules":["parser","planner","executor"]}

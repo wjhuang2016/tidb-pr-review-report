@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63188,"reason":"The only non-test code change is in `pkg/planner/util/path.go`, and the subject explicitly targets planner logic (`CompareCol2Len`). From metadata alone this is clearly planner-centered, with plausible optimizer/path-selection impact rather than an incidental touch.","target_modules":["planner"]}

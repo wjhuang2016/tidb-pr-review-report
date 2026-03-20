@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53267,"reason":"The PR is entirely within `pkg/planner/*`, including `find_best_task`, `plan`, and task-base plumbing. Moving `invalidTask` is a planner-core refactor around task/optimizer internals, not an incidental touch, and it plausibly affects optimizer behavior or correctness.","target_modules":["planner"]}

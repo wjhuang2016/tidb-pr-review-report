@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59349,"reason":"The change is fully concentrated in `pkg/executor/slow_query.go`, and the subject is a user-visible correctness fix for slow-query parsing. That is a direct executor behavior change rather than an incidental touch, test-only update, or infra/doc change.","target_modules":["executor"]}

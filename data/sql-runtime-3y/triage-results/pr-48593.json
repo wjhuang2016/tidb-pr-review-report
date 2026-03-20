@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48593,"reason":"The PR is entirely in core executor/parser paths and appears to change how `SET tidb_cloud_storage_uri` is rendered/redacted. That is a direct user-visible SQL/session-behavior and visibility/security fix, not an incidental touch.","target_modules":["executor","parser","session"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63395,"reason":"The PR is centered on `pkg/statistics/handle/bootstrap.go` with matching statistics tests, and the subject describes a statistics behavior change (`support specify table IDs`). The non-statistics touch in `pkg/util/slice/slice.go` looks incidental.","target_modules":["statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59739,"reason":"The PR is centered on `pkg/privilege/privileges/cache.go` and RBAC username parsing/lookup semantics (`username` containing `@`). That is directly in the privilege enforcement area, not an incidental touch, and can affect role resolution and authorization correctness.","target_modules":["privilege"]}

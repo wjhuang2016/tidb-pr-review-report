@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48011,"reason":"The PR is entirely in planner code and changes plan-cacheability behavior for queries accessing generated columns via a new fix-control flag. That is a direct planner/optimizer semantic change, not an incidental touch.","target_modules":["planner"]}

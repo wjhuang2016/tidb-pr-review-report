@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53230,"reason":"The PR is centered on `pkg/expression/builtin_regexp.go` and changes regexp error behavior for empty patterns, which is directly an expression semantic/runtime-correctness concern. The executor files are test-only support, not the primary implementation.","target_modules":["expression"]}

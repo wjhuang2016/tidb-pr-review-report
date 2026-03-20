@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":60642,"reason":"Changes a planner entrypoint to add permission checks for an ADMIN command. Even though the scope looks small, privilege enforcement bugs are high-signal: a mistake can allow unauthorized access or break legitimate admin flows, so this is worth a focused deep review.","target_modules":["planner","privilege"]}

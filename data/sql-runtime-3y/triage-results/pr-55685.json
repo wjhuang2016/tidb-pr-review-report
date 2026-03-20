@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55685,"reason":"The PR is entirely in `pkg/statistics/handle/bootstrap.go` and the subject is a statistics bootstrap/column-bucket decoding failure. That is a core statistics correctness path, not an incidental touch, and can affect loaded stats used by planning/costing.","target_modules":["statistics"]}

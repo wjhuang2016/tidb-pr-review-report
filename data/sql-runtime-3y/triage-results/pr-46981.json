@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":46981,"reason":"PR only adds OWNERS metadata files, including incidental touches under planner and statistics. No evidence of planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege behavior, semantics, or runtime correctness changes.","target_modules":["planner","statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48133,"reason":"The PR is centered on `pkg/executor` and fixes a goroutine leak in `EvalSubqueryFirstRow`, which is executor runtime correctness rather than incidental infra/test churn. The changed files are overwhelmingly executor code, with tests/Bazel updates only supporting that core fix.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50600,"reason":"The PR’s only production code change is in `pkg/planner/core/planbuilder.go`, and the subject indicates a behavioral change to the `ANALYZE` limit. That is directly tied to planner SQL handling and likely statistics-facing behavior, not an incidental test/infra touch.","target_modules":["planner","statistics"]}

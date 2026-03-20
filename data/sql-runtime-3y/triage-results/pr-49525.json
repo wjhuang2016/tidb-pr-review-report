@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49525,"reason":"The PR is directly centered on expression semantics: it changes `pkg/expression/scalar_function.go` to fix NULL type inference for `ROW`, which is a core expression/type-inference behavior with SQL-visible impact. The added integration tests reinforce that this is not incidental.","target_modules":["expression"]}

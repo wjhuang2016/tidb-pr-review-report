@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51197,"reason":"The change is entirely in `pkg/sessionctx/variable/sysvar.go` and the PR is about behavior triggered when a system variable (`ServerMemoryLimit`) is updated. That is a direct `sessionctx`/sysvar behavior change, not an incidental touch or pure infra/test/docs edit.","target_modules":["sessionctx"]}

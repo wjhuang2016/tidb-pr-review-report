@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57641,"reason":"PR is entirely within `pkg/executor/aggregate` and addresses hash aggregation hang/panic under memory-limit pressure, which is core executor runtime correctness rather than an incidental touch.","target_modules":["executor"]}

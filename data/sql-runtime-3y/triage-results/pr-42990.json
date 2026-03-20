@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":42990,"reason":"Only a RealTiKV test file changed, with no production code paths in planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege. The topic touches kv/store lock resolution semantics, but this PR is test-only coverage rather than a core module change.","target_modules":[]}

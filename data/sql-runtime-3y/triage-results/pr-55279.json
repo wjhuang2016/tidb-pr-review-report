@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55279,"reason":"The PR is centered on `pkg/planner/core` and changes planner-core code paths (`hint_utils.go`, `physical_plans.go`) tied to physical join abstractions and hint handling, with matching planner tests. This is not an incidental touch; it plausibly affects optimizer/planner semantics.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58352,"reason":"The PR is centered on removing query-cache-related system variable and SET-statement handling in `pkg/sessionctx/variable/*` and `pkg/executor/set.go`. That is a direct, user-visible session/sessionctx and executor behavior change, not an incidental touch.","target_modules":["sessionctx","executor"]}

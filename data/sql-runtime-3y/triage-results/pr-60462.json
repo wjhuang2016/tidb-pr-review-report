@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60462,"reason":"The PR is directly centered on `pkg/session/syssession/session.go`, and the subject indicates a concurrency-safety change for thread-unsafe system session calls. That is core session runtime/correctness behavior, not an incidental touch or test-only change.","target_modules":["session"]}

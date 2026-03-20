@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65619,"reason":"Only planner test files changed, with no production code paths touched (`Target code count: 0`). Despite the `planner` subject/module, this PR is about fixing flaky tests in `instanceplancache`, so the target module is incidental rather than the center of a behavior change.","target_modules":["planner"]}

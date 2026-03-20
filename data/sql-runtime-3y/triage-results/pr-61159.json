@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61159,"reason":"The PR is wholly concentrated in `pkg/parser/**` (AST, grammar, keywords, generated parser, and parser tests) to add a new SQL/DDL syntax element `ADD_COLUMNAR_REPLICA_ON_DEMAND`. That is a direct parser SQL-semantics change, not an incidental touch.","target_modules":["parser"]}

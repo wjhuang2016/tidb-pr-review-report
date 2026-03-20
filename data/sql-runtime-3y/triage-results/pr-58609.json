@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58609,"reason":"The PR is entirely within `pkg/statistics/handle/ddl` and is explicitly about statistics DDL-event error handling. That is a direct statistics-subsystem change, not an incidental touch, and it can affect statistics maintenance and downstream planner/cardinality behavior.","target_modules":["statistics"]}

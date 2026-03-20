@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":58039,"reason":"Only planner test artifacts changed (`vector_index_test.go` and related testdata JSON) with no production code paths touched. This looks like test correction coverage, not a planner/executor/expression/session/statistics/kv/store/parser/table/privilege behavior change.","target_modules":["planner"]}

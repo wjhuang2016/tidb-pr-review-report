@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48828,"reason":"The PR is directly in `pkg/executor/shuffle.go` and fixes an executor crash path when `shuffleExec` exits unexpectedly. That is core executor runtime-correctness behavior, not an incidental touch; the accompanying failpoint test reinforces that scope.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50527,"reason":"The change is entirely in `pkg/privilege/privileges/ldap` and the subject indicates an LDAP TLS minimum-version enforcement change. That is squarely in the privilege/authentication surface, not an incidental touch, and could affect security and connection acceptance behavior.","target_modules":["privilege"]}

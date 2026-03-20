@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63448,"reason":"The PR is entirely centered on `pkg/parser` (`parser.y`, generated `parser.go`, AST, and parser tests) and changes SQL syntax support for partial indexes. That is core parser/SQL-semantics work, not an incidental touch.","target_modules":["parser"]}

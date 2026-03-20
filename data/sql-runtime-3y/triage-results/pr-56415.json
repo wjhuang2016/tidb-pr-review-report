@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56415,"reason":"The PR is centered on executor runtime correctness: the only production code change is in `pkg/executor/insert_common.go`, and the bug described is data inconsistency in `load data ... replace into ...`, which is a high-signal executor behavior rather than an incidental touch.","target_modules":["executor"]}

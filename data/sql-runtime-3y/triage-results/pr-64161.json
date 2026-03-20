@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64161,"reason":"The PR is clearly centered on the statistics subsystem: the subject is a statistics behavior change and the only modified file is in `pkg/statistics/handle/storage/save.go`. This is a direct change to a target high-signal module, not an incidental touch.","target_modules":["statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57964,"reason":"The PR is explicitly about a planner correctness bug in plan cache schema selection, and its only target code path is pkg/planner/core/plan_cache.go. That is a core planner/optimizer semantics area; the DDL test files look like validation coverage rather than the main feature.","target_modules":["planner"]}

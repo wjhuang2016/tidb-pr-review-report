@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50405,"reason":"Direct change in `pkg/planner/core/plan_cache_utils.go` with planner-focused subject and matching test update. This is clearly centered on planner behavior, likely affecting plan cache / optimizer control semantics rather than incidental infrastructure or docs.","target_modules":["planner"]}

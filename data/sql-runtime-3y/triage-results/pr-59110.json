@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59110,"reason":"The PR is directly in `pkg/planner/core/find_best_task.go` with a planner-focused title and a supporting planner/cardinality test. Changing skyline pruning based on index statistics availability is clearly optimizer/statistics behavior, not an incidental touch.","target_modules":["planner","statistics"]}

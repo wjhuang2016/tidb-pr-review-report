@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63622,"reason":"The PR is entirely in `pkg/parser/**` and changes hint parsing grammar/AST for `LEADING`, which is a parser SQL-semantics concern rather than an incidental touch.","target_modules":["parser"]}

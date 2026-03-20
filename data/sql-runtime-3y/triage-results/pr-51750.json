@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51750,"reason":"The only code change is in `pkg/planner/core/rule_predicate_push_down.go`, and the subject is a planner optimization/semantic fix for outer-join to inner-join simplification. That is directly in optimizer behavior with clear SQL plan correctness impact, not an incidental touch.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65877,"reason":"Single-file executor change in the fast ADMIN CHECK path to honor session sysvars; this looks like a narrow admin/diagnostic behavior fix rather than a central planner/executor/session semantic change with broad Blocker/High-risk blast radius.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60107,"reason":"The PR is entirely in `pkg/planner/core/exhaust_physical_plans.go` and the subject explicitly targets index join plan construction. Even if framed as a cleanup, it is clearly centered on planner physical-plan generation, which is a core high-blast-radius area.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65774,"reason":"PR is directly centered on `pkg/executor/builder.go` and explicitly changes executor builder logic for index join, which is core executor/runtime behavior rather than incidental infra or tests.","target_modules":["executor"]}

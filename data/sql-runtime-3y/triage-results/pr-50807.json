@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50807,"reason":"The PR directly changes `pkg/executor/importer/table_import.go` and its paired tests to fix IMPORT INTO checksum behavior around `distsql-scan-concurrency`. That is an executor runtime-behavior fix, not an incidental touch, so it is genuinely in scope for executor-focused review.","target_modules":["executor"]}

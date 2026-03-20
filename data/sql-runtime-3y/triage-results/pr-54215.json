@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54215,"reason":"The only production code change is in `pkg/executor/show.go`, and the PR fixes user-visible `SHOW CREATE TABLE` output semantics for check constraints. That is a direct executor/table-behavior change, not an incidental touch.","target_modules":["executor","table"]}

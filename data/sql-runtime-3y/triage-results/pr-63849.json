@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":63849,"reason":"The PR is entirely in `pkg/executor/simple.go`, and the subject indicates executor response-handling correctness. That is a core executor/runtime behavior, not an incidental touch.","target_modules":["executor"]}

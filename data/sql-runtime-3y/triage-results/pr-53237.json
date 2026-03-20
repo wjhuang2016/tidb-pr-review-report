@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53237,"reason":"The PR is wholly confined to `pkg/planner/core/rule_column_pruning.go` and explicitly changes planner column-pruning behavior, which is optimizer semantics in a high-blast-radius planner path rather than an incidental touch.","target_modules":["planner"]}

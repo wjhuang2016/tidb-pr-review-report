@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51271,"reason":"The PR is entirely in `pkg/executor/sortexec/*` and changes TopN/sort execution behavior, which is core executor runtime logic with direct correctness and performance impact rather than incidental touches.","target_modules":["executor"]}

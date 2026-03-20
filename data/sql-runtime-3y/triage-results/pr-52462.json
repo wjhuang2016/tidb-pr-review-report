@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52462,"reason":"The PR is entirely within `pkg/statistics/handle/bootstrap.go`, and the subject indicates a behavior change in stats initialization/order selection. That is directly in the statistics subsystem rather than an incidental touch, so it merits deep review.","target_modules":["statistics"]}

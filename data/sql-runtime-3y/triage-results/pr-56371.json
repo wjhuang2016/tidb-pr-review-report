@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56371,"reason":"The PR is entirely in `pkg/session/bootstrap.go` and the subject indicates a correctness fix to the bootstrap etcd mutex key. That is clearly centered on session/bootstrap coordination behavior rather than incidental infra or test-only churn.","target_modules":["session"]}

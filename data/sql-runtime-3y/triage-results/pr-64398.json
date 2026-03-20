@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64398,"reason":"The PR is centered on transaction locking behavior in DML, with the only non-test code change in `pkg/session/txn.go`. From metadata alone, that is a direct session/transaction correctness change with plausible KV consistency impact, not an incidental touch.","target_modules":["session","kv"]}

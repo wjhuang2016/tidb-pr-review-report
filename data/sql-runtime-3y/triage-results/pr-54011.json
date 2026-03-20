@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54011,"reason":"Test-only PR. It changes an executor issue test and Bazel metadata, with no production code paths touched, so the executor module is only the test surface here rather than the behavioral change under review.","target_modules":["executor"]}

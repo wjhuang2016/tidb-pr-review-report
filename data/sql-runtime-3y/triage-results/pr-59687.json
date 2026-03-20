@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59687,"reason":"The PR appears to change user-visible JSON extraction semantics (`$[last]`) and adds expression integration tests, so it is clearly about expression/runtime SQL behavior rather than incidental infra or test-only churn.","target_modules":["expression"]}

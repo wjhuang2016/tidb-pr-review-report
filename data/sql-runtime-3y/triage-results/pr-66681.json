@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66681,"reason":"PR is clearly centered on planner/optimizer semantics: subject is planner join reorder behavior, both non-test code changes are under pkg/planner/core/joinorder, and the rest are planner casetests/testdata. This is a direct planner correctness/semantics change, not incidental touch.","target_modules":["planner"]}

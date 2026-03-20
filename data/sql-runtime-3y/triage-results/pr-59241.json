@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59241,"reason":"The PR is centered on core planner behavior: it changes row-count comparison tolerance in `pkg/planner/core` across cost, stats, and task selection paths. That directly affects optimizer/cardinality/cost-model semantics rather than incidental tests or infra.","target_modules":["planner","statistics"]}

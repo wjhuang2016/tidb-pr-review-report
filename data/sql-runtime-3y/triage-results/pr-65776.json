@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65776,"reason":"The PR is entirely concentrated in `pkg/planner` core operator implementations, with 100% of changed code in planner paths, and the subject is a planner-side correctness/concurrency fix (`Plan.ExplainID` data race). This is not an incidental touch or infra/test-only change.","target_modules":["planner"]}

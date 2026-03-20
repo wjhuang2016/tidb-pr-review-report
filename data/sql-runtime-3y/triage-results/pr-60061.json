@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60061,"reason":"The PR is entirely in pkg/executor join runtime code and fixes a data race in hash join spill handling, which is core executor correctness/concurrency behavior rather than an incidental touch.","target_modules":["executor"]}

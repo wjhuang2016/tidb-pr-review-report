@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48594,"reason":"The PR is centered on `pkg/table` index-iteration logic for multi-valued indexes, with 2 of 3 changed files in target `table` code paths and a RealTiKV regression test. That is core table/index correctness rather than incidental test or infra work.","target_modules":["table"]}

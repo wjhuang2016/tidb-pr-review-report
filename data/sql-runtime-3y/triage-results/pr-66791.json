@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66791,"reason":"PR is fully concentrated in pkg/executor, with the only production code change in pkg/executor/distribute.go and matching executor test updates. The subject indicates retry behavior for missing jobs, which is executor runtime/correctness logic rather than incidental touch.","target_modules":["executor"]}

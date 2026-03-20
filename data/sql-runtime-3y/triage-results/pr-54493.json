@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54493,"reason":"This PR directly changes parser grammar/AST files (`pkg/parser/parser.y`, `pkg/parser/parser.go`, `pkg/parser/ast/ast.go`) to fix prepared-statement handling for partition-related DDL. That is core SQL/parser semantics, not an incidental touch, even though the feature area is DDL.","target_modules":["parser"]}

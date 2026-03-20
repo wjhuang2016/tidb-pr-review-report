@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59927,"reason":"Planner-core semantic change in outer-join limit pushdown logic (`pkg/planner/core/operator/logicalop/logical_join.go`) with planner and integration test updates. This is directly about optimizer behavior, not an incidental touch.","target_modules":["planner"]}

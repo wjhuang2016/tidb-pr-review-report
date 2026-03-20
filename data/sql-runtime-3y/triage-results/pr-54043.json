@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54043,"reason":"The only production code change is in `pkg/executor/show.go`, with supporting executor tests only. A panic guard around warnings in `SHOW`-related executor code is a user-visible executor/runtime correctness change, not an incidental touch.","target_modules":["executor"]}

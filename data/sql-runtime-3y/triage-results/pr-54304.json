@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54304,"reason":"The PR is directly centered on `pkg/executor` hash join v2 internals, with all target code paths in executor runtime files (`builder.go`, join probe/table/join row logic). This is a core executor correctness/performance change, not an incidental touch or test-only update.","target_modules":["executor"]}

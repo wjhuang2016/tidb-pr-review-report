@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59564,"reason":"Core change is in planner cardinality estimation and statistics logic (`pkg/planner/cardinality/row_count_column.go`, `pkg/statistics/cmsketch.go`), with matching planner CBO tests. This is clearly centered on optimizer/statistics behavior rather than incidental touches.","target_modules":["planner","statistics"]}

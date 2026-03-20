@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65492,"reason":"The PR is clearly centered on `session` behavior: the subject is a session-close memory leak fix, the only target code path is `pkg/session/session.go`, and the executor-side changes are test coverage for ANALYZE-triggered session cleanup rather than incidental infra work.","target_modules":["session"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54841,"reason":"The PR is entirely within a core executor path (`pkg/executor/join/index_lookup_hash_join.go`) and explicitly changes index hash join execution behavior by reducing cop task count. That is a direct executor/runtime optimization with meaningful blast radius, not an incidental touch.","target_modules":["executor"]}

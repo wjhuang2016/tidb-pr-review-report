@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49421,"reason":"The PR is centered on `pkg/parser/*` and `pkg/planner/core/*` and fixes SQL semantics for embedded set-operation statements losing `ORDER BY`/`LIMIT`. That is a core parser/planner correctness issue, not an incidental touch; executor changes appear to be test coverage only.","target_modules":["parser","planner"]}

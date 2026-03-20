@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65274,"reason":"The PR is fully concentrated in `pkg/parser/ast/*` and the subject indicates a parser-layer behavioral change around URL redaction. Even if this is not core SQL grammar work, it is clearly centered on the parser module rather than an incidental touch.","target_modules":["parser"]}

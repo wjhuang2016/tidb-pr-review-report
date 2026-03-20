@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":55385,"reason":"Only a planner test file was changed (`pkg/planner/core/casetest/instanceplancache/main_test.go`); no production code paths in planner or other focus modules were modified. This is test coverage expansion, not a core behavioral change.","target_modules":["planner"]}

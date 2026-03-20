@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54146,"reason":"Narrow expression bug fix limited to YEAR->JSON casting in two cast implementation files, with matching integration tests. It touches expression semantics, but the scope and blast radius look too small to justify a 20-40 minute Blocker/High-focused deep review.","target_modules":["expression"]}

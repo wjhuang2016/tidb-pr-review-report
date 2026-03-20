@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64297,"reason":"The PR is directly about privilege enforcement for GRANT/role operations and changes core planning logic in `pkg/planner/core/planbuilder.go`, not incidental tests or infra. That is a high-signal privilege/planner behavior change with user-visible authorization impact.","target_modules":["planner","privilege"]}

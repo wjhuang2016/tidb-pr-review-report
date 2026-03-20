@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48090,"reason":"Core code change is isolated to pkg/executor/hash_table.go under executor, with the PR explicitly about changing chunk reuse behavior in GetMatchedRowsAndPtrs. That is a direct executor runtime-path modification, not an incidental test/docs/infra touch.","target_modules":["executor"]}

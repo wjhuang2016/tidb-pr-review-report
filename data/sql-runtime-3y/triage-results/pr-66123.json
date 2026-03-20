@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66123,"reason":"The PR is explicitly about planner hint-matching semantics (`LEADING` hint) and its only non-test code path is `pkg/planner/util/misc.go`, with the rest being planner rule tests/testdata. This is clearly centered on planner/optimizer behavior rather than incidental touches.","target_modules":["planner"]}

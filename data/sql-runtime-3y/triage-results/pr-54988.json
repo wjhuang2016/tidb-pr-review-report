@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54988,"reason":"The PR is centered on a core planner code path (`pkg/planner/core/logical_expand.go`) and fixes a planner-phase panic involving correlated column extraction for `Expand`. The executor files are only integration tests validating the planner fix, not incidental product changes.","target_modules":["planner"]}

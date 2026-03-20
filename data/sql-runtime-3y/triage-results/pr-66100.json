@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":66100,"reason":"Only planner cbotest testdata files changed, with no core code paths touched. The PR appears to adjust test expectations around `EXPLAIN FORMAT=brief` plan-id output rather than change planner/executor/expression/session/statistics/kv/parser/table/privilege behavior.","target_modules":["planner"]}

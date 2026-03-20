@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49312,"reason":"The PR is centered on `pkg/statistics/histogram.go` and fixes bucket ordering during global stats merge, which is directly in the statistics/cardinality behavior path rather than an incidental touch.","target_modules":["statistics"]}

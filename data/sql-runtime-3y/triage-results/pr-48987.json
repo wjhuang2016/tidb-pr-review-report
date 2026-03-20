@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48987,"reason":"PR is centered on `pkg/expression` and changes `JSON_UNQUOTE` pushdown behavior for TiFlash. That is a core expression semantic/runtime-translation concern, not an incidental test/docs/infra touch.","target_modules":["expression"]}

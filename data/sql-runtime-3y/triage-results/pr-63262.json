@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63262,"reason":"Adds a new SQL hint with direct parser grammar/token changes and executor runtime handling (`pkg/parser/*`, `pkg/executor/adapter.go`). This is core parser/executor behavior, not an incidental touch; planner appears secondary from tests only.","target_modules":["executor","parser"]}

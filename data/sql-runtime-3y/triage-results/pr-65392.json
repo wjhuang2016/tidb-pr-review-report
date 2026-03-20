@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65392,"reason":"The PR is explicitly about optimizer/binding-cache behavior and the only changed file is in pkg/session. Even from metadata alone, this looks like a planner-semantics fix implemented through session initialization logic, not an incidental touch.","target_modules":["planner","session"]}

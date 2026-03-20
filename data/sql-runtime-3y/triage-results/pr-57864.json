@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57864,"reason":"The PR is entirely in `pkg/planner/**`, specifically cascades pattern/binder/rule/memo/optimize paths that sit on core optimizer semantics. Even if some of it is code movement, the touched files are central planner internals rather than incidental tests/infra.","target_modules":["planner"]}

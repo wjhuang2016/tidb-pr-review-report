@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66969,"reason":"The only substantive code path is `pkg/store/copr/coprocessor.go`, and the subject describes changing coprocessor request bucket/version handling. That is clearly centered on store-layer runtime behavior rather than incidental tests/infra/docs.","target_modules":["store"]}

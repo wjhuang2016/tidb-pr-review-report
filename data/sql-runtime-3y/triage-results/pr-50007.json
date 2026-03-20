@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50007,"reason":"The PR is centered on `pkg/parser` and changes SQL grammar/parse behavior for `REPLACE INTO` hints, which is directly within parser SQL semantics rather than an incidental touch. Tests are parser-focused and support that this is a real parser-behavior change.","target_modules":["parser"]}

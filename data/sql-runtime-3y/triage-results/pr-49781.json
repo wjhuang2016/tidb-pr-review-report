@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49781,"reason":"The PR is directly centered on `pkg/executor/show.go` and changes user-visible `SHOW CREATE` behavior for tables, not incidental infra or test-only work. Even though the scope looks narrow, it is clearly in executor-facing SQL output semantics.","target_modules":["executor","table"]}

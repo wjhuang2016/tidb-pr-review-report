@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56680,"reason":"Core planner change: the subject and only non-test code touch are in `pkg/planner/core/planbuilder.go`, updating access path selection for vector index usage. That is directly optimizer/planner semantics rather than incidental test or infra churn.","target_modules":["planner"]}

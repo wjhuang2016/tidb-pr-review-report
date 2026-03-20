@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49585,"reason":"The PR is explicitly about planner hint matching from universal bindings and changes multiple `pkg/planner/core/*` files tied to plan building and join reordering, which are core optimizer semantics rather than incidental touches.","target_modules":["planner"]}

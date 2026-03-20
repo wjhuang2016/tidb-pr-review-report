@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56055,"reason":"The PR is fully concentrated in `pkg/statistics/**` and explicitly targets statistics correctness (`avoid inaccurate results`) by changing runtime read/write behavior (`for update`) in stats handle paths, not incidental infra or test-only touchups.","target_modules":["statistics"]}

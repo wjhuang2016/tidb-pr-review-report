@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59102,"reason":"PR is explicitly planner-centered and changes only a core planner file (`pkg/planner/core/physical_plans.go`). A change to `PhysicalTableScan.Clone` can affect optimizer/plan construction semantics rather than being an incidental touch.","target_modules":["planner"]}

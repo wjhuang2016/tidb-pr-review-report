@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60495,"reason":"PR is fully concentrated in planner core/property files, and the subject explicitly targets datasource task building and index join property handling. That is core optimizer semantics with likely impact on physical plan selection/costing rather than incidental touches.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65020,"reason":"The only non-test code change is in pkg/session/upgrade.go, and the subject explicitly targets session upgrade logic. That is a core session/bootstrap behavior rather than an incidental touch, with supporting session/bootstrap and restore tests around upgrade handling.","target_modules":["session"]}

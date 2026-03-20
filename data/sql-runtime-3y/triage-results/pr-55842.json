@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55842,"reason":"Core statistics/planner semantics change: the PR fixes incorrect estRows for global index + JSON column, with production code in pkg/statistics/table.go and planner integration tests. That is directly in scope for statistics/cardinality behavior, not an incidental touch.","target_modules":["statistics","planner"]}

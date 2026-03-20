@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65240,"reason":"The PR is directly centered on `pkg/expression` and changes SQL builtin behavior for `GET_FORMAT` by making location handling case-insensitive. That is an expression-semantic/runtime-correctness change, with matching integration test updates, not an incidental touch.","target_modules":["expression"]}

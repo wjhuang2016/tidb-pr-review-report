@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":57832,"reason":"Test-only PR under planner (`hash64_equals_test.go` plus Bazel metadata) with no production code changes or target code paths. This does not appear centered on planner semantics or other high-blast-radius modules beyond incidental test coverage.","target_modules":["planner"]}

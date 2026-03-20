@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55314,"reason":"The PR is centered on `pkg/table/tables/index.go` with matching test updates, and the subject describes fixing transaction assertion errors during DDL/DML execution. That is core table/runtime correctness rather than incidental infra or test-only churn.","target_modules":["table"]}

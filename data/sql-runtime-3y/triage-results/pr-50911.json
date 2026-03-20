@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50911,"reason":"All changed files are in `pkg/planner/core`, including `rule_join_reorder_greedy.go`, which is directly in optimizer/planner logic. Even with a performance-oriented title, this is clearly centered on planner internals rather than incidental test/infra/docs changes.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66656,"reason":"The PR is directly changing planner logic plus column-type metadata for `_tidb_commit_ts`, and adding `UnsignedFlag` is a type-semantics change rather than an incidental test/docs/infra touch. That makes it plausibly core to planner/type inference behavior.","target_modules":["planner"]}

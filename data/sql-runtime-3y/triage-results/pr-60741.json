@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":60741,"reason":"Only test certificate/key artifacts were regenerated under `pkg/privilege/privileges/ldap/test/`. This is test data/infrastructure for LDAP-related privilege tests, not a change to production privilege enforcement or other core planner/executor/expression/session/kv/parser behavior.","target_modules":["privilege"]}

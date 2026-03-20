@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59171,"reason":"The PR is fully concentrated in `pkg/planner/**` and changes cascades memo/rule execution plus decorrelate-apply logic, which directly affects optimizer semantics and plan transformation behavior. This is a core planner change, not an incidental touch.","target_modules":["planner"]}

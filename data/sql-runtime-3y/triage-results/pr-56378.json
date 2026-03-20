@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56378,"reason":"The PR is explicitly about planner behavior and changes core planner/parser code paths, with integration tests covering user-visible infoschema pattern-matching semantics. This looks like a real SQL-semantics change rather than incidental test or infra churn.","target_modules":["planner","parser"]}

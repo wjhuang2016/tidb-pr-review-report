@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48539,"reason":"Only `pkg/parser/README.md` changed, and the subject is fixing dead links. This is documentation-only work with no parser code-path or SQL-semantics impact, so it is not genuinely centered on parser or other core runtime modules.","target_modules":[]}

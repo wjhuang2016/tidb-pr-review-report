@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58048,"reason":"The PR is fully concentrated in `pkg/statistics/**` and changes stats storage read/error-handling paths, which directly affect statistics loading correctness and can propagate into cardinality/cost behavior. The test and Bazel file touches appear supporting, not incidental.","target_modules":["statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":61128,"reason":"Only planner test artifacts changed: a TPCH casetest, stats fixtures, and Bazel metadata. There are no production-code changes in planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege, so this is test coverage rather than a core behavioral PR.","target_modules":["planner"]}

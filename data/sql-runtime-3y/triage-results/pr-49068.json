@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49068,"reason":"Core logic changes are in `pkg/statistics/builder.go`, and the subject indicates a fix to TopN handling in analyze options, which is directly a statistics/cardinality behavior change rather than incidental test or infra work.","target_modules":["statistics"]}

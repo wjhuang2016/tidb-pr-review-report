@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57023,"reason":"PR is centered on a core executor runtime path: `pkg/executor/join/hash_join_v2.go`. Hash join behavior is directly in the high-signal executor/correctness area, so even a 'minor refine' can affect query execution semantics, performance, or correctness.","target_modules":["executor"]}

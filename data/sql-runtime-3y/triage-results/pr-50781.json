@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":50781,"reason":"Only planner integration test inputs/results changed; metadata shows no production code changes in planner or other core modules. This looks like test-hint/output-format maintenance rather than a planner/executor/expression/session/statistics/kv/store/parser/table/privilege behavior change.","target_modules":["planner"]}

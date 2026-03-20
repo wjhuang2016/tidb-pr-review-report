@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59691,"reason":"The PR is centered on `pkg/executor` MPP coordinator lifecycle code, with all non-test code changes in executor runtime paths. A coordinator leak fix is an executor correctness and resource-lifecycle issue, not an incidental touch.","target_modules":["executor"]}

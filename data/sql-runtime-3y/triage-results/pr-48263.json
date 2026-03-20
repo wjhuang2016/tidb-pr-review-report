@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48263,"reason":"PR is a test migration only: it moves executor integration tests into `tests/integrationtest` and updates Bazel/testdata files, with no production-code paths or behavior changes in executor or other core modules.","target_modules":[]}

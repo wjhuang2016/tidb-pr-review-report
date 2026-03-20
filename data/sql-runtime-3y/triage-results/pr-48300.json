@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48300,"reason":"Subject explicitly says this PR fixes a comment typo. Even though both touched files are in `pkg/planner/core`, the metadata points to documentation-only changes rather than planner semantics or other high-blast-radius behavior.","target_modules":["planner"]}

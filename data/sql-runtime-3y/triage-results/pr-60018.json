@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60018,"reason":"The PR is directly scoped to the statistics subsystem: the only changed file is `pkg/statistics/handle/syncload/stats_syncload.go`, and the subject changes sync-load retry behavior. That is core statistics behavior, not an incidental touch.","target_modules":["statistics"]}

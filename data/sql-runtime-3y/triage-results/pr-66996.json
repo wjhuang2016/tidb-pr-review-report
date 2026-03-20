@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66996,"reason":"PR is clearly centered on planner/optimizer semantics for MV IndexMerge, with all target code paths in planner core plus an executor builder touch. This is a high-blast-radius query planning/runtime area rather than incidental tests or infra.","target_modules":["planner","executor"]}

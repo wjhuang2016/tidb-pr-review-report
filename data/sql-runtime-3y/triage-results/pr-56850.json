@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56850,"reason":"The only substantive code change is in `pkg/planner/cardinality/row_count_index.go`, and the subject is explicitly about cardinality estimation behavior. That is directly in planner/statistics cost-model logic, not an incidental touch.","target_modules":["planner","statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56158,"reason":"The PR is centered on expression type inference semantics for division, with the only production code change in pkg/expression/builtin_arithmetic.go and matching expression/integration tests. That is a core expression correctness path, not an incidental touch.","target_modules":["expression"]}

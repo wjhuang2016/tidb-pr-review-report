@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63198,"reason":"The PR is explicitly scoped to `planner` and changes a core planner physical operator (`PhysicalTableDual`) to support `CloneForPlanCache()`, with matching instance plan cache tests. That is directly about planner/plan-cache behavior rather than an incidental touch.","target_modules":["planner"]}

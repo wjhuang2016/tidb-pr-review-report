@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51476,"reason":"The PR is entirely focused on `pkg/executor/aggregate/agg_spill.go`, which is executor runtime behavior for aggregation memory handling and fallback/spill logic. That is a core executor correctness path, not an incidental touch.","target_modules":["executor"]}

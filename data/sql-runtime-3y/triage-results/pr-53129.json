@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53129,"reason":"The PR is entirely centered on `pkg/expression` and changes real-to-string cast behavior in core cast implementations plus tests, which is directly about expression/runtime semantics rather than incidental touches.","target_modules":["expression"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":67079,"reason":"The PR is entirely within `pkg/planner/core` and changes join reordering behavior when DP is enabled, which is core optimizer semantics with potentially broad plan-selection impact.","target_modules":["planner"]}

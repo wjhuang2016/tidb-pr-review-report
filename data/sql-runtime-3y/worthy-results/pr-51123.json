@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":51123,"reason":"Changes partition pseudo-stats creation in the core statistics handle/autoanalyze path and updates the stats interface contract. That can alter fallback cardinality/cost behavior for partitioned tables, so the blast radius is larger than a routine local fix.","target_modules":["statistics"]}

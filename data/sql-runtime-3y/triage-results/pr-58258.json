@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58258,"reason":"The PR is entirely centered on `pkg/executor/slow_query.go` and fixes a panic in slow-log parsing, which is a direct executor/runtime correctness issue rather than an incidental touch or test-only change.","target_modules":["executor"]}

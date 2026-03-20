@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":62532,"reason":"Only a test file changed (`pkg/executor/test/splittest/split_table_test.go`), and the subject indicates test retry/stabilization for async behavior rather than a production change in executor or other core SQL/runtime modules. No target production code paths are present.","target_modules":["executor"]}

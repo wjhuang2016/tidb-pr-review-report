@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55520,"reason":"The PR is entirely in `pkg/parser` (`parser.y`, generated `parser.go`, and parser tests) and fixes `SetText` behavior for `CreateViewStmt`, which is directly on the SQL parser/AST path rather than an incidental touch. That makes it clearly centered on parser semantics.","target_modules":["parser"]}

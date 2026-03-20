@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":47874,"reason":"Changes are limited to `OWNERS`/`OWNERS_ALIASES` metadata in `pkg/table` and `pkg/tablecodec`. This is ownership/infra maintenance, not code or behavior affecting table semantics, planner/executor/runtime correctness, privilege enforcement, or other high-blast-radius paths.","target_modules":["table","tablecodec"]}

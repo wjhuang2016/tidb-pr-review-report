@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64845,"reason":"The PR is entirely centered on `pkg/store/copr/coprocessor.go`, and the subject indicates a change to coprocessor task/backoff context cancellation behavior. That is a core `store` runtime/correctness concern rather than an incidental test/infra touch.","target_modules":["store"]}

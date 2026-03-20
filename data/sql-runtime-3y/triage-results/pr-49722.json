@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49722,"reason":"Touches only `pkg/statistics/handle/autoanalyze/*`, and the stated fix concerns interrupted analyze jobs producing bad SQL. That is directly in TiDB's statistics/auto-analyze behavior, not an incidental side effect or infra-only change.","target_modules":["statistics"]}

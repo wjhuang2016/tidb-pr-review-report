@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":49521,"reason":"This is a narrow parser-side validation change for the empty-database-name edge case; despite touching parser grammar/generated files, the stated scope looks localized and unlikely to hide Blocker/High issues with broad SQL semantics or runtime behavior.","target_modules":["parser"]}

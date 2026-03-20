@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66069,"reason":"The only production code change is in `pkg/planner/core/logical_plan_builder.go`, and the subject is a planner semantic change affecting NATURAL/USING join column matching and hidden-column visibility. That is directly in planner SQL behavior, not an incidental touch.","target_modules":["planner"]}

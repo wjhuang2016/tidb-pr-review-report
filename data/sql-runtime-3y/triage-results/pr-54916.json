@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54916,"reason":"PR is clearly centered on expression runtime correctness: it fixes an infinite loop in `timestampadd` and only touches `pkg/expression/builtin_time.go` plus its test. This is a high-signal expression semantic/behavior path, not an incidental touch.","target_modules":["expression"]}

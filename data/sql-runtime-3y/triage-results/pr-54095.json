@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54095,"reason":"The PR is centered on executor runtime lifecycle behavior: it changes `Close`-path memory tracker detachment for HashJoin, Apply, and IndexLookUp in `pkg/executor/*`. That is a direct executor correctness/resource-management change, not an incidental touch.","target_modules":["executor"]}

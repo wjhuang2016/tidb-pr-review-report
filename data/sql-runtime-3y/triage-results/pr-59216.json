@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59216,"reason":"The PR is entirely scoped to a core planner implementation file (`pkg/planner/core/operator/logicalop/logical_join.go`). Even though the subject says 'debug friendly', the change is clearly centered on planner internals rather than incidental tests/docs/infra touches.","target_modules":["planner"]}

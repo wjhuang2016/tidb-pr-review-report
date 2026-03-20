@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54380,"reason":"Only test/package-structure and Bazel metadata changed under executor CTE tests; there are no production code path changes or clear executor/planner/runtime semantic changes. This is incidental test/infra work, not a core module behavior PR.","target_modules":["executor"]}

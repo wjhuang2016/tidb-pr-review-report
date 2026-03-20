@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61421,"reason":"The PR is centered on optimizer/statistics behavior: the subject references planner semantics, and the only changed code path is `pkg/statistics/builder.go`, which is a core statistics/cardinality/cost-model area with planner blast radius rather than an incidental touch.","target_modules":["statistics","planner"]}

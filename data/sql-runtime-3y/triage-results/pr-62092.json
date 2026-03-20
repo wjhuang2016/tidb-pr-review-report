@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62092,"reason":"PR is clearly centered on executor runtime correctness. The only production code changes are in `pkg/executor`, and the stated bug is about `fast admin check` failing to use snapshot reads, which is a user-visible execution/consistency behavior rather than an incidental side effect.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":60353,"reason":"PR metadata points to a dependency/Bazel update (`go.mod`, `go.sum`, `DEPS.bzl`) for redact-log support. The only target-area touch is `pkg/parser/terror/terror_test.go`, which is a test-only incidental change, not parser SQL semantics or other core planner/executor/session/kv behavior.","target_modules":["parser"]}

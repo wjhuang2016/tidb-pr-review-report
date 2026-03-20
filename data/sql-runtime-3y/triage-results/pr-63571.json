@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63571,"reason":"Only test and Bazel metadata files changed under pkg/executor/test, with no production code paths in planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege. This appears to be next-gen test maintenance rather than a core behavioral change.","target_modules":["executor"]}

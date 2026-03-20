@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57506,"reason":"PR is explicitly about wrong `count(*)` results on `information_schema.tables`, which is planner-semantic query correctness. All non-test code changes are in `pkg/planner/core/*` extractor logic; the executor touch is test-only and incidental.","target_modules":["planner"]}

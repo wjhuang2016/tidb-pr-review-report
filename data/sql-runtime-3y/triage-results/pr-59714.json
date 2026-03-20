@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59714,"reason":"The PR is directly about SQL builtin expression semantics: changing `json_search` NULL-handling in `pkg/expression/builtin_json_vec.go`, with matching expression integration tests. This is clearly centered on expression/runtime correctness, not incidental test or infra churn.","target_modules":["expression"]}

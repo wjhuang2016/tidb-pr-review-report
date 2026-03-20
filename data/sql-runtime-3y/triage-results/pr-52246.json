@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52246,"reason":"The PR is centered on production code under `pkg/executor/sortexec`, and a data-race fix in parallel sort is an executor runtime correctness/concurrency concern rather than an incidental touch. The entire diff is in executor paths, so it is clearly within the target focus.","target_modules":["executor"]}

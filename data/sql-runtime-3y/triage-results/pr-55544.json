@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55544,"reason":"The PR is clearly centered on a core planner path: both changed files are in `pkg/planner/core`, with the main code change in `optimizer.go` and the subject explicitly targeting planner behavior. This is not an incidental touch or infra/test-only change.","target_modules":["planner"]}

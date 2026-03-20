@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":51854,"reason":"Dependency/version bump PR. The only code touch is `pkg/util/misc.go`, with planner/expression appearing only in regenerated integration-test result files, so the target modules are not the clear center of the change.","target_modules":[]}

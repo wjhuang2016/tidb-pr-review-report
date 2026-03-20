@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60020,"reason":"The PR is directly centered on planner core behavior: it changes `pkg/planner/core/physical_plans.go` to implement `Clone` for `PhysicalIndexJoin`, with only planner tests alongside it. That is a planner/optimizer correctness path, not an incidental touch.","target_modules":["planner"]}

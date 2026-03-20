@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57104,"reason":"The PR is centered on `pkg/tablecodec/tablecodec.go` and fixes a panic in global index/common-handle/restored-values handling, which is core table/index key-encoding behavior with likely table-to-KV correctness impact rather than an incidental touch.","target_modules":["table","kv"]}

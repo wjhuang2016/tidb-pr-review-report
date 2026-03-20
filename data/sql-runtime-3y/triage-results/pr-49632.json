@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49632,"reason":"PR is clearly centered on planner/optimizer semantics: the title targets index merge union planning behavior, 4/4 target code paths are under pkg/planner, target ratio is 0.923, and the remaining changes are planner/integration tests validating query-plan behavior.","target_modules":["planner"]}

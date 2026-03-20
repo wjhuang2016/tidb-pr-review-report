@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60027,"reason":"PR is entirely centered on parser SQL syntax support: all non-test code changes are under pkg/parser with a 1.0 target ratio, and the subject explicitly adds new SQL syntax. This is a direct parser-semantics change, not an incidental touch.","target_modules":["parser"]}

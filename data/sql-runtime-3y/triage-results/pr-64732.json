@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":64732,"reason":"The metadata points to a comment-only revert in `pkg/store/mockstore/unistore/cophandler/mpp.go`. Although the path is under `store`, this does not appear centered on storage/kv behavior, correctness, or other high-blast-radius semantics; it looks like a non-functional mockstore cleanup.","target_modules":["store"]}

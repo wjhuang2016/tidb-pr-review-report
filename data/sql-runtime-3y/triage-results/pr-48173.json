@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48173,"reason":"Main logic change is in pkg/executor/importer/import.go, and the PR is about fixing IMPORT INTO handling for compressed server files. That is executor runtime correctness, not an incidental touch.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55209,"reason":"The only non-test code change is in `pkg/planner/core`, and the subject indicates a user-visible `information_schema` filtering behavior change for temporary tables. That is clearly planner-owned metadata/visibility semantics rather than incidental infra or test churn.","target_modules":["planner","table"]}

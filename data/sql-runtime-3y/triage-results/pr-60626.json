@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":60626,"reason":"Only planner test artifacts changed: TPCH casetest Go/testdata plus BUILD metadata, with no production code in planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege paths. This looks like test coverage for TiFlash planning, not a core behavioral change.","target_modules":["planner"]}

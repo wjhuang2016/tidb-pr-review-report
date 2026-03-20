@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":52729,"reason":"The touched file is in `pkg/store`, but the PR subject is specifically a coprocessor error log refinement. From metadata alone this reads as an observability/logging change, not a clear change to storage/kv correctness, SQL semantics, or other high-blast-radius behavior in the target modules.","target_modules":["store"]}

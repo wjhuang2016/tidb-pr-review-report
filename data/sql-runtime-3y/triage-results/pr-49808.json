@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49808,"reason":"The PR is entirely concentrated in `pkg/statistics/*` with 100% target-path overlap, and the subject explicitly changes TopN stats collection behavior. That is a core statistics/cardinality behavior change, not an incidental touch.","target_modules":["statistics"]}

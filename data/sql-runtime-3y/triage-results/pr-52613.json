@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52613,"reason":"PR is centered on planner semantics: the subject describes a planner bug fix, the only code change is in `pkg/planner/core/indexmerge_unfinished_path.go`, and the accompanying changes are planner integration tests. This is not an incidental touch.","target_modules":["planner"]}

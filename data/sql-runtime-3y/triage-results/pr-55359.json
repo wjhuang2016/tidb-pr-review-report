@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55359,"reason":"The PR is explicitly about optimizing index join execution and the only changed file is `pkg/executor/join/index_lookup_join.go`, which is a core executor runtime path. This is clearly centered on executor behavior rather than incidental tests/infra/docs.","target_modules":["executor"]}

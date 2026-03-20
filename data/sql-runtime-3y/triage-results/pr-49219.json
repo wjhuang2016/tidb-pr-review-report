@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":49219,"reason":"Test-only change to speed up `split_table` coverage in TiKV env. The diff touches executor test code plus integration test/result files, with no production code paths changed, so any executor/table linkage is incidental rather than the PR's core behavior.","target_modules":[]}

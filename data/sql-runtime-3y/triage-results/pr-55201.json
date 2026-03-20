@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55201,"reason":"The PR is entirely centered on `pkg/planner/core`, with the main code change in physical plan generation for aggregation (`exhaust_physical_plans.go`) plus a planner regression test. That is directly planner/optimizer behavior, not an incidental touch.","target_modules":["planner"]}

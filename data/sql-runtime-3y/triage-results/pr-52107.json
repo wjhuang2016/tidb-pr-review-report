@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52107,"reason":"The PR is entirely in `pkg/executor/analyze.go` and the subject concerns analyze-result handling, which is directly tied to executor runtime behavior and statistics collection flow rather than incidental infra or test-only changes.","target_modules":["executor","statistics"]}

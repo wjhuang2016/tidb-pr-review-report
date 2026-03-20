@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55165,"reason":"The PR is clearly centered on executor runtime behavior: all 4 changed files are under `pkg/executor/join/`, and the subject targets hash join probe collision handling. That is a core executor path with potential correctness/performance blast radius, not an incidental touch.","target_modules":["executor"]}

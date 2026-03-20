@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53917,"reason":"The PR is entirely in `pkg/sessionctx/variable/sysvar.go` and its stated change is a user-visible warning on a system variable. That is directly centered on session/sessionctx variable behavior rather than incidental test/infra work.","target_modules":["sessionctx"]}

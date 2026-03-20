@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":61073,"reason":"The PR is entirely in `pkg/executor/distsql.go` and targets `indexLookUp` executor behavior on context cancellation. Even though the title frames it as log cleanup, it is still a direct executor runtime/error-handling change in a core path, not an incidental test/docs/infra touch.","target_modules":["executor"]}

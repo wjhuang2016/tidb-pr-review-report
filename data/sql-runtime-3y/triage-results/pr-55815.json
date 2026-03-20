@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55815,"reason":"The PR is entirely within `pkg/statistics/table.go` and the subject is statistics-specific, so it is clearly centered on a core target module rather than an incidental touch. Even if framed as cleanup, statistics behavior is in scope and merits deeper review.","target_modules":["statistics"]}

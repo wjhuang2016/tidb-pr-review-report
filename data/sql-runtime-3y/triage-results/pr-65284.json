@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65284,"reason":"Only a flaky test fix is indicated. The sole changed file is planner test code (`pkg/planner/core/casetest/instanceplancache/concurrency_test.go`), with no target production code paths and target code count 0, so this is not clearly centered on planner/runtime semantics.","target_modules":["planner"]}

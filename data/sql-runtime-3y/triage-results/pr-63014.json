@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":63014,"reason":"Only planner TPCH casetest/testdata and Bazel metadata changed; no production planner/executor/expression/session/statistics/kv/store/parser/table/privilege code paths are present, so this appears to be test coverage rather than a core semantic change.","target_modules":["planner"]}

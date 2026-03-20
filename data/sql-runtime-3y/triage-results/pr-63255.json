@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63255,"reason":"The PR is entirely in `pkg/parser` (`ast` and `format`) and the subject is a parser-formatting change for DDL special comments. That is clearly parser-centered work, not an incidental touch, and it can affect SQL text/DDL parsing-format behavior.","target_modules":["parser"]}

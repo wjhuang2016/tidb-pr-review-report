@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61285,"reason":"The PR is fully concentrated in `pkg/executor/infoschema_reader.go` and changes user-visible `INFORMATION_SCHEMA.STATISTICS` behavior by filtering non-public indexes. That is a core executor/metadata-visibility correctness change, not an incidental touch or infra/test-only change.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54266,"reason":"The PR is centered on `pkg/session/bootstrap.go`, not an incidental touch. Reserving bootstrap versions directly affects TiDB bootstrap/upgrade behavior and compatibility handling in the `session` subsystem, which is a core target area even if it is not planner/executor related.","target_modules":["session"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":64430,"reason":"The PR is statistics-scoped in name and test location, but the metadata shows only test/BUILD changes under pkg/statistics with no target code paths or production code changes. That makes it a test-only validation PR, not a core statistics behavior change requiring deep review.","target_modules":["statistics"]}

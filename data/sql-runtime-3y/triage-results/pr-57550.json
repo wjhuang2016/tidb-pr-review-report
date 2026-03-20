@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57550,"reason":"The PR is clearly centered on planner behavior: it changes `pkg/planner/core/point_get_plan.go`, and the subject indicates a point-get type/semantic handling change (`enumsetasint` when original value is int). That is directly within planner semantics rather than an incidental touch.","target_modules":["planner"]}

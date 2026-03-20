@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54010,"reason":"The PR is entirely in `pkg/planner/core/logical_plan_builder.go` and the subject describes a planner-internal change affecting how delete-table positions are recorded. That is core planner behavior, not an incidental touch.","target_modules":["planner"]}

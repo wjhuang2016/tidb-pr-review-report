@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49361,"reason":"PR title and changed paths are entirely parser-focused: grammar (`parser.y`/`parser.go`), lexer/keywords, and AST updates to support a new SQL statement form. This is directly about parser SQL semantics, not incidental parser touchups around another subsystem.","target_modules":["parser"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":56310,"reason":"Only a flaky-test fix in `pkg/privilege/privileges/ldap/ldap_common_test.go`. The touchpoint is in the privilege area, but it is test-only and not clearly centered on privilege enforcement or other core runtime semantics.","target_modules":["privilege"]}

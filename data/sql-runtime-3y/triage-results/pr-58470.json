@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58470,"reason":"PR is explicitly in `pkg/planner/cascades/memo/*` and changes memo group merge logic, which is core optimizer/planner behavior rather than incidental test or infra work. The touched tests reinforce that the change targets planner semantics directly.","target_modules":["planner"]}

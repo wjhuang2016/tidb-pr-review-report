@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53646,"reason":"The PR is entirely confined to `pkg/planner/core/*` plan cache code and is explicitly labeled as a planner regression fix. That is a direct planner-core behavior change, not an incidental touch, so it merits deep review for optimizer/plan-cache correctness and regression risk.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55829,"reason":"The PR is centered on `pkg/planner/core/logical_plan_builder.go` with all target-code signal in planner and a subject indicating a correctness fix for generated-column update behavior. That is planner semantic/runtime planning logic, not an incidental touch.","target_modules":["planner"]}

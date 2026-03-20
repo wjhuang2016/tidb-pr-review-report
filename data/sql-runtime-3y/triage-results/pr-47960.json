@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":47960,"reason":"The PR is entirely in `pkg/executor` analyze code, so it is clearly centered on executor runtime behavior, and `ANALYZE` is also directly tied to statistics collection. Even if this is a tuning change, it is not an incidental touch.","target_modules":["executor","statistics"]}

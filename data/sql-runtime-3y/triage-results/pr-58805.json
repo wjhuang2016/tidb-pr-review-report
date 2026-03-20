@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58805,"reason":"The PR is entirely in core planner files, including logical aggregation and join reorder rules, so it is clearly centered on optimizer behavior rather than incidental touches.","target_modules":["planner"]}

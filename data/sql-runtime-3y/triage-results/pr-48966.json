@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":48966,"reason":"The only changed path is `pkg/session/bootstrap.go`, so despite the planner-oriented title this is centered on session bootstrap behavior. A data-race fix in core session initialization is plausibly session runtime-correctness work rather than an incidental test/docs/infra change.","target_modules":["session"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49678,"reason":"The PR is explicitly scoped to `pkg/expression` and changes only `pkg/expression/builtin_ilike_vec.go`. A datarace fix in an expression builtin is directly about expression runtime correctness, not an incidental touch.","target_modules":["expression"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54769,"reason":"Subject says the change is adding comments only, even though the touched file is in executor stats collection code. Based on metadata alone this looks like documentation/comment churn in a core module, not a behavior-centered change to executor/statistics semantics.","target_modules":["executor","statistics"]}

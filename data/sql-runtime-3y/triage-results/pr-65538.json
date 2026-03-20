@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65538,"reason":"PR is explicitly about fixing expression/type inference semantics for AES_ENCRYPT in views, and the only code change is under pkg/expression with matching integration tests. This is directly in a high-signal target area, not an incidental touch.","target_modules":["expression"]}

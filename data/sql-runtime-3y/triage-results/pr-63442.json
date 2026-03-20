@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63442,"reason":"Production code changes are confined to `pkg/executor/infoschema_reader.go`, and the PR is explicitly about fixing system-table reading behavior in the executor rather than only adjusting tests or infra. That is directly within executor/runtime correctness scope.","target_modules":["executor"]}

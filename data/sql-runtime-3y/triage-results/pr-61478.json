@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61478,"reason":"The PR is explicitly about planner optimization semantics: outer join pruning for constants. All non-test code changes are in pkg/planner/core rule logic, with 100% target-module ratio, and the test updates are planner-specific validation rather than incidental touches.","target_modules":["planner"]}

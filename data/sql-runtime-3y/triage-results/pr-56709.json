@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56709,"reason":"The PR is centered on `pkg/privilege/privileges/*` with most changed code in privilege cache/runtime logic, and the subject explicitly targets maintaining active users for privilege data. That is a direct privilege-behavior change, not an incidental touch or infra/test-only update.","target_modules":["privilege"]}

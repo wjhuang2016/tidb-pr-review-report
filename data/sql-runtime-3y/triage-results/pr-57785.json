@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57785,"reason":"The PR is entirely within `pkg/planner/core` and changes schema-resolution logic (`use TableInfo.DBID to locate schema`) in `memtable_infoschema_extractor`, which is planner correctness rather than an incidental touch.","target_modules":["planner"]}

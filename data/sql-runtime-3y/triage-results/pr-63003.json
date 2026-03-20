@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63003,"reason":"Core changes are in `pkg/store/gcworker` with supporting `mockstore` updates, and the PR fixes resolve-locks behavior for null keyspace handling. That is directly a storage/runtime correctness concern in the `store`/`kv` area, not an incidental touch.","target_modules":["store","kv"]}

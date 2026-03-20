@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52461,"reason":"The PR is entirely in `pkg/store` coprocessor paths and changes lock-handling behavior (`ignore locks with the same start_ts`), which is directly tied to storage/KV transaction correctness rather than incidental infra or test work.","target_modules":["store","kv"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57294,"reason":"Core executor/runtime change in `pkg/executor/cte.go` for CTE behavior under `apply`, which is directly within the target focus and likely affects executor correctness rather than incidental tests or infra.","target_modules":["executor"]}

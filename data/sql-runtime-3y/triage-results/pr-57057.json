@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57057,"reason":"All changed code is in planner core, and the PR adds/generated equality logic for logical operators plus a logical join change. That is directly tied to planner/operator semantics and can affect optimization correctness, not an incidental touch.","target_modules":["planner"]}

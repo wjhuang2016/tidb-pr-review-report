@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":59023,"reason":"Localized parser-only syntax relaxation for parenthesized literal defaults in CREATE TABLE. It changes SQL acceptance, but the diff appears small and bounded to grammar/test updates, with low likelihood of hiding Blocker/High issues in core planner/executor/session/kv behavior.","target_modules":["parser"]}

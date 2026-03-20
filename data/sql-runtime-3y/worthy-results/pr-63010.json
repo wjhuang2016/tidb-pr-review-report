@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63010,"reason":"Changes core optimizer cost-model logic for MergeJoin in `plan_cost_ver2`, specifically how `OtherConds` affect join costing. Even though the diff is small, this can shift plan selection across many queries and has broad planner-performance blast radius.","target_modules":["planner"]}

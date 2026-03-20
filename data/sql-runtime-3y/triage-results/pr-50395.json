@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50395,"reason":"The only production-code change is in `pkg/sessionctx/variable/setvar_affect.go`, and the PR explicitly changes `SET_VAR` support for session variables. That is a direct `sessionctx` behavior change with user-visible statement-scope semantics, not an incidental touch.","target_modules":["sessionctx"]}

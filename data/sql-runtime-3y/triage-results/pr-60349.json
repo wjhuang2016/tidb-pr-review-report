@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60349,"reason":"PR is entirely confined to core planner paths and the subject indicates optimizer plan-building logic changes for table/index scan around index join properties, which is directly in planner semantics rather than incidental test/infra work.","target_modules":["planner"]}

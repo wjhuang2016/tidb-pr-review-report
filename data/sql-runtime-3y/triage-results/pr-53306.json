@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53306,"reason":"The PR is clearly centered on parser SQL semantics: the subject is a parser change, all target code paths are under `pkg/parser`, and the executor change is only a validating test. This is not an incidental touch; it changes accepted SQL syntax for password-related statements.","target_modules":["parser"]}

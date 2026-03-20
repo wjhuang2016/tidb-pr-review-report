@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48715,"reason":"The PR touches a core statistics file, but the metadata says the change is to add debugging logs. That points to observability rather than changes to statistics/cardinality/cost-model behavior, so it is not clearly centered on the high-signal modules/semantics for deep review.","target_modules":["statistics"]}

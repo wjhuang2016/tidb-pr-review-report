@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55195,"reason":"The PR is explicitly planner-focused and its only non-test code change is in `pkg/planner/core/hint_utils.go`, adding generation of `leading` and `hash_join_build` hints from physical plans. That is optimizer/planner semantics, not an incidental touch.","target_modules":["planner"]}

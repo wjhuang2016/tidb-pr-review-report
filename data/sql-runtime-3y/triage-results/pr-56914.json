@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":56914,"reason":"Test-only PR. The subject is planner-related, but the changed files are planner casetests and Bazel metadata only, with no production code paths touched. This is not clearly centered on planner/runtime behavior changes; it adds coverage for existing plan cache behavior.","target_modules":["planner"]}

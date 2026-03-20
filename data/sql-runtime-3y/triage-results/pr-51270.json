@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":51270,"reason":"The PR is entirely in `pkg/session/bootstrap.go`, and the subject points to bootstrap/upgrade logic for cluster-wide unused-index aggregation across nodes. That is a session-owned, high-blast-radius path rather than an incidental touch, so it warrants deep review.","target_modules":["session"]}

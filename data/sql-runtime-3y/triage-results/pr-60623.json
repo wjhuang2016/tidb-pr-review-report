@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60623,"reason":"Direct changes in `pkg/planner/cardinality/*` touch selectivity/cardinality estimation logic, which is core planner behavior with likely cost-model impact; the tests are in the same area, so this is not an incidental touch.","target_modules":["planner","statistics"]}

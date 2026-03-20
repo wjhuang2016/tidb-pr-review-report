@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52414,"reason":"Planner-core logic changes in `pkg/planner/core/indexmerge_unfinished_path.go` for index-merge access condition derivation with MV indexes. This is directly optimizer semantics, not incidental test/infra churn.","target_modules":["planner"]}

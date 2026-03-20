@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":49714,"reason":"Subject and file mix point to a server-warning/note refactor, not a PR centered on core store or other listed semantics. Only 1 of 3 changed files is in a target area (`pkg/store/copr/batch_coprocessor.go`), so the store touch looks incidental to the server-focused change.","target_modules":["store"]}

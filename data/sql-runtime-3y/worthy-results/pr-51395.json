@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":51395,"reason":"Narrow expression-layer bug fix for session variable evaluation types (decimal/float) in two implementation files with matching tests. It touches expression semantics, but the scope looks localized rather than central/high-blast-radius enough to justify a 20-40 minute blocker/high hunt.","target_modules":["expression"]}

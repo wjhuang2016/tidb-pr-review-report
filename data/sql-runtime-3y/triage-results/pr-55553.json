@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55553,"reason":"The PR is clearly centered on planner semantics: it changes `pkg/planner/core/rule_decorrelate.go` to fix a CTE hang/wrong-result case involving multiple `Apply`, which is directly optimizer-correctness behavior rather than incidental test or infra churn.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65012,"reason":"Only test and Bazel metadata files changed under pkg/executor/test/jointest/hashjoin for a flaky test. No production planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege code paths were touched, so this is not clearly centered on core module behavior.","target_modules":["executor"]}

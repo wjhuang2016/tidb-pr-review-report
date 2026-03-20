@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52442,"reason":"The PR is centered on `pkg/table/tables/*` and changes partition-table update operator execution order, with matching integration tests for global-index update behavior. That is a core `table` runtime/correctness concern, not an incidental touch.","target_modules":["table"]}

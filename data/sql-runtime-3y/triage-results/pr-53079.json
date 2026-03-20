@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53079,"reason":"Core executor runtime change: the PR subject and sole production code path are in hash join execution (`pkg/executor/join/join.go`). Disabling a hash join probe short path can affect executor correctness and behavior, not just incidental tests or infra.","target_modules":["executor"]}

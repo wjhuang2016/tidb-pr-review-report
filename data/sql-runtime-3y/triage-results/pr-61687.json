@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61687,"reason":"The PR is explicitly planner-focused ('extend order ratio to joins') and its primary code changes are in planner physical plan generation plus a sessionctx variable, which strongly indicates optimizer/plan-selection semantics rather than incidental test or infra churn.","target_modules":["planner","sessionctx"]}

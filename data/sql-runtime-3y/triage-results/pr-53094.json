@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53094,"reason":"PR is entirely in `pkg/planner/core` plan-cache code and explicitly changes fast point get plan cache behavior, which is core planner semantics rather than an incidental touch.","target_modules":["planner"]}

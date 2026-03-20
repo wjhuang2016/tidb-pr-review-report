@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58872,"reason":"The PR is entirely centered on `pkg/executor/prepared.go` and its test, with subject/focus indicating a fix to prepared protocol charset handling. That is core executor runtime/protocol behavior, not an incidental touch.","target_modules":["executor"]}

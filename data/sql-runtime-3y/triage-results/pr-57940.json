@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57940,"reason":"The PR is entirely within `pkg/executor/distsql.go`, and the subject describes a behavioral change in how executor table tasks allocate handles. That is squarely executor/runtime correctness rather than incidental infra or test churn.","target_modules":["executor"]}

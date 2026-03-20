@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60519,"reason":"The PR is centered on privilege enforcement for `CREATE OR REPLACE VIEW`, with the only code change in `pkg/planner/core/planbuilder.go` and matching privilege integration tests. That is a direct planner + privilege behavior change, not an incidental touch.","target_modules":["planner","privilege"]}

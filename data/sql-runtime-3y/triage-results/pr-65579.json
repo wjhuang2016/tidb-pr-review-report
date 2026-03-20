@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65579,"reason":"The PR is fully concentrated in `pkg/parser/**` and changes grammar/AST/parser generation for a new DDL syntax (`split region options`). That is directly parser SQL-semantics work, not an incidental touch.","target_modules":["parser"]}

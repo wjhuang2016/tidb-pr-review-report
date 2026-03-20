@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64298,"reason":"The PR is entirely scoped to `pkg/expression/scalar_function.go`, and the subject indicates a change to scalar-function handling during expression equivalence checks. That is core expression semantics, with plausible downstream impact on optimizer/planner correctness.","target_modules":["expression"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61907,"reason":"The change is entirely in `pkg/session/session.go` and the subject explicitly describes synchronizing `DistSQLContext` state with session variables. That is core session/runtime correctness, not an incidental touch.","target_modules":["session"]}

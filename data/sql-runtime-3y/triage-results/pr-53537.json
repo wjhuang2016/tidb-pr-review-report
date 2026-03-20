@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53537,"reason":"The PR is centered on `pkg/executor/sortexec/*` and changes runtime sort/TopN behavior to enable parallel execution, which is core executor logic with clear correctness and concurrency risk rather than incidental test/infra churn.","target_modules":["executor"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52623,"reason":"The PR is entirely within `pkg/statistics/scalar.go` and is explicitly about statistics internals (`PreCalculateScalar`). Statistics is a target focus area, and changes there can affect cardinality or cost-model behavior even if framed as an allocation optimization.","target_modules":["statistics"]}

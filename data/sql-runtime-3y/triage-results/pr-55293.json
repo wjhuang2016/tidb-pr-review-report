@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":55293,"reason":"Test-only PR. Subject explicitly says unit-test port, changed files are `pkg/session/bootstraptest/*` plus Bazel metadata, `Target code count` is 0, and there are no target code paths. This does not indicate a core change to session or other high-signal runtime semantics.","target_modules":["session"]}

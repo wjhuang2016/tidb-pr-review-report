@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":54523,"reason":"The PR is entirely in `pkg/executor/cte.go` and the subject is an executor fix. Although it mentions a failpoint condition, it still appears centered on executor runtime/memory-tracking behavior rather than incidental infra or docs work.","target_modules":["executor"]}

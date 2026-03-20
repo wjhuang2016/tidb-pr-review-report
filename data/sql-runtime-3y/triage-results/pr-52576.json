@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52576,"reason":"The PR is explicitly about executor behavior in `EXPLAIN ANALYZE` for DML, and the only changed file is `pkg/executor/explain.go`. That is a direct executor/runtime-correctness path, not an incidental touch or infra/test-only change.","target_modules":["executor"]}

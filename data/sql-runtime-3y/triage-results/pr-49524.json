@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49524,"reason":"The PR is entirely concentrated in core target paths under executor/session/sessionctx, with user-visible behavior changes to INFORMATION_SCHEMA variable metadata and system variable handling rather than incidental test or infra churn.","target_modules":["executor","session","sessionctx"]}

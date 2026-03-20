@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55541,"reason":"PR is centered on core expression semantics: it changes `pkg/expression/builtin.go` to support a new SQL builtin signature for `MID()`, with matching integration tests for user-visible behavior. This is a direct expression/runtime SQL semantics change, not an incidental touch.","target_modules":["expression"]}

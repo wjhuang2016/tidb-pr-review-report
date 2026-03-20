@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":59765,"reason":"Adds a debug failpoint in a single expression utility file to force pushdown behavior; this is narrow, failpoint-gated, and unlikely to affect normal planner/executor/expression semantics enough to justify a 20-40 minute high-severity deep review.","target_modules":["expression"]}

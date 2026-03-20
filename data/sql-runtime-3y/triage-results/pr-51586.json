@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51586,"reason":"The PR is centered on `pkg/expression` cast logic for JSON, with both code changes in `builtin_cast` paths and matching expression integration tests. That is core expression/runtime semantics, not an incidental touch.","target_modules":["expression"]}

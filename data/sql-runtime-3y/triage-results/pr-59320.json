@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59320,"reason":"The PR is entirely in `pkg/expression/expression.go` and the subject is explicitly expression-focused. Even though the change sounds like an internal optimization (`avoid slicesgrow`), it is still clearly centered on core expression code rather than an incidental touch.","target_modules":["expression"]}

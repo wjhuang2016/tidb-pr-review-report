@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51342,"reason":"The PR is entirely within `pkg/executor/aggregate/agg_hash_executor.go`, and a hash aggregation data-race fix is directly about executor runtime correctness/concurrency behavior rather than incidental infra or test-only changes.","target_modules":["executor"]}

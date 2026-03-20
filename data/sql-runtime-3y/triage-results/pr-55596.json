@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55596,"reason":"The only functional code change is in `pkg/executor/analyze.go`, and the PR is explicitly about fixing a data race in `EnableAnalyzeSnapshot`. That is a core executor/statistics-path correctness issue, not an incidental test or infra touch.","target_modules":["executor","statistics"]}

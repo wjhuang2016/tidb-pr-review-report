@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":42488,"reason":"The PR is centered on core executor runtime paths (`executor/point_get.go`, `executor/batch_point_get.go`), and the paired RealTiKV pessimistic test suggests correctness-sensitive transaction/runtime behavior rather than incidental test or infra churn.","target_modules":["executor"]}

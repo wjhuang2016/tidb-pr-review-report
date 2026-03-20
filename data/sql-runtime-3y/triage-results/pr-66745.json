@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":66745,"reason":"Only a test Bazel metadata change: `pkg/session/test/txn/BUILD.bazel` increases timeout budget for txn tests. No production code, no target code paths, and no clear planner/executor/expression/session behavior change.","target_modules":[]}

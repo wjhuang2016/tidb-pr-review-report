@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61620,"reason":"PR is clearly centered on planner semantics: the subject describes changing operator cloning/reference behavior when attaching child tasks, and the only non-test code path is `pkg/planner/core/task.go`, a core planner path with optimizer correctness blast radius.","target_modules":["planner"]}

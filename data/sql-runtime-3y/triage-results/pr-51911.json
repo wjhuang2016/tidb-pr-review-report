@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51911,"reason":"All reported code changes are in `pkg/statistics/**`, and the subject is about `ColumnIsLoadNeeded` meta-load handling, which is directly within statistics behavior rather than incidental infra or tests. That makes it clearly centered on a target high-signal module.","target_modules":["statistics"]}

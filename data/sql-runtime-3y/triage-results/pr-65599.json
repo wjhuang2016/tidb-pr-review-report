@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":65599,"reason":"Only executor spill unit test files changed, and the subject is speeding up those tests. The metadata shows no production-path changes or clear executor/runtime semantic impact, so this is test-only coverage/infra work rather than a core executor behavior PR.","target_modules":["executor"]}

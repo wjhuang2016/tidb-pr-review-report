@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":53484,"reason":"Only a planner test file changed (`pkg/planner/core/enforce_mpp_test.go`), and the subject explicitly says it stabilizes a test case rather than changing planner semantics or runtime behavior. This is a test-only change, so planner is incidental rather than the PR’s true behavioral center.","target_modules":["planner"]}

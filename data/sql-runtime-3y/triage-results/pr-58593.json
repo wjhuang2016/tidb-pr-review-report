@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58593,"reason":"The PR is explicitly about optimizer index choice and changes core planner logic in `pkg/planner/core/find_best_task.go`, with supporting planner/statistics tests. Index selection driven by statistics is core planner/cost-model behavior, not an incidental touch.","target_modules":["planner","statistics"]}

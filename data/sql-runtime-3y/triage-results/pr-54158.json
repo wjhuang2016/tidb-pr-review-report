@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54158,"reason":"The change is fully concentrated in `pkg/statistics/cmsketch.go`, a core statistics component. Even though the subject says \"remove useless code,\" the metadata points to a statistics-centered code change rather than an incidental touch, so it should be deep-reviewed.","target_modules":["statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49703,"reason":"The PR is entirely concentrated in `pkg/executor/analyze_col.go` and the subject explicitly targets `AnalyzeColumnsExec`, so this is clearly executor-centered work with likely statistics-related runtime impact, not an incidental touch.","target_modules":["executor","statistics"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":54980,"reason":"The PR appears to be test-diagnostics work, not planner or other core runtime semantics. It only changes a planner test file and shared testkit output logic, with no indicated production code paths in planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege.","target_modules":[]}

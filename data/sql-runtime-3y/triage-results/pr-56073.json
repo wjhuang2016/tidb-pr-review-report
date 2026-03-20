@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56073,"reason":"The PR is fully concentrated in `pkg/statistics` (2/2 target code paths, target ratio 1.0) and changes auto-analyze job creation/refresh logic, which is core statistics behavior and can affect stats freshness and downstream optimizer decisions.","target_modules":["statistics"]}

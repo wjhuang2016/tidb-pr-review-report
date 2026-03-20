@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59318,"reason":"The PR is centered on `pkg/expression/infer_pushdown.go`, changing whether `truncate` can be pushed down to TiFlash. That is a core expression/pushdown-semantics change with potential correctness impact beyond incidental tests.","target_modules":["expression"]}

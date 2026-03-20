@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":66612,"reason":"The PR only removes planner-related tests (`pkg/planner/cascades/cascades_test.go` and integration testdata) and touches no production code paths. This is test maintenance, not a planner/executor/expression/session/statistics/kv/store/parser/table/privilege behavior change.","target_modules":["planner"]}

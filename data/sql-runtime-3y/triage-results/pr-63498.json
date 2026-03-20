@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63498,"reason":"The PR is fully concentrated in `pkg/statistics/**` code paths, with both production-file changes in stats bootstrap/init loading logic. Even from metadata alone, this is clearly a statistics-behavior change rather than incidental test or infra touch.","target_modules":["statistics"]}

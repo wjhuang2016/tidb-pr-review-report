@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49898,"reason":"The PR is directly in `pkg/parser/**` and fixes SQL semantics: a `LIMIT` being lost in `SetOprStmt`. The change touches parser grammar/generated parser and AST handling, which is core parser behavior rather than incidental test or infra work.","target_modules":["parser"]}

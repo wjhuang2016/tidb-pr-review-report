@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56517,"reason":"PR is entirely confined to `pkg/session` (`bootstrap.go`, `session.go`) and the subject is a bootstrap/upgrade panic fix, which is core session lifecycle/upgrade behavior rather than an incidental touch.","target_modules":["session"]}

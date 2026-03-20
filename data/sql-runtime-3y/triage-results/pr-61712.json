@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"skip","pr":61712,"reason":"The PR is in `pkg/store/gcworker`, but the subject suggests adding a label to distinguish two GC modes, which looks more like observability/metrics plumbing than a core `store`/`kv` behavior, consistency, or SQL-semantics change.","target_modules":["store"]}

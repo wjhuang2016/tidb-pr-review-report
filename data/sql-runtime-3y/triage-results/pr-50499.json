@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":50499,"reason":"PR is fully concentrated in `pkg/statistics/handle/autoanalyze/priorityqueue` and changes whether analysis jobs are executable, which is core statistics behavior rather than an incidental touch.","target_modules":["statistics"]}

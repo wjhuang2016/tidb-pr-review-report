@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":49222,"reason":"The PR is explicitly about `executor.Close()` panic recovery and all substantive code paths are in `pkg/executor/**` with a 1.0 target ratio. That is clearly executor runtime-correctness work in a high-blast-radius module, not an incidental touch.","target_modules":["executor"]}

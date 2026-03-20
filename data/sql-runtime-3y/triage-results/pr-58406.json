@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58406,"reason":"The PR is entirely in core executor hash join code (`pkg/executor/join/*`) with a stated goal of fixing a data race, which is executor runtime correctness rather than incidental test/infra churn.","target_modules":["executor"]}

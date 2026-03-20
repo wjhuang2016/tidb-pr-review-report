@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":62123,"reason":"Only a planner test file changed (`pkg/planner/cardinality/selectivity_test.go`), and the subject indicates a testcase update rather than a behavior or production-code change in planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege paths.","target_modules":["planner"]}

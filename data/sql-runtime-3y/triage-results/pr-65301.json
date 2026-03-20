@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":65301,"reason":"The PR is directly centered on `pkg/expression` implementation, adding vectorized UUID builtin support in core expression code rather than incidental tests or infra. That squarely matches high-signal expression/runtime correctness concerns.","target_modules":["expression"]}

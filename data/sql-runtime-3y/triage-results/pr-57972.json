@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":57972,"reason":"Only a test file changed (`pkg/executor/test/issuetest/executor_issue_test.go`) and the PR is explicitly about fixing a flaky test. There are no production code paths or semantic/runtime changes indicated, so this is not clearly centered on executor or other core target-module behavior.","target_modules":[]}

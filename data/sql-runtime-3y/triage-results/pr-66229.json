@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":66229,"reason":"Only a planner test file changed (`pkg/planner/cascades/cascades_test.go`), and the subject is a test-only fix to ignore plan IDs in `EXPLAIN FORMAT=brief`, not a production change to planner/executor/expression/session/statistics/kv/store/parser/table/privilege behavior.","target_modules":["planner"]}

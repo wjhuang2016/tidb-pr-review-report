@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57496,"reason":"The change is centered on `pkg/expression/builtin_json.go` and explicitly alters `JSON_VALID` behavior, which is user-visible SQL expression semantics. The accompanying integration tests reinforce that this is core expression/runtime correctness, not an incidental touch.","target_modules":["expression"]}

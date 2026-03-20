@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56482,"reason":"PR is centered on expression semantics: it changes pkg/expression/builtin_op_vec.go for AND/OR warning behavior and adds matching integration tests. Warning generation for boolean operators is core expression/runtime SQL behavior, not an incidental touch.","target_modules":["expression"]}

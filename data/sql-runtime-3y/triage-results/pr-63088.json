@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63088,"reason":"The PR is centered on executor behavior: it changes `pkg/executor/infoschema_reader.go` and only adds matching executor tests. Filtering temporary columns from `information_schema.columns` is a user-visible metadata/visibility correctness change, not an incidental touch.","target_modules":["executor"]}

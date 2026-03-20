@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":62871,"reason":"PR metadata points to toolchain/build infrastructure work (Go and rules_go upgrade). The only target-area touch is an executor test Bazel file, which is incidental and not evidence of planner/executor/expression/session/statistics/kv/store/parser/table/privilege behavior changes.","target_modules":[]}

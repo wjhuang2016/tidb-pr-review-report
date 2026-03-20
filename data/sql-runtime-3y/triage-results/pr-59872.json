@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59872,"reason":"This PR is directly in `pkg/planner/core` and `pkg/executor`, and changes the user-visible schema/output of a `SHOW` command. That is a planner/executor behavior change, not an incidental touch, even if the scope looks narrow.","target_modules":["planner","executor"]}

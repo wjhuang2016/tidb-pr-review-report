@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":53961,"reason":"Core change is in `pkg/expression` and the subject is a JSON quoting fix, which is directly about expression semantics/runtime correctness rather than incidental test or infra touch. The integration-test updates reinforce that this is user-visible SQL behavior.","target_modules":["expression"]}

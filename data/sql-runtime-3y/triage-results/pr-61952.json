@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":61952,"reason":"Changes are confined to `pkg/store/mockstore/unistore/tikv/*`, which is a mockstore utility path rather than core production store/kv behavior. The subject indicates a code simplification (`slices.Compact`) with accompanying test/BUILD updates, not a clear storage-semantics change.","target_modules":["store"]}

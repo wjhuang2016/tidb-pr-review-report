@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54610,"reason":"PR is entirely within `pkg/planner/core` and the subject explicitly concerns functional-dependency utilities in logical plans, which is planner/optimizer semantics rather than incidental plumbing.","target_modules":["planner"]}

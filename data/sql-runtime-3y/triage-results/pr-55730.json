@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55730,"reason":"The PR is clearly centered on `pkg/statistics`: the subject describes a statistics correctness fix, and the only non-test code path changed is `pkg/statistics/handle/storage/read.go`. That is a core statistics/data-visibility behavior, not an incidental touch.","target_modules":["statistics"]}

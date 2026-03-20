@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51548,"reason":"The PR is fully concentrated in `pkg/statistics/**` (5/5 target paths, ratio 1.0), and the subject indicates a core statistics data-model change: adding `statsVer` to `HistColl`. That is directly tied to statistics/cardinality behavior rather than incidental tests, docs, or infra.","target_modules":["statistics"]}

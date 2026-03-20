@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55570,"reason":"All non-incidental changes are in `pkg/planner/cascades`, and the subject describes a planner canonical hashing change. Hash/equality logic in cascades can affect optimizer canonicalization and planner behavior, so this is clearly planner-centered rather than an incidental touch.","target_modules":["planner"]}

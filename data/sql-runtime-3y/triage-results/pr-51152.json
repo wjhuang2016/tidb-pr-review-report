@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51152,"reason":"The PR is entirely in `pkg/statistics` auto-analyze queue/refresher code, so it is clearly centered on statistics behavior rather than incidental touches. Changes to analysis job selection and refresh logic can affect statistics freshness and downstream plan quality.","target_modules":["statistics"]}

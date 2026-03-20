@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58499,"reason":"The PR is centered on `pkg/planner/core/physical_plans.go` with a planner-core subject and 100% target-code ratio. Changing `ExpandVirtualColumn` column ordering is a planner semantic/runtime-shape concern, not an incidental test or infra touch.","target_modules":["planner"]}

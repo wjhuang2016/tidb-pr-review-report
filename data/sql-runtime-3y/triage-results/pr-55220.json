@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":55220,"reason":"Subject and scope indicate a comment-only change in pkg/sessionctx/variable/tidb_vars.go for statistics-related variables, with no clear evidence of behavioral changes in session/sessionctx/statistics or other core runtime modules.","target_modules":["sessionctx"]}

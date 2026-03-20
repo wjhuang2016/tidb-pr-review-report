@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":66764,"reason":"Touches concurrent executor cancellation logic in `parallel_apply`. Even though the scope is narrow, worker-lifecycle changes in execution code can hide high-severity hangs, missed cancellation, or incorrect early-termination behavior, so it is worth a focused deep review.","target_modules":["executor"]}

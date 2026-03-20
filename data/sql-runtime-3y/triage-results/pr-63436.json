@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":63436,"reason":"PR is clearly centered on planner/optimizer semantics: it changes semi-join rewrite logic and logical join behavior in planner core, with matching planner test updates. This is a direct plan-transformation change, not an incidental touch.","target_modules":["planner"]}

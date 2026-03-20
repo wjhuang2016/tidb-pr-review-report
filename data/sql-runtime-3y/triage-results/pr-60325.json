@@ -1,0 +1,1 @@
+{"confidence":"medium","decision":"deep_review","pr":60325,"reason":"The PR is explicitly about enabling non-prepared plan cache for DML, which is a core planner/runtime behavior change, and the touched code/test metadata points to planner plus a session variable gate rather than incidental infra or docs work.","target_modules":["planner","sessionctx"]}

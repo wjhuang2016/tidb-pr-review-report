@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54334,"reason":"The PR is centered on planner rewrite semantics for `IN (subquery)` to inner join, touching only `pkg/planner/core/expression_rewriter.go` plus planner integration tests. That is a core optimizer/planner behavior change, not an incidental touch.","target_modules":["planner"]}

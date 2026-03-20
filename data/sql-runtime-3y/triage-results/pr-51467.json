@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51467,"reason":"PR is clearly centered on the statistics subsystem: all non-test code changes are under `pkg/statistics/handle/autoanalyze/refresher`, and the subject changes auto-analyze behavior when the analyze ratio is 0. That is a direct statistics-behavior change, not an incidental touch.","target_modules":["statistics"]}

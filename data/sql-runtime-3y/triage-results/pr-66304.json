@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":66304,"reason":"The PR is explicitly planner-focused and changes optimizer/cardinality code in `pkg/planner/cardinality` and task selection/stats paths, which are core planner and cost-model semantics rather than incidental touches.","target_modules":["planner","statistics"]}

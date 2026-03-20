@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":51980,"reason":"The PR is fully centered on a user-visible SQL correctness regression in `information_schema.tables`, with the only code change in `pkg/executor/infoschema_reader.go` plus matching integration tests. That is clearly executor-side behavior, not an incidental touch.","target_modules":["executor"]}

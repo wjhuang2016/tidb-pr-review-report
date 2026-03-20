@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":64877,"reason":"Direct code change in `pkg/executor/show.go` changes the user-visible `SHOW CREATE TABLE` output order for TTL metadata. That is a real executor/table SQL-behavior change, not an incidental test/doc/infra touch, even if the scope is narrow.","target_modules":["executor","table"]}

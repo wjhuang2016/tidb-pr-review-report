@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":61257,"reason":"Only a test file changed (`pkg/executor/join/row_table_builder_test.go`). The PR metadata says it adds an unalignment load test for hash join v2, which exercises executor code but does not indicate changes to executor/runtime semantics or other core planner/session/kv/parser behaviors.","target_modules":["executor"]}

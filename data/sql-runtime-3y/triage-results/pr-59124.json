@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59124,"reason":"All substantive code changes are in planner logical-operator paths, and the PR appears to change/generated shallow-ref behavior for logical ops. That is planner-core machinery with plausible optimizer-correctness blast radius, not incidental infra/docs/test churn.","target_modules":["planner"]}

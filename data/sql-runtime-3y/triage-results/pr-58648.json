@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58648,"reason":"PR is clearly centered on planner behavior: the subject describes adding left outer anti semi join support for hash join v2, and the only changed file is planner core physical plan generation. That is optimizer/planner semantics with potentially high blast radius.","target_modules":["planner"]}

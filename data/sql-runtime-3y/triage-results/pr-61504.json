@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":61504,"reason":"Only a RealTiKV test file changed, and the subject indicates test cleanup/removal of a nonexistent failpoint. Metadata shows no target code paths, so this is not clearly centered on planner/executor/expression/session/sessionctx/statistics/kv/store/parser/table/privilege behavior.","target_modules":[]}

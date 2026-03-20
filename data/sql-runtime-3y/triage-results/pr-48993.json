@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":48993,"reason":"Only documentation changed under pkg/parser/docs/quickstart.md. There are no code-path changes and no indication of parser SQL semantics or other core runtime behavior being modified.","target_modules":["parser"]}

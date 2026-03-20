@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":52417,"reason":"The PR is entirely within `pkg/executor/sortexec/sort.go` and the subject is a data race fix in sort execution, which is core executor runtime correctness rather than an incidental touch.","target_modules":["executor"]}

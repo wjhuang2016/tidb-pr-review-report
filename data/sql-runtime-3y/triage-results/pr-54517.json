@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54517,"reason":"The PR is explicitly about planner hint support for hypo-indexes and directly changes `pkg/planner/optimize.go`, which is core optimizer behavior. The `pkg/util/hint/hint.go` touch also appears to support planner hint semantics rather than incidental infra.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":59721,"reason":"The PR is directly in `pkg/executor/traffic.go` and fixes privilege/visibility enforcement for traffic replay jobs. That is core executor behavior with clear privilege implications, not an incidental touch.","target_modules":["executor","privilege"]}

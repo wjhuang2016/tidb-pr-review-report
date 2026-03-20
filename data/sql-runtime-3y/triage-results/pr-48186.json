@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":48186,"reason":"PR subject and changed code are squarely in planner optimizer semantics: it changes `pkg/planner/core/find_best_task.go` and planner fix-control logic, with only a planner integration test alongside. This is a core planner-behavior change, not an incidental touch.","target_modules":["planner"]}

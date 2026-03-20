@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57799,"reason":"All changed code is in `pkg/sessionctx/variable/session.go`, and the subject indicates a mutex/unlock panic fix in `TableDeltaMap`, which is a session-state runtime correctness issue in `sessionctx`, not an incidental touch.","target_modules":["sessionctx"]}

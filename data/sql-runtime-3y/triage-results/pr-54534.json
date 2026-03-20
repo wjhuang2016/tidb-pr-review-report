@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":54534,"reason":"PR is clearly centered on planner correctness: the subject explicitly describes a planner bug fix, the only production code path changed is `pkg/planner/core/exhaust_physical_plans.go`, and the remaining files are supporting planner tests/build metadata.","target_modules":["planner"]}

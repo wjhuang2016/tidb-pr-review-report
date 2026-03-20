@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":60302,"reason":"The PR is entirely in `pkg/statistics/handle/ddl/ddl.go` and explicitly changes statistics DDL-event error handling. That is a direct statistics-path behavior change, with plausible impact on stats maintenance and downstream optimizer/cardinality behavior.","target_modules":["statistics"]}

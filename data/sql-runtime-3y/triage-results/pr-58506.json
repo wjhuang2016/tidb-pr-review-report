@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":58506,"reason":"The PR is centered on core expression/planner semantics: the subject explicitly mentions expression rewriting and plan cache behavior, and the only code change is in pkg/expression/util.go with matching expression integration tests. This is not an incidental touch.","target_modules":["expression","planner"]}

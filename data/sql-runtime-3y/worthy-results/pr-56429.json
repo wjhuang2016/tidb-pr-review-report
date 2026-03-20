@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":56429,"reason":"Direct parser SQL-semantics change: it alters the default vector index type when SQL omits the type. Even with only `parser.y`/generated parser changes, this is user-visible DDL behavior and can hide compatibility or downstream correctness issues beyond a routine local fix.","target_modules":["parser"]}

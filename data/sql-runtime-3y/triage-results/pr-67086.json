@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":67086,"reason":"The PR is centered on `pkg/executor/importer` production code, not incidental tests or infra. Adding Azure Blob Storage support for `IMPORT INTO` global sort and updating importer prechecks is an executor/runtime correctness change with potential user-visible behavior impact.","target_modules":["executor"]}

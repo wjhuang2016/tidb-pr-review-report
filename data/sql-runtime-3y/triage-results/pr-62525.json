@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":62525,"reason":"The PR is entirely focused on a planner core rule: 100% of target code changes are in `pkg/planner/core/rule/rule_build_key_info.go`, which is directly part of planner/optimizer behavior rather than incidental infra or tests.","target_modules":["planner"]}

@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"skip","pr":55597,"reason":"Only a benchmark test file changed (`pkg/table/tables/bench_test.go`). The PR appears to tune benchmark setup (`DupKeyCheckLazy`) rather than modify production table behavior, SQL semantics, executor/runtime correctness, or other high-blast-radius modules.","target_modules":["table"]}

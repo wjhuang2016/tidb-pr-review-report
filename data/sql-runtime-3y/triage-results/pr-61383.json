@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":61383,"reason":"The PR is entirely in `pkg/planner/core/indexmerge_path.go` and is explicitly labeled `planner`; even though the change sounds small (`EqualFold` vs `ToLower`), it directly touches planner path-selection logic rather than incidental tests/docs/infra.","target_modules":["planner"]}

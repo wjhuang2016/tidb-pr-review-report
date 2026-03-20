@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":55407,"reason":"The PR is centered on `pkg/sessionctx/variable/sysvar.go` and fixes a deadlock when changing `tidb_restricted_read_only`, which is core sessionctx/system-variable runtime behavior, not an incidental touch.","target_modules":["sessionctx"]}

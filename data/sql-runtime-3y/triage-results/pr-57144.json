@@ -1,0 +1,1 @@
+{"confidence":"high","decision":"deep_review","pr":57144,"reason":"The PR is fully centered on `pkg/statistics/handle/syncload`, with all changed files in the statistics subsystem and the subject indicating behavior changes to sync-loading analyzed column stats. That is directly within the target `statistics` concern, not an incidental touch.","target_modules":["statistics"]}
