@@ -1,0 +1,12 @@
+{
+  "commit": "c06662073b285c125486f279dd03a28983cc1661",
+  "findings": [],
+  "modules": [
+    "planner",
+    "util/ranger"
+  ],
+  "pr": 56769,
+  "status": "no_high_or_blocker",
+  "subject": "planner: fix nulleq condition to calcalate index range (#56769)",
+  "summary": "Reviewed the only behavioral change in `pkg/util/ranger/detacher.go` (`getPotentialEqOrInColOffset`) plus its planner callers (notably index-join path extraction). The change prevents treating `col <=> NULL` as an Eq/In candidate for point-style extraction, letting later range-building handle it (e.g. `[NULL,NULL]`) and avoiding unsafe point-assumptions around NULL semantics. No remaining Blocker/High issues found in this commit relative to its first parent after checking later upstream history."
+}

@@ -1,0 +1,311 @@
+{
+  "generated_at": "2026-03-23T14:25:28.678241+08:00",
+  "source_results_dir": "/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-3y-sql-runtime/results",
+  "deep_review_total": 1206,
+  "deep_review_completed": 1206,
+  "no_high_or_blocker_total": 1060,
+  "has_high_or_blocker_pr_total": 146,
+  "unresolved_pr_total": 146,
+  "unresolved_findings_total": 158,
+  "blocker_pr_total": 31,
+  "high_only_pr_total": 115,
+  "blocker_total": 32,
+  "high_total": 126,
+  "all_findings_later_fixed_false": true,
+  "empty_results": 0,
+  "invalid_results": 0,
+  "multi_finding_pr_total": 12,
+  "confidence_counts": {
+    "High": 135,
+    "Medium": 23
+  },
+  "family_pr_counts": {
+    "planner": 86,
+    "executor": 75,
+    "expression": 29,
+    "parser": 26,
+    "other": 20,
+    "session": 20,
+    "sessionctx": 20,
+    "store": 14,
+    "table": 11,
+    "privilege": 10,
+    "statistics": 10,
+    "kv": 5
+  },
+  "family_finding_counts": {
+    "planner": 93,
+    "executor": 84,
+    "expression": 31,
+    "parser": 29,
+    "sessionctx": 24,
+    "session": 23,
+    "other": 21,
+    "store": 14,
+    "privilege": 11,
+    "statistics": 11,
+    "table": 11,
+    "kv": 5
+  },
+  "prs_by_year": {
+    "2023": 11,
+    "2024": 72,
+    "2025": 48,
+    "2026": 15
+  },
+  "prs_by_quarter": {
+    "2023-Q2": 1,
+    "2023-Q4": 10,
+    "2024-Q1": 17,
+    "2024-Q2": 15,
+    "2024-Q3": 21,
+    "2024-Q4": 19,
+    "2025-Q1": 9,
+    "2025-Q2": 17,
+    "2025-Q3": 15,
+    "2025-Q4": 7,
+    "2026-Q1": 15
+  },
+  "prs_by_month": {
+    "2023-05": 1,
+    "2023-10": 4,
+    "2023-11": 2,
+    "2023-12": 4,
+    "2024-01": 5,
+    "2024-02": 4,
+    "2024-03": 8,
+    "2024-04": 2,
+    "2024-05": 7,
+    "2024-06": 6,
+    "2024-07": 6,
+    "2024-08": 8,
+    "2024-09": 7,
+    "2024-10": 5,
+    "2024-11": 8,
+    "2024-12": 6,
+    "2025-01": 3,
+    "2025-02": 3,
+    "2025-03": 3,
+    "2025-04": 6,
+    "2025-05": 5,
+    "2025-06": 6,
+    "2025-07": 4,
+    "2025-08": 3,
+    "2025-09": 8,
+    "2025-10": 1,
+    "2025-11": 1,
+    "2025-12": 5,
+    "2026-01": 5,
+    "2026-02": 6,
+    "2026-03": 4
+  },
+  "findings_by_year": {
+    "2023": 13,
+    "2024": 78,
+    "2025": 51,
+    "2026": 16
+  },
+  "findings_by_quarter": {
+    "2023-Q2": 1,
+    "2023-Q4": 12,
+    "2024-Q1": 17,
+    "2024-Q2": 15,
+    "2024-Q3": 25,
+    "2024-Q4": 21,
+    "2025-Q1": 10,
+    "2025-Q2": 18,
+    "2025-Q3": 16,
+    "2025-Q4": 7,
+    "2026-Q1": 16
+  },
+  "findings_by_month": {
+    "2023-05": 1,
+    "2023-10": 5,
+    "2023-11": 3,
+    "2023-12": 4,
+    "2024-01": 5,
+    "2024-02": 4,
+    "2024-03": 8,
+    "2024-04": 2,
+    "2024-05": 7,
+    "2024-06": 6,
+    "2024-07": 7,
+    "2024-08": 8,
+    "2024-09": 10,
+    "2024-10": 5,
+    "2024-11": 8,
+    "2024-12": 8,
+    "2025-01": 3,
+    "2025-02": 4,
+    "2025-03": 3,
+    "2025-04": 6,
+    "2025-05": 5,
+    "2025-06": 7,
+    "2025-07": 4,
+    "2025-08": 4,
+    "2025-09": 8,
+    "2025-10": 1,
+    "2025-11": 1,
+    "2025-12": 5,
+    "2026-01": 5,
+    "2026-02": 7,
+    "2026-03": 4
+  },
+  "blocker_prs": [
+    {
+      "pr": 48010,
+      "date": "2023-10-26",
+      "subject": "types: fix the behavior of casting json string to integers (#48010)"
+    },
+    {
+      "pr": 49421,
+      "date": "2023-12-15",
+      "subject": "parser, planner: fix embedded setOprStmt will be seen as SetOprSelectList item and lost its orderBy and Limit (#49421)"
+    },
+    {
+      "pr": 49756,
+      "date": "2023-12-25",
+      "subject": "expression: pass const bool to all calls for expression.ConstItem (#49756)"
+    },
+    {
+      "pr": 51329,
+      "date": "2024-02-28",
+      "subject": "planner: remove the limitation that predicates can't be pushed through `Projection` on `TableDual` (#51329)"
+    },
+    {
+      "pr": 51546,
+      "date": "2024-03-07",
+      "subject": "planner: choose to generate optimal plans without plan cache rather than generating suboptimal plans and caching it when generating MVIndex plans (#51546)"
+    },
+    {
+      "pr": 51901,
+      "date": "2024-03-21",
+      "subject": "util: skip always false DNF (#51901)"
+    },
+    {
+      "pr": 51403,
+      "date": "2024-03-28",
+      "subject": "statistics: concurrency init stats (#51403)"
+    },
+    {
+      "pr": 53395,
+      "date": "2024-05-20",
+      "subject": "planner: fix the wrong result caused by `year_col cmp out-of-range-uint` (#53395)"
+    },
+    {
+      "pr": 53646,
+      "date": "2024-05-29",
+      "subject": "planner: fix small regression caused by #53094 (#53646)"
+    },
+    {
+      "pr": 52780,
+      "date": "2024-06-03",
+      "subject": "expression: JSON_SCHEMA_VALID() (#52780)"
+    },
+    {
+      "pr": 55185,
+      "date": "2024-08-06",
+      "subject": "planner: use code-gen to generate CloneForPlanCache method for Insert/Update/Delete (#55185)"
+    },
+    {
+      "pr": 55631,
+      "date": "2024-09-20",
+      "subject": "planner: Removed check for prepared stmt during partition pruning (#55631)"
+    },
+    {
+      "pr": 56682,
+      "date": "2024-10-28",
+      "subject": "executor: ignore foreign key error in `UPDATE/INSERT/DELETE ignore` (#56682)"
+    },
+    {
+      "pr": 57260,
+      "date": "2024-11-11",
+      "subject": "planner: optimize the performance of PointPlan for Instance Plan Cache (#57260)"
+    },
+    {
+      "pr": 57699,
+      "date": "2024-11-27",
+      "subject": "planner: provide a system view information_schema.tidb_plan_cache to allow users to see info in the cache (#57699)"
+    },
+    {
+      "pr": 58033,
+      "date": "2024-12-13",
+      "subject": "executor: run idxlookup workers in a pool (#58033)"
+    },
+    {
+      "pr": 58962,
+      "date": "2025-01-23",
+      "subject": "planner: remove redundant branches in the OR list (#58962)"
+    },
+    {
+      "pr": 58945,
+      "date": "2025-02-11",
+      "subject": "privilege/privileges:  refactor the data struct for user privilege data (#58945)"
+    },
+    {
+      "pr": 60048,
+      "date": "2025-03-26",
+      "subject": "table: use writable columns to avoid columns not match when add column DDL exec parallel with update DML (#60048)"
+    },
+    {
+      "pr": 61187,
+      "date": "2025-05-21",
+      "subject": "planner: Handle NullEQ <=> in range columns partition pruning (#61187)"
+    },
+    {
+      "pr": 61249,
+      "date": "2025-05-31",
+      "subject": "expression: deduplicate the args of IN function (#61249)"
+    },
+    {
+      "pr": 61942,
+      "date": "2025-06-24",
+      "subject": "planner: support `explain [analyze] <plan_digest>` for `explain explore` (#61942)"
+    },
+    {
+      "pr": 62175,
+      "date": "2025-07-03",
+      "subject": "codec: should also return the value even with error because the error may be ignored in the future (#62175)"
+    },
+    {
+      "pr": 58401,
+      "date": "2025-07-17",
+      "subject": "planner/core: update missing virtual columns in `update` and `insert` (#58401)"
+    },
+    {
+      "pr": 63059,
+      "date": "2025-09-03",
+      "subject": "planner: handle firstrow columns in aggregation predicate pushdown (#63059)"
+    },
+    {
+      "pr": 63757,
+      "date": "2025-09-26",
+      "subject": "planner: fix nested IN expression rewriter bug (#63757)"
+    },
+    {
+      "pr": 65084,
+      "date": "2025-12-18",
+      "subject": "executor: nonclustered partitioned table could miss updates due to duplicate _tidb_rowid from EXCHANGE PARTITION (#65084)"
+    },
+    {
+      "pr": 65264,
+      "date": "2025-12-26",
+      "subject": "planner: derivePathStatsAndTryHeuristics can keep more MPP task (#65264)"
+    },
+    {
+      "pr": 65544,
+      "date": "2026-02-02",
+      "subject": "planner: fix EXISTS subquery on cluster tables causing Column ID -1 (#65544)"
+    },
+    {
+      "pr": 65799,
+      "date": "2026-02-04",
+      "subject": "planner, core: implement partial order TopN attach2Task and partial order flow (#65799)"
+    },
+    {
+      "pr": 66031,
+      "date": "2026-02-27",
+      "subject": "parser,ast: support column masking grammar (#66031)"
+    }
+  ]
+}

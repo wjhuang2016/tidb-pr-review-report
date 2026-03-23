@@ -1,0 +1,11 @@
+{
+  "commit": "6f0adb8c4aaa88981049e9f52156a5a398df60f9",
+  "findings": [],
+  "modules": [
+    "pkg/executor/sortexec"
+  ],
+  "pr": 52246,
+  "status": "no_high_or_blocker",
+  "subject": "executor: fix data race in parallel sort test (#52246)",
+  "summary": "Reviewed the diff vs first parent in `pkg/executor/sortexec`. The change makes `parallelSortSpillHelper.spillImpl` always wait for its producer goroutine to finish by deferring `channel.Clear(spilledRowChannel)` (drains until the channel is closed), preventing early-return races. It also moves `close(e.Parallel.resultChannel)` to the end of `SortExec.generateResult`’s deferred cleanup so `SortExec.Close()` (which drains `resultChannel` before tearing down workers/spill state) cannot proceed until iter/disk cleanup is complete, removing a Close-vs-cleanup race. No remaining Blocker/High correctness, concurrency, or SQL-semantic issues found in this commit."
+}

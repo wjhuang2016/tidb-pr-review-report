@@ -1,0 +1,12 @@
+{
+  "candidate_file": "/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-3y-sql-runtime/deep_review_queue_retry3.json",
+  "artifact_dir": "/Users/bba/.codex-context/tidb--906fbbe4--0f8c9a77/artifacts/pr-review-3y-sql-runtime",
+  "focus_preset": "sql_runtime",
+  "focus_label": "planner / executor / expression / session / sessionctx / statistics / kv / store / parser / table / privilege",
+  "parallel": 3,
+  "slot_offset": 0,
+  "limit": null,
+  "task_count": 3,
+  "elapsed_seconds": 1437.17,
+  "failures": []
+}

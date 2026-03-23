@@ -1,0 +1,1 @@
+{"commit":"8a33068d925693545850dde0764f02aa65c7fb7f","findings":[],"modules":["executor","parser","planner"],"pr":58250,"status":"no_high_or_blocker","subject":"workloadrepo: add admin create workload snapshot stmt (#58250)","summary":"Adds `ADMIN CREATE WORKLOAD SNAPSHOT` statement with parser/planner/executor wiring to trigger workload repository snapshots."}

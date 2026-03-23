@@ -1,0 +1,11 @@
+{
+  "commit": "b2f6a2c6d125cf8cd24b4e69d4f6c762e0168368",
+  "findings": [],
+  "modules": [
+    "planner"
+  ],
+  "pr": 63683,
+  "status": "no_high_or_blocker",
+  "subject": "planner: fix cannot find column error for expression index (#63683)",
+  "summary": "Projection elimination switches column replacement to clone/return style (avoids shared-column mutation) and filters replacement mappings to child outputs to prevent invalid column references; logical operators update ReplaceExprColumns to consume returned expressions/columns; adds a regression test covering expression-index + ORDER BY scenario."
+}

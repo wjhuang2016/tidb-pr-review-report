@@ -1,0 +1,1 @@
+{"commit":"10296d1d1c599a302f9411607235f704f7af9347","findings":[],"modules":["statistics"],"pr":61421,"status":"no_high_or_blocker","subject":"planner: Only count all topn when necessary (#61421)","summary":"Reviewed `pkg/statistics/builder.go` changes in `BuildHistAndTopN`; no remaining Blocker/High issues in upstream/master."}

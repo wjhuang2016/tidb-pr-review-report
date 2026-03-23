@@ -1,0 +1,14 @@
+{
+  "commit": "2c3290c2c614e93b131045f123afb91f6ab0109f",
+  "findings": [],
+  "modules": [
+    "pkg/planner/core",
+    "pkg/planner/core/operator/physicalop",
+    "pkg/planner/util",
+    "tests/integrationtest"
+  ],
+  "pr": 66845,
+  "status": "no_high_or_blocker",
+  "subject": "planner: keep covering indexes for read-only tables in update join (#66845)",
+  "summary": "This change prunes UPDATE-join output columns to keep all columns for updated table aliases while dropping read-only-table columns unless referenced by update expressions (via StmtCtx.ColRefFromUpdatePlan), enabling covering-index plans on read-only join inputs. It also filters handle-col mappings to updated aliases and rebuilds TblColPosInfos against the post-projection schema (buildUpdateTblColPosInfos), plus adds an early planner-side guard rejecting assignments to _tidb_rowid unless tidb_opt_write_row_id is enabled. No Blocker/High issues found in correctness/SQL semantics/consistency/compatibility for the planner changes in this commit."
+}
